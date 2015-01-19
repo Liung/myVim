@@ -1,0 +1,2087 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+g:ada#DotWordRegex	.\vim73\autoload\ada.vim	/^let g:ada#DotWordRegex	   = '\\a\\w*\\(\\_s*\\.\\_s*\\a\\w*\\)*'$/;"	v
+g:ada#WordRegex	.\vim73\autoload\ada.vim	/^let g:ada#WordRegex	   = '\\a\\w*'$/;"	v
+g:ada#Comment	.\vim73\autoload\ada.vim	/^let g:ada#Comment	   = "\\\\v^(\\"[^\\"]*\\"|'.'|[^\\"']){-}\\\\zs\\\\s*--.*"$/;"	v
+g:ada#Keywords	.\vim73\autoload\ada.vim	/^let g:ada#Keywords	   = []$/;"	v
+g:ada#Keywords	.\vim73\autoload\ada.vim	/^    let g:ada#Keywords += [{$/;"	v
+g:ada#Keywords	.\vim73\autoload\ada.vim	/^       let g:ada#Keywords += [{$/;"	v
+g:ada#Keywords	.\vim73\autoload\ada.vim	/^    let g:ada#Keywords += [{$/;"	v
+g:ada#Keywords	.\vim73\autoload\ada.vim	/^	let g:ada#Keywords += [{$/;"	v
+g:ada#Keywords	.\vim73\autoload\ada.vim	/^    let g:ada#Keywords += [{$/;"	v
+g:ada#Keywords	.\vim73\autoload\ada.vim	/^	let g:ada#Keywords += [{$/;"	v
+g:ada#Keywords	.\vim73\autoload\ada.vim	/^    let g:ada#Keywords += [{$/;"	v
+g:ada#Keywords	.\vim73\autoload\ada.vim	/^    let g:ada#Keywords += [{$/;"	v
+g:ada#Keywords	.\vim73\autoload\ada.vim	/^    let g:ada#Keywords += [{$/;"	v
+g:ada#Keywords	.\vim73\autoload\ada.vim	/^	let g:ada#Keywords += [{$/;"	v
+g:ada#Ctags_Kinds	.\vim73\autoload\ada.vim	/^let g:ada#Ctags_Kinds = {$/;"	v
+ada#Word	.\vim73\autoload\ada.vim	/^function ada#Word (...)$/;"	f
+ada#List_Tag	.\vim73\autoload\ada.vim	/^function ada#List_Tag (...)$/;"	f
+ada#Jump_Tag	.\vim73\autoload\ada.vim	/^function ada#Jump_Tag (Word, Mode)$/;"	f
+ada#Insert_Backspace	.\vim73\autoload\ada.vim	/^function ada#Insert_Backspace ()$/;"	f
+ada#User_Complete	.\vim73\autoload\ada.vim	/^function! ada#User_Complete(findstart, base)$/;"	f
+ada#Completion	.\vim73\autoload\ada.vim	/^function ada#Completion (cmd)$/;"	f
+ada#Completion_End	.\vim73\autoload\ada.vim	/^function ada#Completion_End ()$/;"	f
+ada#Create_Tags	.\vim73\autoload\ada.vim	/^function ada#Create_Tags (option)$/;"	f
+ada#Switch_Session	.\vim73\autoload\ada.vim	/^function ada#Switch_Session (New_Session)$/;"	f
+s:Fold_Collate	.\vim73\autoload\ada.vim	/^   let s:Fold_Collate = '^\\([;)]*$\\|'$/;"	v
+s:Fold_Collate	.\vim73\autoload\ada.vim	/^      let s:Fold_Collate .= '\\s\\+\\<is\\>$\\|'$/;"	v
+s:Fold_Collate	.\vim73\autoload\ada.vim	/^      let s:Fold_Collate .= '\\s\\+\\<begin\\>$\\|'$/;"	v
+s:Fold_Collate	.\vim73\autoload\ada.vim	/^      let s:Fold_Collate .= '\\s\\+\\<private\\>$\\|'$/;"	v
+s:Fold_Collate	.\vim73\autoload\ada.vim	/^      let s:Fold_Collate .= '\\s\\+\\<exception\\>$\\|'$/;"	v
+s:Fold_Collate	.\vim73\autoload\ada.vim	/^   let s:Fold_Collate .= '--\\)'$/;"	v
+ada#Pretty_Print_Folding	.\vim73\autoload\ada.vim	/^   function ada#Pretty_Print_Folding (Line)			     " {{{2$/;"	f
+ada#Switch_Syntax_Option	.\vim73\autoload\ada.vim	/^function ada#Switch_Syntax_Option (option)$/;"	f
+ada#Map_Menu	.\vim73\autoload\ada.vim	/^function ada#Map_Menu (Text, Keys, Command)$/;"	f
+ada#Map_Popup	.\vim73\autoload\ada.vim	/^function ada#Map_Popup (Text, Keys, Command)$/;"	f
+adacomplete#Complete	.\vim73\autoload\adacomplete.vim	/^function! adacomplete#Complete (findstart, base)$/;"	f
+ccomplete#Complete	.\vim73\autoload\ccomplete.vim	/^function! ccomplete#Complete(findstart, base)$/;"	f
+GetAddition	.\vim73\autoload\ccomplete.vim	/^function! s:GetAddition(line, match, memarg, bracket)$/;"	f
+Tag2item	.\vim73\autoload\ccomplete.vim	/^function! s:Tag2item(val)$/;"	f
+Dict2info	.\vim73\autoload\ccomplete.vim	/^function! s:Dict2info(dict)$/;"	f
+ParseTagline	.\vim73\autoload\ccomplete.vim	/^function! s:ParseTagline(line)$/;"	f
+Tagline2item	.\vim73\autoload\ccomplete.vim	/^function! s:Tagline2item(val, brackets)$/;"	f
+Tagcmd2extra	.\vim73\autoload\ccomplete.vim	/^function! s:Tagcmd2extra(cmd, name, fname)$/;"	f
+Nextitem	.\vim73\autoload\ccomplete.vim	/^function! s:Nextitem(lead, items, depth, all)$/;"	f
+StructMembers	.\vim73\autoload\ccomplete.vim	/^function! s:StructMembers(typename, items, all)$/;"	f
+SearchMembers	.\vim73\autoload\ccomplete.vim	/^function! s:SearchMembers(matches, items, all)$/;"	f
+s:values	.\vim73\autoload\csscomplete.vim	/^	let s:values = split("azimuth background background-attachment background-color background-image background-position background-repeat border bottom border-collapse border-color border-spacing border-style border-top border-right border-bottom border-left border-top-color border-right-color border-bottom-color border-left-color  border-top-style border-right-style border-bottom-style border-left-style border-top-width border-right-width border-bottom-width border-left-width border-width caption-side clear clip color content counter-increment counter-reset cue cue-after cue-before cursor display direction elevation empty-cells float font font-family font-size font-style font-variant font-weight height left letter-spacing line-height list-style list-style-image list-style-position list-style-type margin margin-right margin-left margin-top margin-bottom max-height max-width min-height min-width orphans outline outline-color outline-style outline-width overflow padding padding-top padding-right padding-bottom padding-left page-break-after page-break-before page-break-inside pause pause-after pause-before pitch pitch-range play-during position quotes right richness speak speak-header speak-numeral speak-punctuation speech-rate stress table-layout text-align text-decoration text-indent text-transform top unicode-bidi vertical-align visibility voice-family volume white-space width widows word-spacing z-index")$/;"	v
+csscomplete#CompleteCSS	.\vim73\autoload\csscomplete.vim	/^function! csscomplete#CompleteCSS(findstart, base)$/;"	f
+decada#Unit_Name	.\vim73\autoload\decada.vim	/^function decada#Unit_Name () dict				     " {{{1$/;"	f
+decada#Make	.\vim73\autoload\decada.vim	/^function decada#Make () dict					     " {{{1$/;"	f
+decada#Set_Session	.\vim73\autoload\decada.vim	/^function decada#Set_Session (...) dict				     " {{{1$/;"	f
+decada#New	.\vim73\autoload\decada.vim	/^function decada#New ()						     " }}}1$/;"	f
+g:loaded_getscript	.\vim73\autoload\getscript.vim	/^let g:loaded_getscript= "v32"$/;"	v
+s:keepcpo	.\vim73\autoload\getscript.vim	/^let s:keepcpo = &cpo$/;"	v
+g:getscript_cygwin	.\vim73\autoload\getscript.vim	/^   let g:getscript_cygwin= 1$/;"	v
+g:getscript_cygwin	.\vim73\autoload\getscript.vim	/^   let g:getscript_cygwin= 0$/;"	v
+g:getscript_cygwin	.\vim73\autoload\getscript.vim	/^  let g:getscript_cygwin= 0$/;"	v
+g:GetLatestVimScripts_wget	.\vim73\autoload\getscript.vim	/^  let g:GetLatestVimScripts_wget= "wget"$/;"	v
+g:GetLatestVimScripts_wget	.\vim73\autoload\getscript.vim	/^  let g:GetLatestVimScripts_wget= "curl"$/;"	v
+g:GetLatestVimScripts_wget	.\vim73\autoload\getscript.vim	/^  let g:GetLatestVimScripts_wget    = 'echo "GetLatestVimScripts needs wget or curl"'$/;"	v
+g:GetLatestVimScripts_options	.\vim73\autoload\getscript.vim	/^  let g:GetLatestVimScripts_options = ""$/;"	v
+g:GetLatestVimScripts_options	.\vim73\autoload\getscript.vim	/^  let g:GetLatestVimScripts_options= "-q -O"$/;"	v
+g:GetLatestVimScripts_options	.\vim73\autoload\getscript.vim	/^  let g:GetLatestVimScripts_options= "-s -O"$/;"	v
+g:GetLatestVimScripts_options	.\vim73\autoload\getscript.vim	/^  let g:GetLatestVimScripts_options= ""$/;"	v
+g:GetLatestVimScripts_allowautoinstall	.\vim73\autoload\getscript.vim	/^ let g:GetLatestVimScripts_allowautoinstall= 1$/;"	v
+s:autoinstall	.\vim73\autoload\getscript.vim	/^let s:autoinstall= ""$/;"	v
+s:dotvim	.\vim73\autoload\getscript.vim	/^  let s:dotvim= "vimfiles"$/;"	v
+g:GetLatestVimScripts_mv	.\vim73\autoload\getscript.vim	/^   let g:GetLatestVimScripts_mv= "ren"$/;"	v
+s:dotvim	.\vim73\autoload\getscript.vim	/^  let s:dotvim= ".vim"$/;"	v
+g:GetLatestVimScripts_mv	.\vim73\autoload\getscript.vim	/^   let g:GetLatestVimScripts_mv= "mv"$/;"	v
+s:autoinstall	.\vim73\autoload\getscript.vim	/^  let s:autoinstall= g:GetLatestVimScripts_autoinstalldir"$/;"	v
+s:autoinstall	.\vim73\autoload\getscript.vim	/^  let s:autoinstall= $HOME."\/".s:dotvim$/;"	v
+GetLatestVimScripts	.\vim73\autoload\getscript.vim	/^com!        -nargs=0 GetLatestVimScripts call getscript#GetLatestVimScripts()$/;"	c
+GetScript	.\vim73\autoload\getscript.vim	/^com!        -nargs=0 GetScript           call getscript#GetLatestVimScripts()$/;"	c
+getscript#GetLatestVimScripts	.\vim73\autoload\getscript.vim	/^fun! getscript#GetLatestVimScripts()$/;"	f
+GetOneScript	.\vim73\autoload\getscript.vim	/^fun! s:GetOneScript(...)$/;"	f
+gnat#Make	.\vim73\autoload\gnat.vim	/^function gnat#Make () dict					     " {{{1$/;"	f
+gnat#Pretty	.\vim73\autoload\gnat.vim	/^function gnat#Pretty () dict					     " {{{1$/;"	f
+gnat#Find	.\vim73\autoload\gnat.vim	/^function gnat#Find () dict					     " {{{1$/;"	f
+gnat#Tags	.\vim73\autoload\gnat.vim	/^function gnat#Tags () dict					     " {{{1$/;"	f
+gnat#Set_Project_File	.\vim73\autoload\gnat.vim	/^function gnat#Set_Project_File (...) dict			     " {{{1$/;"	f
+gnat#Get_Command	.\vim73\autoload\gnat.vim	/^function gnat#Get_Command (Command) dict			     " {{{1$/;"	f
+gnat#Set_Session	.\vim73\autoload\gnat.vim	/^function gnat#Set_Session (...) dict				     " {{{1$/;"	f
+gnat#New	.\vim73\autoload\gnat.vim	/^function gnat#New ()						     " {{{1$/;"	f
+gnat#Insert_Tags_Header	.\vim73\autoload\gnat.vim	/^function gnat#Insert_Tags_Header ()				  " {{{1$/;"	f
+check	.\vim73\autoload\gzip.vim	/^fun s:check(cmd)$/;"	f
+set_compression	.\vim73\autoload\gzip.vim	/^fun s:set_compression(line)$/;"	f
+gzip#read	.\vim73\autoload\gzip.vim	/^fun gzip#read(cmd)$/;"	f
+gzip#write	.\vim73\autoload\gzip.vim	/^fun gzip#write(cmd)$/;"	f
+gzip#appre	.\vim73\autoload\gzip.vim	/^fun gzip#appre(cmd)$/;"	f
+tempname	.\vim73\autoload\gzip.vim	/^fun s:tempname(name)$/;"	f
+escape	.\vim73\autoload\gzip.vim	/^fun s:escape(name)$/;"	f
+htmlcomplete#CompleteTags	.\vim73\autoload\htmlcomplete.vim	/^function! htmlcomplete#CompleteTags(findstart, base)$/;"	f
+htmlcomplete#LoadData	.\vim73\autoload\htmlcomplete.vim	/^function! htmlcomplete#LoadData() " {{{$/;"	f
+htmlcomplete#CheckDoctype	.\vim73\autoload\htmlcomplete.vim	/^function! htmlcomplete#CheckDoctype() " {{{$/;"	f
+javascriptcomplete#CompleteJS	.\vim73\autoload\javascriptcomplete.vim	/^function! javascriptcomplete#CompleteJS(findstart, base)$/;"	f
+g:loaded_netrw	.\vim73\autoload\netrw.vim	/^let g:loaded_netrw = "v140"$/;"	v
+s:NOTE	.\vim73\autoload\netrw.vim	/^ let s:NOTE    = 0$/;"	v
+s:WARNING	.\vim73\autoload\netrw.vim	/^ let s:WARNING = 1$/;"	v
+s:ERROR	.\vim73\autoload\netrw.vim	/^ let s:ERROR   = 2$/;"	v
+s:keepcpo	.\vim73\autoload\netrw.vim	/^let s:keepcpo= &cpo$/;"	v
+NetrwInit	.\vim73\autoload\netrw.vim	/^fun s:NetrwInit(varname,value)$/;"	f
+g:netrw_dav_cmd	.\vim73\autoload\netrw.vim	/^  let g:netrw_dav_cmd	= "cadaver"$/;"	v
+g:netrw_dav_cmd	.\vim73\autoload\netrw.vim	/^  let g:netrw_dav_cmd	= "curl"$/;"	v
+g:netrw_dav_cmd	.\vim73\autoload\netrw.vim	/^  let g:netrw_dav_cmd   = ""$/;"	v
+g:netrw_fetch_cmd	.\vim73\autoload\netrw.vim	/^  let g:netrw_fetch_cmd	= "fetch -o"$/;"	v
+g:netrw_fetch_cmd	.\vim73\autoload\netrw.vim	/^  let g:netrw_fetch_cmd	= ""$/;"	v
+g:netrw_ftp_cmd	.\vim73\autoload\netrw.vim	/^  let g:netrw_ftp_cmd	= "ftp"$/;"	v
+g:netrw_http_cmd	.\vim73\autoload\netrw.vim	/^  let g:netrw_http_cmd = "elinks"$/;"	v
+g:netrw_http_cmd	.\vim73\autoload\netrw.vim	/^  let g:netrw_http_cmd = "links"$/;"	v
+g:netrw_http_cmd	.\vim73\autoload\netrw.vim	/^  let g:netrw_http_cmd	= "curl"$/;"	v
+g:netrw_http_cmd	.\vim73\autoload\netrw.vim	/^  let g:netrw_http_cmd	= "wget"$/;"	v
+g:netrw_http_cmd	.\vim73\autoload\netrw.vim	/^  let g:netrw_http_cmd	= "fetch"$/;"	v
+g:netrw_http_cmd	.\vim73\autoload\netrw.vim	/^  let g:netrw_http_cmd	= ""$/;"	v
+s:netrw_has_nt_rcp	.\vim73\autoload\netrw.vim	/^ let s:netrw_has_nt_rcp = 1$/;"	v
+s:netrw_rcpmode	.\vim73\autoload\netrw.vim	/^ let s:netrw_rcpmode    = '-b'$/;"	v
+s:netrw_has_nt_rcp	.\vim73\autoload\netrw.vim	/^ let s:netrw_has_nt_rcp = 0$/;"	v
+s:netrw_rcpmode	.\vim73\autoload\netrw.vim	/^ let s:netrw_rcpmode    = ''$/;"	v
+g:netrw_cygwin	.\vim73\autoload\netrw.vim	/^   let g:netrw_cygwin= 1$/;"	v
+g:netrw_cygwin	.\vim73\autoload\netrw.vim	/^   let g:netrw_cygwin= 0$/;"	v
+g:netrw_cygwin	.\vim73\autoload\netrw.vim	/^  let g:netrw_cygwin= 0$/;"	v
+g:netrw_cursorline	.\vim73\autoload\netrw.vim	/^ let g:netrw_cursorline= 1$/;"	v
+s:netrw_usercul	.\vim73\autoload\netrw.vim	/^ let s:netrw_usercul   = &cursorline$/;"	v
+s:netrw_usercuc	.\vim73\autoload\netrw.vim	/^ let s:netrw_usercuc   = &cursorcolumn$/;"	v
+g:netrw_ftp_list_cmd	.\vim73\autoload\netrw.vim	/^  let g:netrw_ftp_list_cmd     = "ls -lF"$/;"	v
+g:netrw_ftp_timelist_cmd	.\vim73\autoload\netrw.vim	/^  let g:netrw_ftp_timelist_cmd = "ls -tlF"$/;"	v
+g:netrw_ftp_sizelist_cmd	.\vim73\autoload\netrw.vim	/^  let g:netrw_ftp_sizelist_cmd = "ls -slF"$/;"	v
+g:netrw_ftp_list_cmd	.\vim73\autoload\netrw.vim	/^  let g:netrw_ftp_list_cmd     = "dir"$/;"	v
+g:netrw_ftp_timelist_cmd	.\vim73\autoload\netrw.vim	/^  let g:netrw_ftp_timelist_cmd = "dir"$/;"	v
+g:netrw_ftp_sizelist_cmd	.\vim73\autoload\netrw.vim	/^  let g:netrw_ftp_sizelist_cmd = "dir"$/;"	v
+g:netrw_ignorenetrc	.\vim73\autoload\netrw.vim	/^  let g:netrw_ignorenetrc= 1$/;"	v
+g:netrw_ignorenetrc	.\vim73\autoload\netrw.vim	/^  let g:netrw_ignorenetrc= 0$/;"	v
+g:netrw_scp_cmd	.\vim73\autoload\netrw.vim	/^   let g:netrw_scp_cmd ="pscp -i C:\\\\private.ppk"$/;"	v
+g:netrw_list_cmd	.\vim73\autoload\netrw.vim	/^  let g:netrw_list_cmd= g:netrw_scp_cmd." -ls USEPORT HOSTNAME:"$/;"	v
+g:netrw_list_cmd	.\vim73\autoload\netrw.vim	/^  let g:netrw_list_cmd= g:netrw_ssh_cmd." USEPORT HOSTNAME ls -FLa"$/;"	v
+g:netrw_list_cmd	.\vim73\autoload\netrw.vim	/^  let g:netrw_list_cmd= ""$/;"	v
+g:netrw_localcopycmd	.\vim73\autoload\netrw.vim	/^   let g:netrw_localcopycmd= "cp"$/;"	v
+g:netrw_localcopycmd	.\vim73\autoload\netrw.vim	/^   let g:netrw_localcopycmd= "copy"$/;"	v
+g:netrw_localcopycmd	.\vim73\autoload\netrw.vim	/^  let g:netrw_localcopycmd= "cp"$/;"	v
+g:netrw_localcopycmd	.\vim73\autoload\netrw.vim	/^  let g:netrw_localcopycmd= ""$/;"	v
+g:netrw_localmovecmd	.\vim73\autoload\netrw.vim	/^   let g:netrw_localmovecmd= "mv"$/;"	v
+g:netrw_localmovecmd	.\vim73\autoload\netrw.vim	/^   let g:netrw_localmovecmd= "move"$/;"	v
+g:netrw_localmovecmd	.\vim73\autoload\netrw.vim	/^  let g:netrw_localmovecmd= "mv"$/;"	v
+g:netrw_localmovecmd	.\vim73\autoload\netrw.vim	/^  let g:netrw_localmovecmd= ""$/;"	v
+g:netrw_liststyle	.\vim73\autoload\netrw.vim	/^ let g:netrw_liststyle= s:THINLIST$/;"	v
+g:netrw_list_cmd	.\vim73\autoload\netrw.vim	/^ let g:netrw_list_cmd= g:netrw_list_cmd." -l"$/;"	v
+g:netrw_sort_sequence	.\vim73\autoload\netrw.vim	/^  let g:netrw_sort_sequence= '[\\\/]$,\\<core\\%(\\.\\d\\+\\)\\=\\>,\\.h$,\\.c$,\\.cpp$,*,\\.o$,\\.obj$,\\.info$,\\.swp$,\\.bak$,\\~$'$/;"	v
+g:netrw_sort_sequence	.\vim73\autoload\netrw.vim	/^  let g:netrw_sort_sequence= '[\\\/]$,\\.h$,\\.c$,\\.cpp$,*,\\.o$,\\.obj$,\\.info$,\\.swp$,\\.bak$,\\~$'$/;"	v
+NetrwOptionSave	.\vim73\autoload\netrw.vim	/^fun! s:NetrwOptionSave(vt)$/;"	f
+NetrwOptionRestore	.\vim73\autoload\netrw.vim	/^fun! s:NetrwOptionRestore(vt)$/;"	f
+NetrwSafeOptions	.\vim73\autoload\netrw.vim	/^fun! s:NetrwSafeOptions()$/;"	f
+netrw#NetrwClean	.\vim73\autoload\netrw.vim	/^fun! netrw#NetrwClean(sys)$/;"	f
+netrw#Nread	.\vim73\autoload\netrw.vim	/^fun! netrw#Nread(mode,fname)$/;"	f
+netrw#NetRead	.\vim73\autoload\netrw.vim	/^fun! netrw#NetRead(mode,...)$/;"	f
+netrw#NetWrite	.\vim73\autoload\netrw.vim	/^fun! netrw#NetWrite(...) range$/;"	f
+netrw#NetSource	.\vim73\autoload\netrw.vim	/^fun! netrw#NetSource(...)$/;"	f
+NetrwGetFile	.\vim73\autoload\netrw.vim	/^fun! s:NetrwGetFile(readcmd, tfile, method)$/;"	f
+NetrwMethod	.\vim73\autoload\netrw.vim	/^fun! s:NetrwMethod(choice)$/;"	f
+NetReadFixup	.\vim73\autoload\netrw.vim	/^ fun! NetReadFixup(method, line1, line2)$/;"	f
+NetUserPass	.\vim73\autoload\netrw.vim	/^fun! NetUserPass(...)$/;"	f
+BrowserMaps	.\vim73\autoload\netrw.vim	/^fun! s:BrowserMaps(islocal)$/;"	f
+ExplorePatHls	.\vim73\autoload\netrw.vim	/^fun! s:ExplorePatHls(pattern)$/;"	f
+NetrwBookHistHandler	.\vim73\autoload\netrw.vim	/^fun! s:NetrwBookHistHandler(chg,curdir)$/;"	f
+NetrwBookHistRead	.\vim73\autoload\netrw.vim	/^fun! s:NetrwBookHistRead()$/;"	f
+NetrwBookHistSave	.\vim73\autoload\netrw.vim	/^fun! s:NetrwBookHistSave()$/;"	f
+NetrwBrowse	.\vim73\autoload\netrw.vim	/^fun! s:NetrwBrowse(islocal,dirname)$/;"	f
+NetrwFileInfo	.\vim73\autoload\netrw.vim	/^fun! s:NetrwFileInfo(islocal,fname)$/;"	f
+NetrwGetBuffer	.\vim73\autoload\netrw.vim	/^fun! s:NetrwGetBuffer(islocal,dirname)$/;"	f
+NetrwGetcwd	.\vim73\autoload\netrw.vim	/^fun! s:NetrwGetcwd(doesc)$/;"	f
+NetrwGetWord	.\vim73\autoload\netrw.vim	/^fun! s:NetrwGetWord()$/;"	f
+NetrwListSettings	.\vim73\autoload\netrw.vim	/^fun! s:NetrwListSettings(islocal)$/;"	f
+NetrwListStyle	.\vim73\autoload\netrw.vim	/^fun! s:NetrwListStyle(islocal)$/;"	f
+NetrwBannerCtrl	.\vim73\autoload\netrw.vim	/^fun! s:NetrwBannerCtrl(islocal)$/;"	f
+NetrwBookmarkMenu	.\vim73\autoload\netrw.vim	/^fun! s:NetrwBookmarkMenu()$/;"	f
+NetrwBrowseChgDir	.\vim73\autoload\netrw.vim	/^fun! s:NetrwBrowseChgDir(islocal,newdir,...)$/;"	f
+netrw#NetrwBrowseX	.\vim73\autoload\netrw.vim	/^fun! netrw#NetrwBrowseX(fname,remote)$/;"	f
+NetrwChgPerm	.\vim73\autoload\netrw.vim	/^fun! s:NetrwChgPerm(islocal,curdir)$/;"	f
+NetrwClearExplore	.\vim73\autoload\netrw.vim	/^fun! s:NetrwClearExplore()$/;"	f
+netrw#Explore	.\vim73\autoload\netrw.vim	/^fun! netrw#Explore(indx,dosplit,style,...)$/;"	f
+NetrwExploreListUniq	.\vim73\autoload\netrw.vim	/^fun! s:NetrwExploreListUniq(explist)$/;"	f
+NetrwHide	.\vim73\autoload\netrw.vim	/^fun! s:NetrwHide(islocal)$/;"	f
+NetrwHidden	.\vim73\autoload\netrw.vim	/^fun! s:NetrwHidden(islocal)$/;"	f
+NetrwHome	.\vim73\autoload\netrw.vim	/^fun! s:NetrwHome()$/;"	f
+NetrwLeftmouse	.\vim73\autoload\netrw.vim	/^fun! s:NetrwLeftmouse(islocal)$/;"	f
+NetrwListHide	.\vim73\autoload\netrw.vim	/^fun! s:NetrwListHide()$/;"	f
+NetrwHideEdit	.\vim73\autoload\netrw.vim	/^fun! s:NetrwHideEdit(islocal)$/;"	f
+NetSortSequence	.\vim73\autoload\netrw.vim	/^fun! s:NetSortSequence(islocal)$/;"	f
+NetrwMakeDir	.\vim73\autoload\netrw.vim	/^fun! s:NetrwMakeDir(usrhost)$/;"	f
+NetrwMarkFile	.\vim73\autoload\netrw.vim	/^fun! s:NetrwMarkFile(islocal,fname)$/;"	f
+NetrwMarkFileCompress	.\vim73\autoload\netrw.vim	/^fun! s:NetrwMarkFileCompress(islocal)$/;"	f
+NetrwMarkFileCopy	.\vim73\autoload\netrw.vim	/^fun! s:NetrwMarkFileCopy(islocal)$/;"	f
+NetrwMarkFileDiff	.\vim73\autoload\netrw.vim	/^fun! s:NetrwMarkFileDiff(islocal)$/;"	f
+NetrwMarkFileEdit	.\vim73\autoload\netrw.vim	/^fun! s:NetrwMarkFileEdit(islocal)$/;"	f
+NetrwMarkFileExe	.\vim73\autoload\netrw.vim	/^fun! s:NetrwMarkFileExe(islocal)$/;"	f
+NetrwMarkHideSfx	.\vim73\autoload\netrw.vim	/^fun! s:NetrwMarkHideSfx(islocal)$/;"	f
+NetrwMarkFileGrep	.\vim73\autoload\netrw.vim	/^fun! s:NetrwMarkFileGrep(islocal)$/;"	f
+NetrwMarkFileMove	.\vim73\autoload\netrw.vim	/^fun! s:NetrwMarkFileMove(islocal)$/;"	f
+NetrwMarkFilePrint	.\vim73\autoload\netrw.vim	/^fun! s:NetrwMarkFilePrint(islocal)$/;"	f
+NetrwMarkFileRegexp	.\vim73\autoload\netrw.vim	/^fun! s:NetrwMarkFileRegexp(islocal)$/;"	f
+NetrwMarkFileSource	.\vim73\autoload\netrw.vim	/^fun! s:NetrwMarkFileSource(islocal)$/;"	f
+NetrwMarkFileTag	.\vim73\autoload\netrw.vim	/^fun! s:NetrwMarkFileTag(islocal)$/;"	f
+NetrwMarkFileTgt	.\vim73\autoload\netrw.vim	/^fun! s:NetrwMarkFileTgt(islocal)$/;"	f
+NetrwOpenFile	.\vim73\autoload\netrw.vim	/^fun! s:NetrwOpenFile(islocal)$/;"	f
+NetrwUnmarkList	.\vim73\autoload\netrw.vim	/^fun! s:NetrwUnmarkList(curbufnr,curdir)$/;"	f
+NetrwUnmarkAll	.\vim73\autoload\netrw.vim	/^fun! s:NetrwUnmarkAll()$/;"	f
+NetrwUnmarkAll2	.\vim73\autoload\netrw.vim	/^fun! s:NetrwUnmarkAll2()$/;"	f
+NetrwUnMarkFile	.\vim73\autoload\netrw.vim	/^fun! s:NetrwUnMarkFile(islocal)$/;"	f
+NetrwMenu	.\vim73\autoload\netrw.vim	/^fun! s:NetrwMenu(domenu)$/;"	f
+NetrwObtain	.\vim73\autoload\netrw.vim	/^fun! s:NetrwObtain(islocal)$/;"	f
+netrw#NetrwObtain	.\vim73\autoload\netrw.vim	/^fun! netrw#NetrwObtain(islocal,fname,...)$/;"	f
+NetrwPrevWinOpen	.\vim73\autoload\netrw.vim	/^fun! s:NetrwPrevWinOpen(islocal)$/;"	f
+NetrwUpload	.\vim73\autoload\netrw.vim	/^fun! s:NetrwUpload(fname,tgt,...)$/;"	f
+NetrwPreview	.\vim73\autoload\netrw.vim	/^fun! s:NetrwPreview(path) range$/;"	f
+NetrwRefresh	.\vim73\autoload\netrw.vim	/^fun! s:NetrwRefresh(islocal,dirname)$/;"	f
+NetrwRefreshDir	.\vim73\autoload\netrw.vim	/^fun! s:NetrwRefreshDir(islocal,dirname)$/;"	f
+NetrwSetSort	.\vim73\autoload\netrw.vim	/^fun! s:NetrwSetSort()$/;"	f
+NetrwSortStyle	.\vim73\autoload\netrw.vim	/^fun! s:NetrwSortStyle(islocal)$/;"	f
+NetrwSplit	.\vim73\autoload\netrw.vim	/^fun! s:NetrwSplit(mode)$/;"	f
+NetrwStatusLine	.\vim73\autoload\netrw.vim	/^fun! NetrwStatusLine()$/;"	f
+NetrwTreeDir	.\vim73\autoload\netrw.vim	/^fun! s:NetrwTreeDir()$/;"	f
+NetrwTreeDisplay	.\vim73\autoload\netrw.vim	/^fun! s:NetrwTreeDisplay(dir,depth)$/;"	f
+NetrwTreeListing	.\vim73\autoload\netrw.vim	/^fun! s:NetrwTreeListing(dirname)$/;"	f
+NetrwWideListing	.\vim73\autoload\netrw.vim	/^fun! s:NetrwWideListing()$/;"	f
+PerformListing	.\vim73\autoload\netrw.vim	/^fun! s:PerformListing(islocal)$/;"	f
+SetupNetrwStatusLine	.\vim73\autoload\netrw.vim	/^fun! s:SetupNetrwStatusLine(statline)$/;"	f
+NetrwRemoteListing	.\vim73\autoload\netrw.vim	/^fun! s:NetrwRemoteListing()$/;"	f
+NetrwRemoteRm	.\vim73\autoload\netrw.vim	/^fun! s:NetrwRemoteRm(usrhost,path) range$/;"	f
+NetrwRemoteRmFile	.\vim73\autoload\netrw.vim	/^fun! s:NetrwRemoteRmFile(path,rmfile,all)$/;"	f
+NetrwRemoteFtpCmd	.\vim73\autoload\netrw.vim	/^fun! s:NetrwRemoteFtpCmd(path,listcmd)$/;"	f
+NetrwRemoteRename	.\vim73\autoload\netrw.vim	/^fun! s:NetrwRemoteRename(usrhost,path) range$/;"	f
+netrw#LocalBrowseCheck	.\vim73\autoload\netrw.vim	/^fun! netrw#LocalBrowseCheck(dirname)$/;"	f
+LocalListing	.\vim73\autoload\netrw.vim	/^fun! s:LocalListing()$/;"	f
+LocalBrowseShellCmdRefresh	.\vim73\autoload\netrw.vim	/^fun! s:LocalBrowseShellCmdRefresh()$/;"	f
+NetrwLocalRm	.\vim73\autoload\netrw.vim	/^fun! s:NetrwLocalRm(path) range$/;"	f
+NetrwLocalRmFile	.\vim73\autoload\netrw.vim	/^fun! s:NetrwLocalRmFile(path,fname,all)$/;"	f
+NetrwLocalRename	.\vim73\autoload\netrw.vim	/^fun! s:NetrwLocalRename(path) range$/;"	f
+LocalFastBrowser	.\vim73\autoload\netrw.vim	/^fun! s:LocalFastBrowser()$/;"	f
+netrw#ErrorMsg	.\vim73\autoload\netrw.vim	/^fun! netrw#ErrorMsg(level,msg,errnum)$/;"	f
+netrw#NetrwRestorePosn	.\vim73\autoload\netrw.vim	/^fun! netrw#NetrwRestorePosn(...)$/;"	f
+netrw#NetrwSavePosn	.\vim73\autoload\netrw.vim	/^fun! netrw#NetrwSavePosn()$/;"	f
+netrw#RFC2396	.\vim73\autoload\netrw.vim	/^fun! netrw#RFC2396(fname)$/;"	f
+ComposePath	.\vim73\autoload\netrw.vim	/^fun! s:ComposePath(base,subdir)$/;"	f
+FileReadable	.\vim73\autoload\netrw.vim	/^fun! s:FileReadable(fname)$/;"	f
+GetTempfile	.\vim73\autoload\netrw.vim	/^fun! s:GetTempfile(fname)$/;"	f
+MakeSshCmd	.\vim73\autoload\netrw.vim	/^fun! s:MakeSshCmd(sshcmd)$/;"	f
+NetrwBMShow	.\vim73\autoload\netrw.vim	/^fun! s:NetrwBMShow()$/;"	f
+NetrwCursorline	.\vim73\autoload\netrw.vim	/^fun! s:NetrwCursorline()$/;"	f
+RestoreCursorline	.\vim73\autoload\netrw.vim	/^fun! s:RestoreCursorline()$/;"	f
+NetrwDelete	.\vim73\autoload\netrw.vim	/^fun! s:NetrwDelete(path)$/;"	f
+NetrwEnew	.\vim73\autoload\netrw.vim	/^fun! s:NetrwEnew(...)$/;"	f
+NetrwSaveWordPosn	.\vim73\autoload\netrw.vim	/^fun! s:NetrwSaveWordPosn()$/;"	f
+NetrwRestoreWordPosn	.\vim73\autoload\netrw.vim	/^fun! s:NetrwRestoreWordPosn()$/;"	f
+RestoreBufVars	.\vim73\autoload\netrw.vim	/^fun! s:RestoreBufVars()$/;"	f
+RemotePathAnalysis	.\vim73\autoload\netrw.vim	/^fun! s:RemotePathAnalysis(dirname)$/;"	f
+RemoteSystem	.\vim73\autoload\netrw.vim	/^fun! s:RemoteSystem(cmd)$/;"	f
+RestoreWinVars	.\vim73\autoload\netrw.vim	/^fun! s:RestoreWinVars()$/;"	f
+NetrwRexplore	.\vim73\autoload\netrw.vim	/^fun! s:NetrwRexplore(islocal,dirname)$/;"	f
+SaveBufVars	.\vim73\autoload\netrw.vim	/^fun! s:SaveBufVars()$/;"	f
+SaveWinVars	.\vim73\autoload\netrw.vim	/^fun! s:SaveWinVars()$/;"	f
+SetBufWinVars	.\vim73\autoload\netrw.vim	/^fun! s:SetBufWinVars()$/;"	f
+SetRexDir	.\vim73\autoload\netrw.vim	/^fun! s:SetRexDir(islocal,dirname)$/;"	f
+Strlen	.\vim73\autoload\netrw.vim	/^fun! s:Strlen(x)$/;"	f
+TreeListMove	.\vim73\autoload\netrw.vim	/^fun! s:TreeListMove(dir)$/;"	f
+UpdateBuffersMenu	.\vim73\autoload\netrw.vim	/^fun! s:UpdateBuffersMenu()$/;"	f
+UseBufWinVars	.\vim73\autoload\netrw.vim	/^fun! s:UseBufWinVars()$/;"	f
+netrw#WinPath	.\vim73\autoload\netrw.vim	/^fun! netrw#WinPath(path)$/;"	f
+g:loaded_netrwFileHandlers	.\vim73\autoload\netrwFileHandlers.vim	/^let g:loaded_netrwFileHandlers= "v10"$/;"	v
+s:keepcpo	.\vim73\autoload\netrwFileHandlers.vim	/^let s:keepcpo= &cpo$/;"	v
+netrwFileHandlers#Invoke	.\vim73\autoload\netrwFileHandlers.vim	/^fun! netrwFileHandlers#Invoke(exten,fname)$/;"	f
+NFH_html	.\vim73\autoload\netrwFileHandlers.vim	/^fun! s:NFH_html(pagefile)$/;"	f
+NFH_htm	.\vim73\autoload\netrwFileHandlers.vim	/^fun! s:NFH_htm(pagefile)$/;"	f
+NFH_jpg	.\vim73\autoload\netrwFileHandlers.vim	/^fun! s:NFH_jpg(jpgfile)$/;"	f
+NFH_gif	.\vim73\autoload\netrwFileHandlers.vim	/^fun! s:NFH_gif(giffile)$/;"	f
+NFH_png	.\vim73\autoload\netrwFileHandlers.vim	/^fun! s:NFH_png(pngfile)$/;"	f
+NFH_pnm	.\vim73\autoload\netrwFileHandlers.vim	/^fun! s:NFH_pnm(pnmfile)$/;"	f
+NFH_bmp	.\vim73\autoload\netrwFileHandlers.vim	/^fun! s:NFH_bmp(bmpfile)$/;"	f
+NFH_pdf	.\vim73\autoload\netrwFileHandlers.vim	/^fun! s:NFH_pdf(pdf)$/;"	f
+NFH_doc	.\vim73\autoload\netrwFileHandlers.vim	/^fun! s:NFH_doc(doc)$/;"	f
+NFH_sxw	.\vim73\autoload\netrwFileHandlers.vim	/^fun! s:NFH_sxw(sxw)$/;"	f
+NFH_xls	.\vim73\autoload\netrwFileHandlers.vim	/^fun! s:NFH_xls(xls)$/;"	f
+NFH_ps	.\vim73\autoload\netrwFileHandlers.vim	/^fun! s:NFH_ps(ps)$/;"	f
+NFH_eps	.\vim73\autoload\netrwFileHandlers.vim	/^fun! s:NFH_eps(eps)$/;"	f
+NFH_fig	.\vim73\autoload\netrwFileHandlers.vim	/^fun! s:NFH_fig(fig)$/;"	f
+NFH_obj	.\vim73\autoload\netrwFileHandlers.vim	/^fun! s:NFH_obj(obj)$/;"	f
+g:loaded_netrwSettings	.\vim73\autoload\netrwSettings.vim	/^let g:loaded_netrwSettings = "v13"$/;"	v
+netrwSettings#NetrwSettings	.\vim73\autoload\netrwSettings.vim	/^fun! netrwSettings#NetrwSettings()$/;"	f
+NetrwSettingHelp	.\vim73\autoload\netrwSettings.vim	/^fun! NetrwSettingHelp()$/;"	f
+paste#paste_cmd	.\vim73\autoload\paste.vim	/^  let paste#paste_cmd = {'n': ":call paste#Paste()<CR>"}$/;"	v
+paste#paste_cmd	.\vim73\autoload\paste.vim	/^  let paste#paste_cmd['v'] = '"-c<Esc>' . paste#paste_cmd['n']$/;"	v
+paste#paste_cmd	.\vim73\autoload\paste.vim	/^  let paste#paste_cmd['i'] = 'x<BS><Esc>' . paste#paste_cmd['n'] . 'gi'$/;"	v
+paste#Paste	.\vim73\autoload\paste.vim	/^  func! paste#Paste()$/;"	f
+paste#paste_cmd	.\vim73\autoload\paste.vim	/^  let paste#paste_cmd = {'n': "\\"=@+.'xy'<CR>gPFx\\"_2x"}$/;"	v
+paste#paste_cmd	.\vim73\autoload\paste.vim	/^  let paste#paste_cmd['v'] = '"-c<Esc>gix<Esc>' . paste#paste_cmd['n'] . '"_x'$/;"	v
+paste#paste_cmd	.\vim73\autoload\paste.vim	/^  let paste#paste_cmd['i'] = 'x<Esc>' . paste#paste_cmd['n'] . '"_s'$/;"	v
+phpcomplete#CompletePHP	.\vim73\autoload\phpcomplete.vim	/^function! phpcomplete#CompletePHP(findstart, base)$/;"	f
+phpcomplete#GetClassName	.\vim73\autoload\phpcomplete.vim	/^function! phpcomplete#GetClassName(scontext) " {{{$/;"	f
+phpcomplete#GetClassLocation	.\vim73\autoload\phpcomplete.vim	/^function! phpcomplete#GetClassLocation(classname) " {{{$/;"	f
+phpcomplete#GetClassContents	.\vim73\autoload\phpcomplete.vim	/^function! phpcomplete#GetClassContents(file, name) " {{{$/;"	f
+phpcomplete#LoadData	.\vim73\autoload\phpcomplete.vim	/^function! phpcomplete#LoadData() " {{{$/;"	f
+python3complete#Complete	.\vim73\autoload\python3complete.vim	/^function! python3complete#Complete(findstart, base)$/;"	f
+DefPython	.\vim73\autoload\python3complete.vim	/^function! s:DefPython()$/;"	f
+pythoncomplete#Complete	.\vim73\autoload\pythoncomplete.vim	/^function! pythoncomplete#Complete(findstart, base)$/;"	f
+DefPython	.\vim73\autoload\pythoncomplete.vim	/^function! s:DefPython()$/;"	f
+g:rubycomplete_rails	.\vim73\autoload\rubycomplete.vim	/^    let g:rubycomplete_rails = 0$/;"	v
+g:rubycomplete_classes_in_global	.\vim73\autoload\rubycomplete.vim	/^    let g:rubycomplete_classes_in_global = 0$/;"	v
+g:rubycomplete_buffer_loading	.\vim73\autoload\rubycomplete.vim	/^    let g:rubycomplete_buffer_loading = 0$/;"	v
+g:rubycomplete_include_object	.\vim73\autoload\rubycomplete.vim	/^    let g:rubycomplete_include_object = 0$/;"	v
+g:rubycomplete_include_objectspace	.\vim73\autoload\rubycomplete.vim	/^    let g:rubycomplete_include_objectspace = 0$/;"	v
+s:rubycomplete_debug	.\vim73\autoload\rubycomplete.vim	/^let s:rubycomplete_debug = 0$/;"	v
+ErrMsg	.\vim73\autoload\rubycomplete.vim	/^function! s:ErrMsg(msg)$/;"	f
+dprint	.\vim73\autoload\rubycomplete.vim	/^function! s:dprint(msg)$/;"	f
+GetBufferRubyModule	.\vim73\autoload\rubycomplete.vim	/^function! s:GetBufferRubyModule(name, ...)$/;"	f
+GetBufferRubyClass	.\vim73\autoload\rubycomplete.vim	/^function! s:GetBufferRubyClass(name, ...)$/;"	f
+GetBufferRubySingletonMethods	.\vim73\autoload\rubycomplete.vim	/^function! s:GetBufferRubySingletonMethods(name)$/;"	f
+GetBufferRubyEntity	.\vim73\autoload\rubycomplete.vim	/^function! s:GetBufferRubyEntity( name, type, ... )$/;"	f
+IsInClassDef	.\vim73\autoload\rubycomplete.vim	/^function! s:IsInClassDef()$/;"	f
+IsPosInClassDef	.\vim73\autoload\rubycomplete.vim	/^function! s:IsPosInClassDef(pos)$/;"	f
+GetRubyVarType	.\vim73\autoload\rubycomplete.vim	/^function! s:GetRubyVarType(v)$/;"	f
+rubycomplete#Init	.\vim73\autoload\rubycomplete.vim	/^function! rubycomplete#Init()$/;"	f
+rubycomplete#Complete	.\vim73\autoload\rubycomplete.vim	/^function! rubycomplete#Complete(findstart, base)$/;"	f
+DefRuby	.\vim73\autoload\rubycomplete.vim	/^function! s:DefRuby()$/;"	f
+s:rubycomplete_rails_loaded	.\vim73\autoload\rubycomplete.vim	/^let s:rubycomplete_rails_loaded = 0$/;"	v
+g:spellfile_URL	.\vim73\autoload\spellfile.vim	/^    let g:spellfile_URL = 'http:\/\/ftp.vim.org\/pub\/vim\/runtime\/spell'$/;"	v
+g:spellfile_URL	.\vim73\autoload\spellfile.vim	/^    let g:spellfile_URL = 'ftp:\/\/ftp.vim.org\/pub\/vim\/runtime\/spell'$/;"	v
+s:spellfile_URL	.\vim73\autoload\spellfile.vim	/^let s:spellfile_URL = ''    " Start with nothing so that s:donedict is reset.$/;"	v
+spellfile#LoadFile	.\vim73\autoload\spellfile.vim	/^function! spellfile#LoadFile(lang)$/;"	f
+spellfile#Nread	.\vim73\autoload\spellfile.vim	/^function! spellfile#Nread(fname)$/;"	f
+spellfile#GetDirChoices	.\vim73\autoload\spellfile.vim	/^function! spellfile#GetDirChoices()$/;"	f
+spellfile#WritableSpellDir	.\vim73\autoload\spellfile.vim	/^function! spellfile#WritableSpellDir()$/;"	f
+g:loaded_sql_completion	.\vim73\autoload\sqlcomplete.vim	/^let g:loaded_sql_completion = 100$/;"	v
+s:sql_file_table	.\vim73\autoload\sqlcomplete.vim	/^let s:sql_file_table        = ""$/;"	v
+s:sql_file_procedure	.\vim73\autoload\sqlcomplete.vim	/^let s:sql_file_procedure    = ""$/;"	v
+s:sql_file_view	.\vim73\autoload\sqlcomplete.vim	/^let s:sql_file_view         = ""$/;"	v
+s:tbl_name	.\vim73\autoload\sqlcomplete.vim	/^let s:tbl_name              = []$/;"	v
+s:tbl_alias	.\vim73\autoload\sqlcomplete.vim	/^let s:tbl_alias             = []$/;"	v
+s:tbl_cols	.\vim73\autoload\sqlcomplete.vim	/^let s:tbl_cols              = []$/;"	v
+s:syn_list	.\vim73\autoload\sqlcomplete.vim	/^let s:syn_list              = []$/;"	v
+s:syn_value	.\vim73\autoload\sqlcomplete.vim	/^let s:syn_value             = []$/;"	v
+s:save_inc	.\vim73\autoload\sqlcomplete.vim	/^let s:save_inc              = ""$/;"	v
+s:save_exc	.\vim73\autoload\sqlcomplete.vim	/^let s:save_exc              = ""$/;"	v
+s:save_inc	.\vim73\autoload\sqlcomplete.vim	/^    let s:save_inc = g:omni_syntax_group_include_sql$/;"	v
+s:save_exc	.\vim73\autoload\sqlcomplete.vim	/^    let s:save_exc = g:omni_syntax_group_exclude_sql$/;"	v
+s:save_prev_table	.\vim73\autoload\sqlcomplete.vim	/^let s:save_prev_table       = ""$/;"	v
+g:omni_sql_use_tbl_alias	.\vim73\autoload\sqlcomplete.vim	/^    let g:omni_sql_use_tbl_alias = 'a'$/;"	v
+g:omni_sql_precache_syntax_groups	.\vim73\autoload\sqlcomplete.vim	/^    let g:omni_sql_precache_syntax_groups = [$/;"	v
+g:omni_sql_ignorecase	.\vim73\autoload\sqlcomplete.vim	/^    let g:omni_sql_ignorecase = &ignorecase$/;"	v
+g:omni_sql_include_owner	.\vim73\autoload\sqlcomplete.vim	/^    let g:omni_sql_include_owner = 0$/;"	v
+g:omni_sql_include_owner	.\vim73\autoload\sqlcomplete.vim	/^            let g:omni_sql_include_owner = 1$/;"	v
+sqlcomplete#Complete	.\vim73\autoload\sqlcomplete.vim	/^function! sqlcomplete#Complete(findstart, base)$/;"	f
+sqlcomplete#PreCacheSyntax	.\vim73\autoload\sqlcomplete.vim	/^function! sqlcomplete#PreCacheSyntax(...)$/;"	f
+sqlcomplete#ResetCacheSyntax	.\vim73\autoload\sqlcomplete.vim	/^function! sqlcomplete#ResetCacheSyntax(...)$/;"	f
+sqlcomplete#Map	.\vim73\autoload\sqlcomplete.vim	/^function! sqlcomplete#Map(type)$/;"	f
+sqlcomplete#DrillIntoTable	.\vim73\autoload\sqlcomplete.vim	/^function! sqlcomplete#DrillIntoTable()$/;"	f
+sqlcomplete#DrillOutOfColumns	.\vim73\autoload\sqlcomplete.vim	/^function! sqlcomplete#DrillOutOfColumns()$/;"	f
+SQLCWarningMsg	.\vim73\autoload\sqlcomplete.vim	/^function! s:SQLCWarningMsg(msg)$/;"	f
+SQLCErrorMsg	.\vim73\autoload\sqlcomplete.vim	/^function! s:SQLCErrorMsg(msg)$/;"	f
+SQLCGetSyntaxList	.\vim73\autoload\sqlcomplete.vim	/^function! s:SQLCGetSyntaxList(syn_group)$/;"	f
+SQLCCheck4dbext	.\vim73\autoload\sqlcomplete.vim	/^function! s:SQLCCheck4dbext()$/;"	f
+SQLCAddAlias	.\vim73\autoload\sqlcomplete.vim	/^function! s:SQLCAddAlias(table_name, table_alias, cols)$/;"	f
+SQLCGetObjectOwner	.\vim73\autoload\sqlcomplete.vim	/^function! s:SQLCGetObjectOwner(object) $/;"	f
+SQLCGetColumns	.\vim73\autoload\sqlcomplete.vim	/^function! s:SQLCGetColumns(table_name, list_type)$/;"	f
+g:loaded_syntax_completion	.\vim73\autoload\syntaxcomplete.vim	/^let g:loaded_syntax_completion = 70$/;"	v
+g:omni_syntax_ignorecase	.\vim73\autoload\syntaxcomplete.vim	/^    let g:omni_syntax_ignorecase = &ignorecase$/;"	v
+g:omni_syntax_use_iskeyword	.\vim73\autoload\syntaxcomplete.vim	/^    let g:omni_syntax_use_iskeyword = 1$/;"	v
+g:omni_syntax_minimum_length	.\vim73\autoload\syntaxcomplete.vim	/^    let g:omni_syntax_minimum_length = 0$/;"	v
+s:syn_remove_words	.\vim73\autoload\syntaxcomplete.vim	/^let s:syn_remove_words = 'match,matchgroup=,contains,'.$/;"	v
+s:cache_name	.\vim73\autoload\syntaxcomplete.vim	/^let s:cache_name = []$/;"	v
+s:cache_list	.\vim73\autoload\syntaxcomplete.vim	/^let s:cache_list = []$/;"	v
+s:prepended	.\vim73\autoload\syntaxcomplete.vim	/^let s:prepended  = ''$/;"	v
+syntaxcomplete#Complete	.\vim73\autoload\syntaxcomplete.vim	/^function! syntaxcomplete#Complete(findstart, base)$/;"	f
+syntaxcomplete#OmniSyntaxList	.\vim73\autoload\syntaxcomplete.vim	/^function! syntaxcomplete#OmniSyntaxList(...)$/;"	f
+OmniSyntaxList	.\vim73\autoload\syntaxcomplete.vim	/^function! OmniSyntaxList(...)$/;"	f
+SyntaxCSyntaxGroupItems	.\vim73\autoload\syntaxcomplete.vim	/^function! s:SyntaxCSyntaxGroupItems( group_name, syntax_full )$/;"	f
+g:loaded_tar	.\vim73\autoload\tar.vim	/^let g:loaded_tar= "v26"$/;"	v
+s:keepcpo	.\vim73\autoload\tar.vim	/^let s:keepcpo= &cpo$/;"	v
+g:tar_browseoptions	.\vim73\autoload\tar.vim	/^ let g:tar_browseoptions= "Ptf"$/;"	v
+g:tar_readoptions	.\vim73\autoload\tar.vim	/^ let g:tar_readoptions= "OPxf"$/;"	v
+g:tar_cmd	.\vim73\autoload\tar.vim	/^ let g:tar_cmd= "tar"$/;"	v
+g:tar_writeoptions	.\vim73\autoload\tar.vim	/^ let g:tar_writeoptions= "uf"$/;"	v
+g:netrw_localcopycmd	.\vim73\autoload\tar.vim	/^    let g:netrw_localcopycmd= "cp"$/;"	v
+g:netrw_localcopycmd	.\vim73\autoload\tar.vim	/^    let g:netrw_localcopycmd= "copy"$/;"	v
+g:netrw_localcopycmd	.\vim73\autoload\tar.vim	/^   let g:netrw_localcopycmd= "cp"$/;"	v
+g:netrw_localcopycmd	.\vim73\autoload\tar.vim	/^   let g:netrw_localcopycmd= ""$/;"	v
+g:tar_copycmd	.\vim73\autoload\tar.vim	/^ let g:tar_copycmd= g:netrw_localcopycmd$/;"	v
+g:netrw_cygwin	.\vim73\autoload\tar.vim	/^   let g:netrw_cygwin= 1$/;"	v
+g:netrw_cygwin	.\vim73\autoload\tar.vim	/^   let g:netrw_cygwin= 0$/;"	v
+g:netrw_cygwin	.\vim73\autoload\tar.vim	/^  let g:netrw_cygwin= 0$/;"	v
+g:tar_extractcmd	.\vim73\autoload\tar.vim	/^ let g:tar_extractcmd= "tar -xf"$/;"	v
+g:tar_shq	.\vim73\autoload\tar.vim	/^  let g:tar_shq= &shq$/;"	v
+g:tar_shq	.\vim73\autoload\tar.vim	/^   let g:tar_shq= "'"$/;"	v
+g:tar_shq	.\vim73\autoload\tar.vim	/^   let g:tar_shq= '"'$/;"	v
+g:tar_shq	.\vim73\autoload\tar.vim	/^  let g:tar_shq= "'"$/;"	v
+tar#Browse	.\vim73\autoload\tar.vim	/^fun! tar#Browse(tarfile)$/;"	f
+TarBrowseSelect	.\vim73\autoload\tar.vim	/^fun! s:TarBrowseSelect()$/;"	f
+tar#Read	.\vim73\autoload\tar.vim	/^fun! tar#Read(fname,mode)$/;"	f
+tar#Write	.\vim73\autoload\tar.vim	/^fun! tar#Write(fname)$/;"	f
+Rmdir	.\vim73\autoload\tar.vim	/^fun! s:Rmdir(fname)$/;"	f
+tar#Vimuntar	.\vim73\autoload\tar.vim	/^fun! tar#Vimuntar(...)$/;"	f
+s:cpo_sav	.\vim73\autoload\tohtml.vim	/^let s:cpo_sav = &cpo$/;"	v
+tohtml#Convert2HTML	.\vim73\autoload\tohtml.vim	/^func! tohtml#Convert2HTML(line1, line2)$/;"	f
+tohtml#Diff2HTML	.\vim73\autoload\tohtml.vim	/^func! tohtml#Diff2HTML(win_list, buf_list)$/;"	f
+tohtml#GetOption	.\vim73\autoload\tohtml.vim	/^func! tohtml#GetOption(settings, option, default)$/;"	f
+tohtml#GetUserSettings	.\vim73\autoload\tohtml.vim	/^func! tohtml#GetUserSettings()$/;"	f
+g:loaded_vimball	.\vim73\autoload\vimball.vim	/^let g:loaded_vimball = "v31"$/;"	v
+s:keepcpo	.\vim73\autoload\vimball.vim	/^let s:keepcpo= &cpo$/;"	v
+s:USAGE	.\vim73\autoload\vimball.vim	/^ let s:USAGE   = 0$/;"	v
+s:WARNING	.\vim73\autoload\vimball.vim	/^ let s:WARNING = 1$/;"	v
+s:ERROR	.\vim73\autoload\vimball.vim	/^ let s:ERROR   = 2$/;"	v
+g:netrw_cygwin	.\vim73\autoload\vimball.vim	/^    let g:netrw_cygwin= 1$/;"	v
+g:netrw_cygwin	.\vim73\autoload\vimball.vim	/^    let g:netrw_cygwin= 0$/;"	v
+g:netrw_cygwin	.\vim73\autoload\vimball.vim	/^   let g:netrw_cygwin= 0$/;"	v
+g:vimball_mkdir	.\vim73\autoload\vimball.vim	/^   let g:vimball_mkdir= g:netrw_local_mkdir$/;"	v
+g:vimball_mkdir	.\vim73\autoload\vimball.vim	/^   let g:vimball_mkdir= "mkdir"$/;"	v
+g:vimball_mkdir	.\vim73\autoload\vimball.vim	/^   let g:vimball_mkdir= "makedir"$/;"	v
+vimball#MkVimball	.\vim73\autoload\vimball.vim	/^fun! vimball#MkVimball(line1,line2,writelevel,...) range$/;"	f
+vimball#Vimball	.\vim73\autoload\vimball.vim	/^fun! vimball#Vimball(really,...)$/;"	f
+vimball#RmVimball	.\vim73\autoload\vimball.vim	/^fun! vimball#RmVimball(...)$/;"	f
+vimball#Decompress	.\vim73\autoload\vimball.vim	/^fun! vimball#Decompress(fname,...)$/;"	f
+vimball#ShowMesg	.\vim73\autoload\vimball.vim	/^fun! vimball#ShowMesg(level,msg)$/;"	f
+ChgDir	.\vim73\autoload\vimball.vim	/^fun! s:ChgDir(newdir)$/;"	f
+RecordInVar	.\vim73\autoload\vimball.vim	/^fun! s:RecordInVar(home,cmd)$/;"	f
+RecordInFile	.\vim73\autoload\vimball.vim	/^fun! s:RecordInFile(home)$/;"	f
+vimball#VimballHome	.\vim73\autoload\vimball.vim	/^fun! vimball#VimballHome()$/;"	f
+vimball#SaveSettings	.\vim73\autoload\vimball.vim	/^fun! vimball#SaveSettings()$/;"	f
+vimball#RestoreSettings	.\vim73\autoload\vimball.vim	/^fun! vimball#RestoreSettings()$/;"	f
+g:xmldata_html32	.\vim73\autoload\xml\html32.vim	/^let g:xmldata_html32 = {$/;"	v
+g:xmldata_html401t	.\vim73\autoload\xml\html401f.vim	/^let g:xmldata_html401t = {$/;"	v
+g:xmldata_html401s	.\vim73\autoload\xml\html401s.vim	/^let g:xmldata_html401s = {$/;"	v
+g:xmldata_html401t	.\vim73\autoload\xml\html401t.vim	/^let g:xmldata_html401t = {$/;"	v
+g:xmldata_html40t	.\vim73\autoload\xml\html40f.vim	/^let g:xmldata_html40t = {$/;"	v
+g:xmldata_html40s	.\vim73\autoload\xml\html40s.vim	/^let g:xmldata_html40s = {$/;"	v
+g:xmldata_html40t	.\vim73\autoload\xml\html40t.vim	/^let g:xmldata_html40t = {$/;"	v
+g:xmldata_xhtml10f	.\vim73\autoload\xml\xhtml10f.vim	/^let g:xmldata_xhtml10f = {$/;"	v
+g:xmldata_xhtml10s	.\vim73\autoload\xml\xhtml10s.vim	/^let g:xmldata_xhtml10s = {$/;"	v
+g:xmldata_xhtml10t	.\vim73\autoload\xml\xhtml10t.vim	/^let g:xmldata_xhtml10t = {$/;"	v
+g:xmldata_xhtml11	.\vim73\autoload\xml\xhtml11.vim	/^let g:xmldata_xhtml11 = {$/;"	v
+g:xmldata_xsd	.\vim73\autoload\xml\xsd.vim	/^let g:xmldata_xsd = {$/;"	v
+g:xmldata_xsl	.\vim73\autoload\xml\xsl.vim	/^let g:xmldata_xsl = {$/;"	v
+xmlcomplete#CreateConnection	.\vim73\autoload\xmlcomplete.vim	/^function! xmlcomplete#CreateConnection(canonical, ...) " {{{$/;"	f
+xmlcomplete#CreateEntConnection	.\vim73\autoload\xmlcomplete.vim	/^function! xmlcomplete#CreateEntConnection(...) " {{{$/;"	f
+xmlcomplete#CompleteTags	.\vim73\autoload\xmlcomplete.vim	/^function! xmlcomplete#CompleteTags(findstart, base)$/;"	f
+xmlcomplete#GetLastOpenTag	.\vim73\autoload\xmlcomplete.vim	/^function! xmlcomplete#GetLastOpenTag(unaryTagsStack)$/;"	f
+InComment	.\vim73\autoload\xmlcomplete.vim	/^function! s:InComment()$/;"	f
+InCommentAt	.\vim73\autoload\xmlcomplete.vim	/^function! s:InCommentAt(line, col)$/;"	f
+SetKeywords	.\vim73\autoload\xmlcomplete.vim	/^function! s:SetKeywords()$/;"	f
+RestoreKeywords	.\vim73\autoload\xmlcomplete.vim	/^function! s:RestoreKeywords()$/;"	f
+Push	.\vim73\autoload\xmlcomplete.vim	/^function! s:Push(el, sname)$/;"	f
+EmptystackP	.\vim73\autoload\xmlcomplete.vim	/^function! s:EmptystackP(sname)$/;"	f
+Instack	.\vim73\autoload\xmlcomplete.vim	/^function! s:Instack(el, sname)$/;"	f
+Peekstack	.\vim73\autoload\xmlcomplete.vim	/^function! s:Peekstack(sname)$/;"	f
+Pop	.\vim73\autoload\xmlcomplete.vim	/^function! s:Pop(sname)$/;"	f
+Clearstack	.\vim73\autoload\xmlcomplete.vim	/^function! s:Clearstack(sname)$/;"	f
+g:loaded_zip	.\vim73\autoload\zip.vim	/^let g:loaded_zip= "v23"$/;"	v
+s:keepcpo	.\vim73\autoload\zip.vim	/^let s:keepcpo= &cpo$/;"	v
+s:zipfile_escape	.\vim73\autoload\zip.vim	/^let s:zipfile_escape = ' ?&;\\'$/;"	v
+s:ERROR	.\vim73\autoload\zip.vim	/^let s:ERROR          = 2$/;"	v
+s:WARNING	.\vim73\autoload\zip.vim	/^let s:WARNING        = 1$/;"	v
+s:NOTE	.\vim73\autoload\zip.vim	/^let s:NOTE           = 0$/;"	v
+g:zip_shq	.\vim73\autoload\zip.vim	/^  let g:zip_shq= &shq$/;"	v
+g:zip_shq	.\vim73\autoload\zip.vim	/^  let g:zip_shq= "'"$/;"	v
+g:zip_shq	.\vim73\autoload\zip.vim	/^  let g:zip_shq= '"'$/;"	v
+g:zip_zipcmd	.\vim73\autoload\zip.vim	/^ let g:zip_zipcmd= "zip"$/;"	v
+g:zip_unzipcmd	.\vim73\autoload\zip.vim	/^ let g:zip_unzipcmd= "unzip"$/;"	v
+zip#Browse	.\vim73\autoload\zip.vim	/^fun! zip#Browse(zipfile)$/;"	f
+ZipBrowseSelect	.\vim73\autoload\zip.vim	/^fun! s:ZipBrowseSelect()$/;"	f
+zip#Read	.\vim73\autoload\zip.vim	/^fun! zip#Read(fname,mode)$/;"	f
+zip#Write	.\vim73\autoload\zip.vim	/^fun! zip#Write(fname)$/;"	f
+Escape	.\vim73\autoload\zip.vim	/^fun! s:Escape(fname,isfilt)$/;"	f
+ChgDir	.\vim73\autoload\zip.vim	/^fun! s:ChgDir(newdir,errlvl,errmsg)$/;"	f
+Rmdir	.\vim73\autoload\zip.vim	/^fun! s:Rmdir(fname)$/;"	f
+g:colors_name	.\vim73\colors\blue.vim	/^let g:colors_name = "blue"$/;"	v
+colors_name	.\vim73\colors\darkblue.vim	/^let colors_name = "darkblue"$/;"	v
+colors_name	.\vim73\colors\default.vim	/^let colors_name = "default"$/;"	v
+colors_name	.\vim73\colors\delek.vim	/^let colors_name = "delek"$/;"	v
+g:colors_name	.\vim73\colors\desert.vim	/^let g:colors_name="desert"$/;"	v
+g:colors_name	.\vim73\colors\elflord.vim	/^let g:colors_name = "elflord"$/;"	v
+colors_name	.\vim73\colors\evening.vim	/^let colors_name = "evening"$/;"	v
+g:colors_name	.\vim73\colors\koehler.vim	/^let g:colors_name = "koehler"$/;"	v
+colors_name	.\vim73\colors\morning.vim	/^let colors_name = "morning"$/;"	v
+g:colors_name	.\vim73\colors\murphy.vim	/^let g:colors_name = "murphy"$/;"	v
+g:colors_name	.\vim73\colors\pablo.vim	/^let g:colors_name = "pablo"$/;"	v
+colors_name	.\vim73\colors\peachpuff.vim	/^let colors_name = "peachpuff"$/;"	v
+g:colors_name	.\vim73\colors\ron.vim	/^let g:colors_name = "ron"$/;"	v
+colors_name	.\vim73\colors\shine.vim	/^let colors_name = "shine"$/;"	v
+colors_name	.\vim73\colors\slate.vim	/^let colors_name = "slate"$/;"	v
+g:colors_name	.\vim73\colors\torte.vim	/^let g:colors_name = "torte"$/;"	v
+g:colors_name	.\vim73\colors\zellner.vim	/^let g:colors_name = "zellner"$/;"	v
+current_compiler	.\vim73\compiler\ant.vim	/^let current_compiler = "ant"$/;"	v
+CompilerSet	.\vim73\compiler\ant.vim	/^  command -nargs=* CompilerSet setlocal <args>$/;"	c
+s:cpo_save	.\vim73\compiler\ant.vim	/^let s:cpo_save = &cpo$/;"	v
+current_compiler	.\vim73\compiler\bcc.vim	/^let current_compiler = "bcc"$/;"	v
+CompilerSet	.\vim73\compiler\bcc.vim	/^  command -nargs=* CompilerSet setlocal <args>$/;"	c
+current_compiler	.\vim73\compiler\bdf.vim	/^let current_compiler = "bdf"$/;"	v
+s:cpo_save	.\vim73\compiler\bdf.vim	/^let s:cpo_save = &cpo$/;"	v
+current_compiler	.\vim73\compiler\checkstyle.vim	/^let current_compiler = "checkstyle"$/;"	v
+CompilerSet	.\vim73\compiler\checkstyle.vim	/^  command -nargs=* CompilerSet setlocal <args>$/;"	c
+current_compiler	.\vim73\compiler\cs.vim	/^let current_compiler = "cs"$/;"	v
+CompilerSet	.\vim73\compiler\cs.vim	/^  command -nargs=* CompilerSet setlocal <args>$/;"	c
+current_compiler	.\vim73\compiler\cucumber.vim	/^let current_compiler = "cucumber"$/;"	v
+CompilerSet	.\vim73\compiler\cucumber.vim	/^  command -nargs=* CompilerSet setlocal <args>$/;"	c
+s:cpo_save	.\vim73\compiler\cucumber.vim	/^let s:cpo_save = &cpo$/;"	v
+current_compiler	.\vim73\compiler\decada.vim	/^let current_compiler = "decada"$/;"	v
+g:decada	.\vim73\compiler\decada.vim	/^   let g:decada = decada#New ()$/;"	v
+CompilerSet	.\vim73\compiler\decada.vim	/^   command -nargs=* CompilerSet setlocal <args>$/;"	c
+current_compiler	.\vim73\compiler\dot.vim	/^let current_compiler = "dot"$/;"	v
+CompilerSet	.\vim73\compiler\dot.vim	/^  command -nargs=* CompilerSet setlocal <args>$/;"	c
+current_compiler	.\vim73\compiler\eruby.vim	/^let current_compiler = "eruby"$/;"	v
+CompilerSet	.\vim73\compiler\eruby.vim	/^  command -nargs=* CompilerSet setlocal <args>$/;"	c
+s:cpo_save	.\vim73\compiler\eruby.vim	/^let s:cpo_save = &cpo$/;"	v
+current_compiler	.\vim73\compiler\fortran_cv.vim	/^let current_compiler = "fortran_cv"$/;"	v
+CompilerSet	.\vim73\compiler\fortran_cv.vim	/^  command -nargs=* CompilerSet setlocal <args>$/;"	c
+s:cposet	.\vim73\compiler\fortran_cv.vim	/^let s:cposet = &cpoptions$/;"	v
+current_compiler	.\vim73\compiler\fortran_elf90.vim	/^let current_compiler = "fortran_elf90"$/;"	v
+CompilerSet	.\vim73\compiler\fortran_elf90.vim	/^  command -nargs=* CompilerSet setlocal <args>$/;"	c
+s:cposet	.\vim73\compiler\fortran_elf90.vim	/^let s:cposet=&cpoptions$/;"	v
+current_compiler	.\vim73\compiler\fortran_F.vim	/^let current_compiler = "fortran_F"$/;"	v
+CompilerSet	.\vim73\compiler\fortran_F.vim	/^  command -nargs=* CompilerSet setlocal <args>$/;"	c
+s:cposet	.\vim73\compiler\fortran_F.vim	/^let s:cposet=&cpoptions$/;"	v
+current_compiler	.\vim73\compiler\fortran_g77.vim	/^let current_compiler = "fortran_g77"$/;"	v
+CompilerSet	.\vim73\compiler\fortran_g77.vim	/^  command -nargs=* CompilerSet setlocal <args>$/;"	c
+s:cpo_save	.\vim73\compiler\fortran_g77.vim	/^let s:cpo_save = &cpo$/;"	v
+current_compiler	.\vim73\compiler\fortran_lf95.vim	/^let current_compiler = "fortran_lf95"$/;"	v
+CompilerSet	.\vim73\compiler\fortran_lf95.vim	/^  command -nargs=* CompilerSet setlocal <args>$/;"	c
+s:cposet	.\vim73\compiler\fortran_lf95.vim	/^let s:cposet=&cpoptions$/;"	v
+current_compiler	.\vim73\compiler\fpc.vim	/^let current_compiler = "fpc"$/;"	v
+CompilerSet	.\vim73\compiler\fpc.vim	/^  command -nargs=* CompilerSet setlocal <args>$/;"	c
+current_compiler	.\vim73\compiler\gcc.vim	/^let current_compiler = "gcc"$/;"	v
+s:cpo_save	.\vim73\compiler\gcc.vim	/^let s:cpo_save = &cpo$/;"	v
+current_compiler	.\vim73\compiler\gnat.vim	/^let current_compiler = "gnat"$/;"	v
+g:gnat	.\vim73\compiler\gnat.vim	/^   let g:gnat = gnat#New ()$/;"	v
+CompilerSet	.\vim73\compiler\gnat.vim	/^   command -nargs=* CompilerSet setlocal <args>$/;"	c
+current_compiler	.\vim73\compiler\hp_acc.vim	/^let current_compiler = "hp_acc"$/;"	v
+CompilerSet	.\vim73\compiler\hp_acc.vim	/^  command -nargs=* CompilerSet setlocal <args>$/;"	c
+current_compiler	.\vim73\compiler\icc.vim	/^let current_compiler = "icc"$/;"	v
+CompilerSet	.\vim73\compiler\icc.vim	/^  command -nargs=* CompilerSet setlocal <args>$/;"	c
+current_compiler	.\vim73\compiler\intel.vim	/^let current_compiler = "intel"$/;"	v
+CompilerSet	.\vim73\compiler\intel.vim	/^  command -nargs=* CompilerSet setlocal <args>$/;"	c
+current_compiler	.\vim73\compiler\irix5_c.vim	/^let current_compiler = "irix5_c"$/;"	v
+CompilerSet	.\vim73\compiler\irix5_c.vim	/^  command -nargs=* CompilerSet setlocal <args>$/;"	c
+current_compiler	.\vim73\compiler\irix5_cpp.vim	/^let current_compiler = "irix5_cpp"$/;"	v
+CompilerSet	.\vim73\compiler\irix5_cpp.vim	/^  command -nargs=* CompilerSet setlocal <args>$/;"	c
+current_compiler	.\vim73\compiler\javac.vim	/^let current_compiler = "javac"$/;"	v
+CompilerSet	.\vim73\compiler\javac.vim	/^  command -nargs=* CompilerSet setlocal <args>$/;"	c
+current_compiler	.\vim73\compiler\jikes.vim	/^let current_compiler = "jikes"$/;"	v
+CompilerSet	.\vim73\compiler\jikes.vim	/^  command -nargs=* CompilerSet setlocal <args>$/;"	c
+current_compiler	.\vim73\compiler\mcs.vim	/^let current_compiler = "mcs"$/;"	v
+s:cpo_save	.\vim73\compiler\mcs.vim	/^let s:cpo_save = &cpo$/;"	v
+current_compiler	.\vim73\compiler\mipspro_c89.vim	/^let current_compiler = "mipspro_c89"$/;"	v
+CompilerSet	.\vim73\compiler\mipspro_c89.vim	/^  command -nargs=* CompilerSet setlocal <args>$/;"	c
+current_compiler	.\vim73\compiler\mipspro_cpp.vim	/^let current_compiler = "mipspro_cpp"$/;"	v
+CompilerSet	.\vim73\compiler\mipspro_cpp.vim	/^  command -nargs=* CompilerSet setlocal <args>$/;"	c
+current_compiler	.\vim73\compiler\mips_c.vim	/^let current_compiler = "mips_c"$/;"	v
+CompilerSet	.\vim73\compiler\mips_c.vim	/^  command -nargs=* CompilerSet setlocal <args>$/;"	c
+current_compiler	.\vim73\compiler\modelsim_vcom.vim	/^let current_compiler = "modelsim_vcom"$/;"	v
+CompilerSet	.\vim73\compiler\modelsim_vcom.vim	/^  command -nargs=* CompilerSet setlocal <args>$/;"	c
+current_compiler	.\vim73\compiler\msvc.vim	/^let current_compiler = "msvc"$/;"	v
+current_compiler	.\vim73\compiler\neato.vim	/^let current_compiler = "neato"$/;"	v
+CompilerSet	.\vim73\compiler\neato.vim	/^  command -nargs=* CompilerSet setlocal <args>$/;"	c
+current_compiler	.\vim73\compiler\onsgmls.vim	/^let current_compiler = "onsgmls"$/;"	v
+CompilerSet	.\vim73\compiler\onsgmls.vim	/^  command -nargs=* CompilerSet setlocal <args>$/;"	c
+s:cpo_save	.\vim73\compiler\onsgmls.vim	/^let s:cpo_save = &cpo$/;"	v
+current_compiler	.\vim73\compiler\pbx.vim	/^let current_compiler = "pbx"$/;"	v
+CompilerSet	.\vim73\compiler\pbx.vim	/^  command -nargs=* CompilerSet setlocal <args>$/;"	c
+current_compiler	.\vim73\compiler\perl.vim	/^let current_compiler = "perl"$/;"	v
+CompilerSet	.\vim73\compiler\perl.vim	/^  command -nargs=* CompilerSet setlocal <args>$/;"	c
+s:savecpo	.\vim73\compiler\perl.vim	/^let s:savecpo = &cpo$/;"	v
+s:warnopt	.\vim73\compiler\perl.vim	/^	let s:warnopt = 'w'$/;"	v
+s:warnopt	.\vim73\compiler\perl.vim	/^	let s:warnopt = 'W'$/;"	v
+s:taintopt	.\vim73\compiler\perl.vim	/^	let s:taintopt = 'T'$/;"	v
+s:taintopt	.\vim73\compiler\perl.vim	/^	let s:taintopt = ''$/;"	v
+current_compiler	.\vim73\compiler\php.vim	/^let current_compiler = "php"$/;"	v
+CompilerSet	.\vim73\compiler\php.vim	/^  command -nargs=* CompilerSet setlocal <args>$/;"	c
+s:cpo_save	.\vim73\compiler\php.vim	/^let s:cpo_save = &cpo$/;"	v
+current_compiler	.\vim73\compiler\pyunit.vim	/^let current_compiler = "pyunit"$/;"	v
+CompilerSet	.\vim73\compiler\pyunit.vim	/^  command -nargs=* CompilerSet setlocal <args>$/;"	c
+current_compiler	.\vim73\compiler\rspec.vim	/^let current_compiler = "rspec"$/;"	v
+CompilerSet	.\vim73\compiler\rspec.vim	/^  command -nargs=* CompilerSet setlocal <args>$/;"	c
+s:cpo_save	.\vim73\compiler\rspec.vim	/^let s:cpo_save = &cpo$/;"	v
+current_compiler	.\vim73\compiler\rst.vim	/^let current_compiler = "rst"$/;"	v
+s:cpo_save	.\vim73\compiler\rst.vim	/^let s:cpo_save = &cpo$/;"	v
+current_compiler	.\vim73\compiler\ruby.vim	/^let current_compiler = "ruby"$/;"	v
+CompilerSet	.\vim73\compiler\ruby.vim	/^  command -nargs=* CompilerSet setlocal <args>$/;"	c
+s:cpo_save	.\vim73\compiler\ruby.vim	/^let s:cpo_save = &cpo$/;"	v
+current_compiler	.\vim73\compiler\rubyunit.vim	/^let current_compiler = "rubyunit"$/;"	v
+CompilerSet	.\vim73\compiler\rubyunit.vim	/^  command -nargs=* CompilerSet setlocal <args>$/;"	c
+s:cpo_save	.\vim73\compiler\rubyunit.vim	/^let s:cpo_save = &cpo$/;"	v
+current_compiler	.\vim73\compiler\se.vim	/^let current_compiler = "se"$/;"	v
+CompilerSet	.\vim73\compiler\se.vim	/^  command -nargs=* CompilerSet setlocal <args>$/;"	c
+s:cpo_save	.\vim73\compiler\se.vim	/^let s:cpo_save = &cpo$/;"	v
+current_compiler	.\vim73\compiler\splint.vim	/^let current_compiler = "splint"$/;"	v
+CompilerSet	.\vim73\compiler\splint.vim	/^  command -nargs=* CompilerSet setlocal <args>$/;"	c
+s:cpo_save	.\vim73\compiler\splint.vim	/^let s:cpo_save = &cpo$/;"	v
+current_compiler	.\vim73\compiler\tcl.vim	/^let current_compiler = "tcl"$/;"	v
+CompilerSet	.\vim73\compiler\tcl.vim	/^  command -nargs=* CompilerSet setlocal <args>$/;"	c
+CompilerSet	.\vim73\compiler\tex.vim	/^  command -nargs=* CompilerSet setlocal <args>$/;"	c
+current_compiler	.\vim73\compiler\tex.vim	/^		let current_compiler = b:tex_flavor$/;"	v
+current_compiler	.\vim73\compiler\tex.vim	/^		let current_compiler = g:tex_flavor$/;"	v
+current_compiler	.\vim73\compiler\tex.vim	/^		let current_compiler = "latex"$/;"	v
+current_compiler	.\vim73\compiler\tex.vim	/^	let current_compiler = 'make'$/;"	v
+s:cpo_save	.\vim73\compiler\tex.vim	/^let s:cpo_save = &cpo$/;"	v
+current_compiler	.\vim73\compiler\tidy.vim	/^let current_compiler = "tidy"$/;"	v
+CompilerSet	.\vim73\compiler\tidy.vim	/^  command -nargs=* CompilerSet setlocal <args>$/;"	c
+current_compiler	.\vim73\compiler\xmllint.vim	/^let current_compiler = "xmllint"$/;"	v
+CompilerSet	.\vim73\compiler\xmllint.vim	/^  command -nargs=* CompilerSet setlocal <args>$/;"	c
+s:cpo_save	.\vim73\compiler\xmllint.vim	/^let s:cpo_save = &cpo$/;"	v
+current_compiler	.\vim73\compiler\xmlwf.vim	/^let current_compiler = "xmlwf"$/;"	v
+s:cpo_save	.\vim73\compiler\xmlwf.vim	/^let s:cpo_save = &cpo$/;"	v
+CompilerSet	.\vim73\compiler\xmlwf.vim	/^  command -nargs=* CompilerSet setlocal <args>$/;"	c
+<Down>	.\vim73\evim.vim	/^inoremap <silent> <Down> <C-R>=pumvisible() ? "\\<lt>Down>" : "\\<lt>C-O>gj"<CR>$/;"	m
+<Up>	.\vim73\evim.vim	/^inoremap <silent> <Up> <C-R>=pumvisible() ? "\\<lt>Up>" : "\\<lt>C-O>gk"<CR>$/;"	m
+<C-F>	.\vim73\evim.vim	/^noremap <silent> <C-F> :promptfind<CR>$/;"	m
+<C-F>	.\vim73\evim.vim	/^vnoremap <silent> <C-F> y:promptfind <C-R>"<CR>$/;"	m
+<C-F>	.\vim73\evim.vim	/^onoremap <silent> <C-F> <C-C>:promptfind<CR>$/;"	m
+<C-F>	.\vim73\evim.vim	/^inoremap <silent> <C-F> <C-O>:promptfind<CR>$/;"	m
+<C-F>	.\vim73\evim.vim	/^cnoremap <silent> <C-F> <C-C>:promptfind<CR>$/;"	m
+Q	.\vim73\evim.vim	/^map Q gq$/;"	m
+did_load_filetypes	.\vim73\filetype.vim	/^let did_load_filetypes = 1$/;"	v
+s:cpo_save	.\vim73\filetype.vim	/^let s:cpo_save = &cpo$/;"	v
+filetypedetect	.\vim73\filetype.vim	/^augroup filetypedetect$/;"	a
+g:ft_ignore_pat	.\vim73\filetype.vim	/^  let g:ft_ignore_pat = '\\.\\(Z\\|gz\\|bz2\\|zip\\|tgz\\)$'$/;"	v
+StarSetf	.\vim73\filetype.vim	/^func! s:StarSetf(ft)$/;"	f
+Check_inp	.\vim73\filetype.vim	/^func! s:Check_inp()$/;"	f
+FTasm	.\vim73\filetype.vim	/^func! s:FTasm()$/;"	f
+FTasmsyntax	.\vim73\filetype.vim	/^func! s:FTasmsyntax()$/;"	f
+FTVB	.\vim73\filetype.vim	/^func! s:FTVB(alt)$/;"	f
+FTbtm	.\vim73\filetype.vim	/^func! s:FTbtm()$/;"	f
+BindzoneCheck	.\vim73\filetype.vim	/^func! s:BindzoneCheck(default)$/;"	f
+FTlpc	.\vim73\filetype.vim	/^func! s:FTlpc()$/;"	f
+FTheader	.\vim73\filetype.vim	/^func! s:FTheader()$/;"	f
+FTchange	.\vim73\filetype.vim	/^func! s:FTchange()$/;"	f
+FTent	.\vim73\filetype.vim	/^func! s:FTent()$/;"	f
+DtraceCheck	.\vim73\filetype.vim	/^func! s:DtraceCheck()$/;"	f
+FTe	.\vim73\filetype.vim	/^func! s:FTe()$/;"	f
+FThtml	.\vim73\filetype.vim	/^func! s:FThtml()$/;"	f
+FTidl	.\vim73\filetype.vim	/^func! s:FTidl()$/;"	f
+ProtoCheck	.\vim73\filetype.vim	/^func! s:ProtoCheck(default)$/;"	f
+FTm	.\vim73\filetype.vim	/^func! s:FTm()$/;"	f
+FTmms	.\vim73\filetype.vim	/^func! s:FTmms()$/;"	f
+FTnroff	.\vim73\filetype.vim	/^func! s:FTnroff()$/;"	f
+FTmm	.\vim73\filetype.vim	/^func! s:FTmm()$/;"	f
+FTpl	.\vim73\filetype.vim	/^func! s:FTpl()$/;"	f
+FTinc	.\vim73\filetype.vim	/^func! s:FTinc()$/;"	f
+FTprogress_cweb	.\vim73\filetype.vim	/^func! s:FTprogress_cweb()$/;"	f
+FTprogress_asm	.\vim73\filetype.vim	/^func! s:FTprogress_asm()$/;"	f
+FTprogress_pascal	.\vim73\filetype.vim	/^func! s:FTprogress_pascal()$/;"	f
+FTr	.\vim73\filetype.vim	/^func! s:FTr()$/;"	f
+McSetf	.\vim73\filetype.vim	/^func! s:McSetf()$/;"	f
+SetFileTypeSH	.\vim73\filetype.vim	/^func! SetFileTypeSH(name)$/;"	f
+SetFileTypeShell	.\vim73\filetype.vim	/^func! SetFileTypeShell(name)$/;"	f
+CSH	.\vim73\filetype.vim	/^func! s:CSH()$/;"	f
+s:ft_rules_udev_rules_pattern	.\vim73\filetype.vim	/^let s:ft_rules_udev_rules_pattern = '^\\s*\\cudev_rules\\s*=\\s*"\\([^"]\\{-1,}\\)\/*".*'$/;"	v
+FTRules	.\vim73\filetype.vim	/^func! s:FTRules()$/;"	f
+SQL	.\vim73\filetype.vim	/^func! s:SQL()$/;"	f
+FTperl	.\vim73\filetype.vim	/^func! s:FTperl()$/;"	f
+FTtex	.\vim73\filetype.vim	/^func! s:FTtex()$/;"	f
+FTxml	.\vim73\filetype.vim	/^func! s:FTxml()$/;"	f
+FTy	.\vim73\filetype.vim	/^func! s:FTy()$/;"	f
+filetypedetect	.\vim73\filetype.vim	/^augroup filetypedetect$/;"	a
+TestFiletypeFuncs	.\vim73\filetype.vim	/^func! TestFiletypeFuncs(testlist)$/;"	f
+b:did_ftplugin	.\vim73\ftplugin\a2ps.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\a2ps.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\a2ps.vim	/^let b:undo_ftplugin = "setl com< cms< inc< fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\aap.vim	/^let b:did_ftplugin = 1$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\aap.vim	/^let b:undo_ftplugin = "setl fo< com< et<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\abaqus.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\abaqus.vim	/^let s:cpo_save = &cpoptions$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\abaqus.vim	/^let b:undo_ftplugin = "setlocal include< includeexpr< isfname<"$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\abaqus.vim	/^    let b:undo_ftplugin .= " foldexpr< foldmethod<"$/;"	v
+b:browsefilter	.\vim73\ftplugin\abaqus.vim	/^    let b:browsefilter = "Abaqus Input Files (*.inp *.inc)\\t*.inp;*.inc\\n" .$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\abaqus.vim	/^    let b:undo_ftplugin .= "|unlet b:browsefilter"$/;"	v
+b:match_ignorecase	.\vim73\ftplugin\abaqus.vim	/^    let b:match_ignorecase = 1$/;"	v
+b:match_words	.\vim73\ftplugin\abaqus.vim	/^    let b:match_words = $/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\abaqus.vim	/^    let b:undo_ftplugin .= "|unlet b:match_ignorecase b:match_words"$/;"	v
+[[	.\vim73\ftplugin\abaqus.vim	/^noremap <silent><buffer> [[ ?^\\*\\a<CR>:nohlsearch<CR>$/;"	m
+]]	.\vim73\ftplugin\abaqus.vim	/^noremap <silent><buffer> ]] \/^\\*\\a<CR>:nohlsearch<CR>$/;"	m
+<LocalLeader><LocalLeader>	.\vim73\ftplugin\abaqus.vim	/^noremap <silent><buffer> <LocalLeader><LocalLeader> $/;"	m
+Abaqus_ToggleComment	.\vim73\ftplugin\abaqus.vim	/^function! <SID>Abaqus_ToggleComment() range$/;"	f
+b:undo_ftplugin	.\vim73\ftplugin\abaqus.vim	/^let b:undo_ftplugin .= "|unmap <buffer> [[|unmap <buffer> ]]"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\ada.vim	/^let b:did_ftplugin = 45$/;"	v
+s:cpoptions	.\vim73\ftplugin\ada.vim	/^let s:cpoptions = &cpoptions$/;"	v
+<C-]>	.\vim73\ftplugin\ada.vim	/^	 nnoremap <unique> <buffer> <C-]>    :call ada#Jump_Tag ('', 'tjump')<cr>$/;"	m
+g<C-]>	.\vim73\ftplugin\ada.vim	/^	 nnoremap <unique> <buffer> g<C-]>   :call ada#Jump_Tag ('','stjump')<cr>$/;"	m
+<C-]>	.\vim73\ftplugin\ada.vim	/^	 nnoremap <unique> <buffer> <C-]>    :call ada#List_Tag ()<cr>$/;"	m
+g<C-]>	.\vim73\ftplugin\ada.vim	/^	 nnoremap <unique> <buffer> g<C-]>   :call ada#List_Tag ()<cr>$/;"	m
+<C-N>	.\vim73\ftplugin\ada.vim	/^      inoremap <unique> <buffer> <C-N> <C-R>=ada#Completion("\\<lt>C-N>")<cr>$/;"	m
+<C-P>	.\vim73\ftplugin\ada.vim	/^      inoremap <unique> <buffer> <C-P> <C-R>=ada#Completion("\\<lt>C-P>")<cr>$/;"	m
+<C-X><C-]>	.\vim73\ftplugin\ada.vim	/^      inoremap <unique> <buffer> <C-X><C-]> <C-R>=<SID>ada#Completion("\\<lt>C-X>\\<lt>C-]>")<cr>$/;"	m
+<bs>	.\vim73\ftplugin\ada.vim	/^      inoremap <silent> <unique> <buffer> <bs> <C-R>=ada#Insert_Backspace ()<cr>$/;"	m
+s:notend	.\vim73\ftplugin\ada.vim	/^   let s:notend      = '\\%(\\<end\\s\\+\\)\\@<!'$/;"	v
+b:match_words	.\vim73\ftplugin\ada.vim	/^   let b:match_words =$/;"	v
+g:ada_default_compiler	.\vim73\ftplugin\ada.vim	/^      let g:ada_default_compiler = 'decada'$/;"	v
+g:ada_default_compiler	.\vim73\ftplugin\ada.vim	/^      let g:ada_default_compiler = 'gnat'$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\alsaconf.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\alsaconf.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\alsaconf.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+s:save_cpo	.\vim73\ftplugin\ant.vim	/^let s:save_cpo = &cpo$/;"	v
+s:undo_ftplugin	.\vim73\ftplugin\ant.vim	/^let s:undo_ftplugin = ""$/;"	v
+s:browsefilter	.\vim73\ftplugin\ant.vim	/^let s:browsefilter = "XML Files (*.xml)\\t*.xml\\n" .$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\ant.vim	/^let b:did_ftplugin = 1$/;"	v
+s:undo_ftplugin	.\vim73\ftplugin\ant.vim	/^    let s:undo_ftplugin = b:undo_ftplugin$/;"	v
+s:browsefilter	.\vim73\ftplugin\ant.vim	/^    let s:browsefilter = b:browsefilter$/;"	v
+b:browsefilter	.\vim73\ftplugin\ant.vim	/^    let b:browsefilter = "Build Files (build.xml)\\tbuild.xml\\n" .$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\ant.vim	/^let b:undo_ftplugin = "unlet! b:browsefilter | " . s:undo_ftplugin$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\arch.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\arch.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\arch.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+s:save_cpo	.\vim73\ftplugin\aspvbs.vim	/^let s:save_cpo = &cpo$/;"	v
+s:undo_ftplugin	.\vim73\ftplugin\aspvbs.vim	/^let s:undo_ftplugin = ""$/;"	v
+s:browsefilter	.\vim73\ftplugin\aspvbs.vim	/^let s:browsefilter = "HTML Files (*.html, *.htm)\\t*.htm*\\n" .$/;"	v
+s:match_words	.\vim73\ftplugin\aspvbs.vim	/^let s:match_words = ""$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\aspvbs.vim	/^let b:did_ftplugin = 1$/;"	v
+s:undo_ftplugin	.\vim73\ftplugin\aspvbs.vim	/^    let s:undo_ftplugin = b:undo_ftplugin$/;"	v
+s:browsefilter	.\vim73\ftplugin\aspvbs.vim	/^    let s:browsefilter = b:browsefilter$/;"	v
+s:match_words	.\vim73\ftplugin\aspvbs.vim	/^    let s:match_words = b:match_words$/;"	v
+s:notend	.\vim73\ftplugin\aspvbs.vim	/^  let s:notend = '\\%(\\<end\\s\\+\\)\\@<!'$/;"	v
+b:match_ignorecase	.\vim73\ftplugin\aspvbs.vim	/^  let b:match_ignorecase = 1$/;"	v
+b:match_words	.\vim73\ftplugin\aspvbs.vim	/^  let b:match_words =$/;"	v
+b:browsefilter	.\vim73\ftplugin\aspvbs.vim	/^    let  b:browsefilter="ASP Files (*.asp)\\t*.asp\\n" . s:browsefilter$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\aspvbs.vim	/^let b:undo_ftplugin = "unlet! b:match_words b:match_ignorecase b:browsefilter | " . s:undo_ftplugin$/;"	v
+s:cpo_save	.\vim73\ftplugin\automake.vim	/^let s:cpo_save = &cpo$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\bdf.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\bdf.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\bdf.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\bst.vim	/^let b:did_ftplugin = 1$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\bst.vim	/^let b:undo_ftplugin = "setlocal com< cms< fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\c.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\c.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\c.vim	/^let b:undo_ftplugin = "setl fo< com< ofu< | if has('vms') | setl isk< | endif"$/;"	v
+b:match_words	.\vim73\ftplugin\c.vim	/^let b:match_words = &matchpairs$/;"	v
+b:match_skip	.\vim73\ftplugin\c.vim	/^let b:match_skip = 's:comment\\|string\\|character'$/;"	v
+b:browsefilter	.\vim73\ftplugin\c.vim	/^    let b:browsefilter = "C++ Source Files (*.cpp *.c++)\\t*.cpp;*.c++\\n" .$/;"	v
+b:browsefilter	.\vim73\ftplugin\c.vim	/^    let b:browsefilter = "Ch Source Files (*.ch *.chf)\\t*.ch;*.chf\\n" .$/;"	v
+b:browsefilter	.\vim73\ftplugin\c.vim	/^    let b:browsefilter = "C Source Files (*.c)\\t*.c\\n" .$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\calendar.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\calendar.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\calendar.vim	/^let b:undo_ftplugin = "setl com< cms< inc< fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\cdrdaoconf.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\cdrdaoconf.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\cdrdaoconf.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\changelog.vim	/^  let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\changelog.vim	/^  let s:cpo_save = &cpo$/;"	v
+g:changelog_dateformat	.\vim73\ftplugin\changelog.vim	/^      let g:changelog_dateformat = g:changelog_timeformat$/;"	v
+g:changelog_dateformat	.\vim73\ftplugin\changelog.vim	/^      let g:changelog_dateformat = "%Y-%m-%d"$/;"	v
+username	.\vim73\ftplugin\changelog.vim	/^  function! s:username()$/;"	f
+login	.\vim73\ftplugin\changelog.vim	/^  function! s:login()$/;"	f
+trimmed_system_with_default	.\vim73\ftplugin\changelog.vim	/^  function! s:trimmed_system_with_default(command, default)$/;"	f
+system_with_default	.\vim73\ftplugin\changelog.vim	/^  function! s:system_with_default(command, default)$/;"	f
+first_line	.\vim73\ftplugin\changelog.vim	/^  function! s:first_line(string)$/;"	f
+name	.\vim73\ftplugin\changelog.vim	/^  function! s:name(login)$/;"	f
+gecos_name	.\vim73\ftplugin\changelog.vim	/^  function! s:gecos_name(login)$/;"	f
+try_reading_file	.\vim73\ftplugin\changelog.vim	/^  function! s:try_reading_file(path)$/;"	f
+passwd_field	.\vim73\ftplugin\changelog.vim	/^  function! s:passwd_field(line, field)$/;"	f
+capitalize	.\vim73\ftplugin\changelog.vim	/^  function! s:capitalize(word)$/;"	f
+hostname	.\vim73\ftplugin\changelog.vim	/^  function! s:hostname()$/;"	f
+g:changelog_new_date_format	.\vim73\ftplugin\changelog.vim	/^    let g:changelog_new_date_format = "%d  %u\\n\\n\\t* %c\\n\\n"$/;"	v
+g:changelog_new_entry_format	.\vim73\ftplugin\changelog.vim	/^    let g:changelog_new_entry_format = "\\t* %c"$/;"	v
+g:changelog_date_entry_search	.\vim73\ftplugin\changelog.vim	/^    let g:changelog_date_entry_search = '^\\s*%d\\_s*%u'$/;"	v
+g:changelog_date_end_entry_search	.\vim73\ftplugin\changelog.vim	/^    let g:changelog_date_end_entry_search = '^\\s*$'$/;"	v
+substitute_items	.\vim73\ftplugin\changelog.vim	/^  function! s:substitute_items(str, date, user)$/;"	f
+position_cursor	.\vim73\ftplugin\changelog.vim	/^  function! s:position_cursor()$/;"	f
+new_changelog_entry	.\vim73\ftplugin\changelog.vim	/^  function! s:new_changelog_entry(...)$/;"	f
+<Leader>o	.\vim73\ftplugin\changelog.vim	/^    noremap <buffer> <silent> <Leader>o <Esc>:call <SID>new_changelog_entry()<CR>$/;"	m
+NewChangelogEntry	.\vim73\ftplugin\changelog.vim	/^    command! -nargs=0 NewChangelogEntry call s:new_changelog_entry()$/;"	c
+b:undo_ftplugin	.\vim73\ftplugin\changelog.vim	/^  let b:undo_ftplugin = "setl com< fo< et< ai<"$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\changelog.vim	/^    let b:undo_ftplugin .= " tw<"$/;"	v
+s:cpo_save	.\vim73\ftplugin\changelog.vim	/^  let s:cpo_save = &cpo$/;"	v
+<Leader>o	.\vim73\ftplugin\changelog.vim	/^  nnoremap <silent> <Leader>o :call <SID>open_changelog()<CR>$/;"	m
+open_changelog	.\vim73\ftplugin\changelog.vim	/^  function! s:open_changelog()$/;"	f
+b:did_ftplugin	.\vim73\ftplugin\cobol.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\cobol.vim	/^let s:cpo_save = &cpo$/;"	v
+s:ordot	.\vim73\ftplugin\cobol.vim	/^    let s:ordot = '\\|\\ze\\.\\%( \\@=\\|$\\)'$/;"	v
+b:match_ignorecase	.\vim73\ftplugin\cobol.vim	/^    let b:match_ignorecase=1$/;"	v
+b:match_words	.\vim73\ftplugin\cobol.vim	/^    let b:match_words=$/;"	v
+b:browsefilter	.\vim73\ftplugin\cobol.vim	/^  let b:browsefilter = "COBOL Source Files (*.cbl, *.cob)\\t*.cbl;*.cob;*.lib\\n".$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\cobol.vim	/^let b:undo_ftplugin = "setlocal com< cms< fo< et< tw<" .$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\cobol.vim	/^    let b:undo_ftplugin = b:undo_ftplugin .$/;"	v
+>	.\vim73\ftplugin\cobol.vim	/^        nnoremap <silent> <buffer> > :set opfunc=<SID>IncreaseFunc<CR>g@$/;"	m
+<	.\vim73\ftplugin\cobol.vim	/^        nnoremap <silent> <buffer> < :set opfunc=<SID>DecreaseFunc<CR>g@$/;"	m
+>>	.\vim73\ftplugin\cobol.vim	/^    nnoremap <silent> <buffer> >> :call CobolIndentBlock(1)<CR>$/;"	m
+<<	.\vim73\ftplugin\cobol.vim	/^    nnoremap <silent> <buffer> << :call CobolIndentBlock(-1)<CR>$/;"	m
+>	.\vim73\ftplugin\cobol.vim	/^    vnoremap <silent> <buffer> > :call CobolIndentBlock(v:count1)<CR>$/;"	m
+<	.\vim73\ftplugin\cobol.vim	/^    vnoremap <silent> <buffer> < :call CobolIndentBlock(-v:count1)<CR>$/;"	m
+<C-T>	.\vim73\ftplugin\cobol.vim	/^    inoremap <silent> <buffer> <C-T> <C-R>=<SID>IncreaseIndent()<CR><C-R>=<SID>RestoreShiftwidth()<CR>$/;"	m
+<C-D>	.\vim73\ftplugin\cobol.vim	/^    inoremap <silent> <buffer> <C-D> <C-R>=<SID>DecreaseIndent()<CR><C-R>=<SID>RestoreShiftwidth()<CR>$/;"	m
+<Tab>	.\vim73\ftplugin\cobol.vim	/^        inoremap <silent> <buffer> <Tab> <C-R>=<SID>Tab()<CR><C-R>=<SID>RestoreShiftwidth()<CR>$/;"	m
+[[	.\vim73\ftplugin\cobol.vim	/^    noremap <silent> <buffer> [[ m':call search('\\c^\\%(\\s*\\<Bar>.\\{6\\}\\s\\+\\)\\zs[A-Za-z0-9-]\\+\\s\\+\\%(division\\<Bar>section\\)\\s*\\.','bW')<CR>$/;"	m
+]]	.\vim73\ftplugin\cobol.vim	/^    noremap <silent> <buffer> ]] m':call search('\\c^\\%(\\s*\\<Bar>.\\{6\\}\\s\\+\\)\\zs[A-Za-z0-9-]\\+\\s\\+\\%(division\\<Bar>section\\)\\.','W')<CR>$/;"	m
+[]	.\vim73\ftplugin\cobol.vim	/^    noremap <silent> <buffer> [] m':call <SID>toend('b')<CR>$/;"	m
+][	.\vim73\ftplugin\cobol.vim	/^    noremap <silent> <buffer> ][ m':call <SID>toend('')<CR>$/;"	m
+<Plug>Traditional	.\vim73\ftplugin\cobol.vim	/^    noremap <silent> <buffer> <Plug>Traditional      :call <SID>Comment('t')<CR>$/;"	m
+<Plug>Comment	.\vim73\ftplugin\cobol.vim	/^    noremap <silent> <buffer> <Plug>Comment          :call <SID>Comment('c')<CR>$/;"	m
+<Plug>DeComment	.\vim73\ftplugin\cobol.vim	/^    noremap <silent> <buffer> <Plug>DeComment        :call <SID>Comment('u')<CR>$/;"	m
+<Plug>VisualTraditional	.\vim73\ftplugin\cobol.vim	/^    noremap <silent> <buffer> <Plug>VisualTraditional :'<,'>call <SID>Comment('t')<CR>$/;"	m
+<Plug>VisualComment	.\vim73\ftplugin\cobol.vim	/^    noremap <silent> <buffer> <Plug>VisualComment     :'<,'>call <SID>Comment('c')<CR>$/;"	m
+<Plug>VisualDeComment	.\vim73\ftplugin\cobol.vim	/^    noremap <silent> <buffer> <Plug>VisualDeComment   :'<,'>call <SID>Comment('u')<CR>$/;"	m
+g:did_cobol_ftplugin_functions	.\vim73\ftplugin\cobol.vim	/^let g:did_cobol_ftplugin_functions = 1$/;"	v
+repeat	.\vim73\ftplugin\cobol.vim	/^function! s:repeat(str,count)$/;"	f
+increase	.\vim73\ftplugin\cobol.vim	/^function! s:increase(...)$/;"	f
+decrease	.\vim73\ftplugin\cobol.vim	/^function! s:decrease(...)$/;"	f
+CobolIndentBlock	.\vim73\ftplugin\cobol.vim	/^function! CobolIndentBlock(shift)$/;"	f
+IncreaseFunc	.\vim73\ftplugin\cobol.vim	/^function! s:IncreaseFunc(type)$/;"	f
+DecreaseFunc	.\vim73\ftplugin\cobol.vim	/^function! s:DecreaseFunc(type)$/;"	f
+IncreaseIndent	.\vim73\ftplugin\cobol.vim	/^function! s:IncreaseIndent()$/;"	f
+DecreaseIndent	.\vim73\ftplugin\cobol.vim	/^function! s:DecreaseIndent()$/;"	f
+RestoreShiftwidth	.\vim73\ftplugin\cobol.vim	/^function! s:RestoreShiftwidth()$/;"	f
+Tab	.\vim73\ftplugin\cobol.vim	/^function! s:Tab()$/;"	f
+Comment	.\vim73\ftplugin\cobol.vim	/^function! s:Comment(arg)$/;"	f
+toend	.\vim73\ftplugin\cobol.vim	/^function! s:toend(direction)$/;"	f
+b:did_ftplugin	.\vim73\ftplugin\conf.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\conf.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\conf.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+s:save_cpo	.\vim73\ftplugin\config.vim	/^let s:save_cpo = &cpo$/;"	v
+s:undo_ftplugin	.\vim73\ftplugin\config.vim	/^let s:undo_ftplugin = ""$/;"	v
+s:browsefilter	.\vim73\ftplugin\config.vim	/^let s:browsefilter = "Bourne Shell Files (*.sh)\\t*.sh\\n" .$/;"	v
+s:match_words	.\vim73\ftplugin\config.vim	/^let s:match_words = ""$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\config.vim	/^let b:did_ftplugin = 1$/;"	v
+s:undo_ftplugin	.\vim73\ftplugin\config.vim	/^    let s:undo_ftplugin = b:undo_ftplugin$/;"	v
+s:browsefilter	.\vim73\ftplugin\config.vim	/^    let s:browsefilter = b:browsefilter$/;"	v
+b:browsefilter	.\vim73\ftplugin\config.vim	/^    let  b:browsefilter="Configure Scripts (configure.*, config.*)\\tconfigure*;config.*\\n" .$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\config.vim	/^let b:undo_ftplugin = "unlet! b:browsefilter | " . b:undo_ftplugin$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\context.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\context.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\context.vim	/^let b:undo_ftplugin = "setl com< cms< def< inc< sua< fo<"$/;"	v
+b:match_ignorecase	.\vim73\ftplugin\context.vim	/^  let b:match_ignorecase = 0$/;"	v
+b:match_skip	.\vim73\ftplugin\context.vim	/^  let b:match_skip = 'r:\\\\\\@<!\\%(\\\\\\\\\\)*%'$/;"	v
+b:match_words	.\vim73\ftplugin\context.vim	/^  let b:match_words = '(:),\\[:],{:},\\\\(:\\\\),\\\\\\[:\\\\],' .$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\crm.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\crm.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\crm.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\cs.vim	/^let b:did_ftplugin = 1$/;"	v
+b:browsefilter	.\vim73\ftplugin\cs.vim	/^    let b:browsefilter = "C# Source Files (*.cs)\\t*.cs\\n" .$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\csc.vim	/^let b:did_ftplugin = 1$/;"	v
+s:save_cpo	.\vim73\ftplugin\csc.vim	/^let s:save_cpo = &cpo$/;"	v
+b:match_words	.\vim73\ftplugin\csc.vim	/^    let b:match_words=$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\csc.vim	/^let b:undo_ftplugin = "unlet! b:match_words"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\csh.vim	/^let b:did_ftplugin = 1$/;"	v
+s:save_cpo	.\vim73\ftplugin\csh.vim	/^let s:save_cpo = &cpo$/;"	v
+b:match_words	.\vim73\ftplugin\csh.vim	/^    let b:match_words =$/;"	v
+b:browsefilter	.\vim73\ftplugin\csh.vim	/^    let  b:browsefilter="csh Scripts (*.csh)\\t*.csh\\n" .$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\csh.vim	/^let b:undo_ftplugin = "setlocal commentstring< formatoptions<" .$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\css.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\css.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\css.vim	/^let b:undo_ftplugin = "setl com< cms< inc< fo< ofu<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\cucumber.vim	/^let b:did_ftplugin = 1$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\cucumber.vim	/^let b:undo_ftplugin = "setl fo< com< cms< ofu<"$/;"	v
+b:cucumber_root	.\vim73\ftplugin\cucumber.vim	/^let b:cucumber_root = expand('%:p:h:s?.*[\\\/]\\%(features\\|stories\\)\\zs[\\\/].*??')$/;"	v
+<C-]>	.\vim73\ftplugin\cucumber.vim	/^  nmap <silent><buffer> <C-]>       :<C-U>exe <SID>jump('edit',v:count)<CR>$/;"	m
+<C-W>]	.\vim73\ftplugin\cucumber.vim	/^  nmap <silent><buffer> <C-W>]      :<C-U>exe <SID>jump('split',v:count)<CR>$/;"	m
+<C-W><C-]>	.\vim73\ftplugin\cucumber.vim	/^  nmap <silent><buffer> <C-W><C-]>  :<C-U>exe <SID>jump('split',v:count)<CR>$/;"	m
+<C-W>}	.\vim73\ftplugin\cucumber.vim	/^  nmap <silent><buffer> <C-W>}      :<C-U>exe <SID>jump('pedit',v:count)<CR>$/;"	m
+b:undo_ftplugin	.\vim73\ftplugin\cucumber.vim	/^  let b:undo_ftplugin .= "| sil! iunmap! <C-]>| sil! iunmap! <C-W>]| sil! iunmap! <C-W><C-]>| sil! iunmap! <C-W>}"$/;"	v
+jump	.\vim73\ftplugin\cucumber.vim	/^function! s:jump(command,count)$/;"	f
+allsteps	.\vim73\ftplugin\cucumber.vim	/^function! s:allsteps()$/;"	f
+steps	.\vim73\ftplugin\cucumber.vim	/^function! s:steps(lnum)$/;"	f
+stepmatch	.\vim73\ftplugin\cucumber.vim	/^function! s:stepmatch(receiver,target)$/;"	f
+bsub	.\vim73\ftplugin\cucumber.vim	/^function! s:bsub(target,pattern,replacement)$/;"	f
+CucumberComplete	.\vim73\ftplugin\cucumber.vim	/^function! CucumberComplete(findstart,base) abort$/;"	f
+b:did_ftplugin	.\vim73\ftplugin\cvsrc.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\cvsrc.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\cvsrc.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\debchangelog.vim	/^let b:did_ftplugin=1$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\debchangelog.vim	/^let b:undo_ftplugin = "setlocal tw< comments< foldmethod< foldexpr< foldtext<"$/;"	v
+g:did_changelog_ftplugin	.\vim73\ftplugin\debchangelog.vim	/^let g:did_changelog_ftplugin = 1$/;"	v
+FullName	.\vim73\ftplugin\debchangelog.vim	/^function <SID>FullName()$/;"	f
+Email	.\vim73\ftplugin\debchangelog.vim	/^function <SID>Email()$/;"	f
+Date	.\vim73\ftplugin\debchangelog.vim	/^function <SID>Date()$/;"	f
+WarnIfNotUnfinalised	.\vim73\ftplugin\debchangelog.vim	/^function <SID>WarnIfNotUnfinalised()$/;"	f
+Finalised	.\vim73\ftplugin\debchangelog.vim	/^function <SID>Finalised()$/;"	f
+NewVersion	.\vim73\ftplugin\debchangelog.vim	/^function NewVersion()$/;"	f
+AddEntry	.\vim73\ftplugin\debchangelog.vim	/^function AddEntry()$/;"	f
+CloseBug	.\vim73\ftplugin\debchangelog.vim	/^function CloseBug()$/;"	f
+Distribution	.\vim73\ftplugin\debchangelog.vim	/^function Distribution(dist)$/;"	f
+Urgency	.\vim73\ftplugin\debchangelog.vim	/^function Urgency(urg)$/;"	f
+UnfinaliseMenu	.\vim73\ftplugin\debchangelog.vim	/^function <SID>UnfinaliseMenu()$/;"	f
+Unfinalise	.\vim73\ftplugin\debchangelog.vim	/^function Unfinalise()$/;"	f
+FinaliseMenu	.\vim73\ftplugin\debchangelog.vim	/^function <SID>FinaliseMenu()$/;"	f
+Finalise	.\vim73\ftplugin\debchangelog.vim	/^function Finalise()$/;"	f
+MakeMenu	.\vim73\ftplugin\debchangelog.vim	/^function <SID>MakeMenu()$/;"	f
+changelogMenu	.\vim73\ftplugin\debchangelog.vim	/^augroup changelogMenu$/;"	a
+getAuthor	.\vim73\ftplugin\debchangelog.vim	/^function! s:getAuthor(zonestart, zoneend)$/;"	f
+DebGetPkgSrcName	.\vim73\ftplugin\debchangelog.vim	/^function! DebGetPkgSrcName(lineno)$/;"	f
+DebChangelogFoldText	.\vim73\ftplugin\debchangelog.vim	/^function! DebChangelogFoldText()$/;"	f
+DebGetChangelogFold	.\vim73\ftplugin\debchangelog.vim	/^function! DebGetChangelogFold(lnum)$/;"	f
+g:debchangelog_listbugs_severities	.\vim73\ftplugin\debchangelog.vim	/^  let g:debchangelog_listbugs_severities = 'critical,grave,serious,important,normal,minor,wishlist'$/;"	v
+DebCompleteBugs	.\vim73\ftplugin\debchangelog.vim	/^fun! DebCompleteBugs(findstart, base)$/;"	f
+b:did_ftplugin	.\vim73\ftplugin\debcontrol.vim	/^let b:did_ftplugin=1$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\debcontrol.vim	/^let b:undo_ftplugin = "setlocal tw< foldmethod< foldexpr< foldtext<"$/;"	v
+getField	.\vim73\ftplugin\debcontrol.vim	/^function! s:getField(f, lnum)$/;"	f
+DebControlFoldText	.\vim73\ftplugin\debcontrol.vim	/^function! DebControlFoldText()$/;"	f
+DebControlFold	.\vim73\ftplugin\debcontrol.vim	/^function! DebControlFold(l)$/;"	f
+b:did_ftplugin	.\vim73\ftplugin\denyhosts.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\denyhosts.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\denyhosts.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\dictconf.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\dictconf.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\dictconf.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\dictdconf.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\dictdconf.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\dictdconf.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\diff.vim	/^let b:did_ftplugin = 1$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\diff.vim	/^let b:undo_ftplugin = "setl modeline<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\dircolors.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\dircolors.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\dircolors.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+b:docbk_type	.\vim73\ftplugin\docbk.vim	/^    let b:docbk_type = 'sgml'$/;"	v
+b:docbk_type	.\vim73\ftplugin\docbk.vim	/^    let b:docbk_type = 'xml'$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\dosbatch.vim	/^let b:did_ftplugin = 1$/;"	v
+b:browsefilter	.\vim73\ftplugin\dosbatch.vim	/^  let b:browsefilter = "DOS Batch Files (*.bat, *.cmd)\\t*.bat;*.cmd\\nAll Files (*.*)\\t*.*\\n"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\dosini.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\dosini.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\dosini.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\dtd.vim	/^let b:did_ftplugin = 1$/;"	v
+s:save_cpo	.\vim73\ftplugin\dtd.vim	/^let s:save_cpo = &cpo$/;"	v
+b:match_words	.\vim73\ftplugin\dtd.vim	/^    let b:match_words = '<!--:-->,<!:>'$/;"	v
+b:browsefilter	.\vim73\ftplugin\dtd.vim	/^    let  b:browsefilter="DTD Files (*.dtd)\\t*.dtd\\n" .$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\dtd.vim	/^let b:undo_ftplugin = "setlocal commentstring< comments< formatoptions<" .$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\dtrace.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\dtrace.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\dtrace.vim	/^let b:undo_ftplugin = "setl fo< com< cms< isk<"$/;"	v
+b:match_words	.\vim73\ftplugin\dtrace.vim	/^let b:match_words = &matchpairs$/;"	v
+b:match_skip	.\vim73\ftplugin\dtrace.vim	/^let b:match_skip = 's:comment\\|string\\|character'$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\elinks.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\elinks.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\elinks.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+s:save_cpo	.\vim73\ftplugin\eruby.vim	/^let s:save_cpo = &cpo$/;"	v
+s:undo_ftplugin	.\vim73\ftplugin\eruby.vim	/^let s:undo_ftplugin = ""$/;"	v
+s:browsefilter	.\vim73\ftplugin\eruby.vim	/^let s:browsefilter = "All Files (*.*)\\t*.*\\n"$/;"	v
+s:match_words	.\vim73\ftplugin\eruby.vim	/^let s:match_words = ""$/;"	v
+g:eruby_default_subtype	.\vim73\ftplugin\eruby.vim	/^  let g:eruby_default_subtype = "html"$/;"	v
+s:lines	.\vim73\ftplugin\eruby.vim	/^  let s:lines = getline(1)."\\n".getline(2)."\\n".getline(3)."\\n".getline(4)."\\n".getline(5)."\\n".getline("$")$/;"	v
+b:eruby_subtype	.\vim73\ftplugin\eruby.vim	/^  let b:eruby_subtype = matchstr(s:lines,'eruby_subtype=\\zs\\w\\+')$/;"	v
+b:eruby_subtype	.\vim73\ftplugin\eruby.vim	/^    let b:eruby_subtype = matchstr(&filetype,'^eruby\\.\\zs\\w\\+')$/;"	v
+b:eruby_subtype	.\vim73\ftplugin\eruby.vim	/^    let b:eruby_subtype = matchstr(substitute(expand("%:t"),'\\c\\%(\\.erb\\|\\.eruby\\|\\.erubis\\)\\+$','',''),'\\.\\zs\\w\\+$')$/;"	v
+b:eruby_subtype	.\vim73\ftplugin\eruby.vim	/^    let b:eruby_subtype = 'html'$/;"	v
+b:eruby_subtype	.\vim73\ftplugin\eruby.vim	/^    let b:eruby_subtype = 'ruby'$/;"	v
+b:eruby_subtype	.\vim73\ftplugin\eruby.vim	/^    let b:eruby_subtype = 'yaml'$/;"	v
+b:eruby_subtype	.\vim73\ftplugin\eruby.vim	/^    let b:eruby_subtype = 'javascript'$/;"	v
+b:eruby_subtype	.\vim73\ftplugin\eruby.vim	/^    let b:eruby_subtype = 'text'$/;"	v
+b:eruby_subtype	.\vim73\ftplugin\eruby.vim	/^    let b:eruby_subtype = g:eruby_default_subtype$/;"	v
+s:undo_ftplugin	.\vim73\ftplugin\eruby.vim	/^  let s:undo_ftplugin = b:undo_ftplugin$/;"	v
+s:browsefilter	.\vim73\ftplugin\eruby.vim	/^  let s:browsefilter = b:browsefilter$/;"	v
+s:match_words	.\vim73\ftplugin\eruby.vim	/^  let s:match_words = b:match_words$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\eruby.vim	/^let b:did_ftplugin = 1$/;"	v
+s:undo_ftplugin	.\vim73\ftplugin\eruby.vim	/^  let s:undo_ftplugin = b:undo_ftplugin . " | " . s:undo_ftplugin$/;"	v
+s:browsefilter	.\vim73\ftplugin\eruby.vim	/^  let s:browsefilter = substitute(b:browsefilter,'\\cAll Files (\\*\\.\\*)\\t\\*\\.\\*\\n','','') . s:browsefilter$/;"	v
+s:match_words	.\vim73\ftplugin\eruby.vim	/^  let s:match_words = b:match_words . ',' . s:match_words$/;"	v
+b:browsefilter	.\vim73\ftplugin\eruby.vim	/^  let b:browsefilter="eRuby Files (*.erb, *.rhtml)\\t*.erb;*.rhtml\\n" . s:browsefilter$/;"	v
+b:match_words	.\vim73\ftplugin\eruby.vim	/^  let b:match_words = s:match_words$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\eruby.vim	/^let b:undo_ftplugin = "setl cms< "$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\eterm.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\eterm.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\eterm.vim	/^let b:undo_ftplugin = "setl com< cms< inc< fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\falcon.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\falcon.vim	/^let s:cpo_save = &cpo$/;"	v
+b:match_ignorecase	.\vim73\ftplugin\falcon.vim	/^  let b:match_ignorecase = 0$/;"	v
+b:match_words	.\vim73\ftplugin\falcon.vim	/^  let b:match_words =$/;"	v
+b:browsefilter	.\vim73\ftplugin\falcon.vim	/^  let b:browsefilter = "Falcon Source Files (*.fal)\\t*.fal\\n" .$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\fetchmail.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\fetchmail.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\fetchmail.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\flexwiki.vim	/^let b:did_ftplugin = 1  " Don't load another plugin for this buffer$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\flexwiki.vim	/^let b:undo_ftplugin = "setl tw< wrap< lbr< et< ts< fenc< bomb< ff<"$/;"	v
+<Up>	.\vim73\ftplugin\flexwiki.vim	/^  nmap <buffer> <Up>   gk$/;"	m
+k	.\vim73\ftplugin\flexwiki.vim	/^  nmap <buffer> k      gk$/;"	m
+<Up>	.\vim73\ftplugin\flexwiki.vim	/^  vmap <buffer> <Up>   gk$/;"	m
+k	.\vim73\ftplugin\flexwiki.vim	/^  vmap <buffer> k      gk$/;"	m
+<Down>	.\vim73\ftplugin\flexwiki.vim	/^  nmap <buffer> <Down> gj$/;"	m
+j	.\vim73\ftplugin\flexwiki.vim	/^  nmap <buffer> j      gj$/;"	m
+<Down>	.\vim73\ftplugin\flexwiki.vim	/^  vmap <buffer> <Down> gj$/;"	m
+j	.\vim73\ftplugin\flexwiki.vim	/^  vmap <buffer> j      gj$/;"	m
+<S-Down>	.\vim73\ftplugin\flexwiki.vim	/^  imap <buffer> <S-Down>   <C-o>gj$/;"	m
+<S-Up>	.\vim73\ftplugin\flexwiki.vim	/^  imap <buffer> <S-Up>     <C-o>gk$/;"	m
+<Down>	.\vim73\ftplugin\flexwiki.vim	/^      imap <buffer> <Down>   <C-o>gj$/;"	m
+<Up>	.\vim73\ftplugin\flexwiki.vim	/^      imap <buffer> <Up>     <C-o>gk$/;"	m
+b:did_ftplugin	.\vim73\ftplugin\fortran.vim	/^let b:did_ftplugin = 1$/;"	v
+b:fortran_fixed_source	.\vim73\ftplugin\fortran.vim	/^    let b:fortran_fixed_source = 0$/;"	v
+b:fortran_fixed_source	.\vim73\ftplugin\fortran.vim	/^    let b:fortran_fixed_source = 1$/;"	v
+s:lmax	.\vim73\ftplugin\fortran.vim	/^    let s:lmax = 500$/;"	v
+s:lmax	.\vim73\ftplugin\fortran.vim	/^      let s:lmax = line("$")$/;"	v
+b:fortran_fixed_source	.\vim73\ftplugin\fortran.vim	/^    let b:fortran_fixed_source = 1$/;"	v
+s:ln	.\vim73\ftplugin\fortran.vim	/^    let s:ln=1$/;"	v
+s:test	.\vim73\ftplugin\fortran.vim	/^      let s:test = strpart(getline(s:ln),0,5)$/;"	v
+b:fortran_fixed_source	.\vim73\ftplugin\fortran.vim	/^	let b:fortran_fixed_source = 0$/;"	v
+s:ln	.\vim73\ftplugin\fortran.vim	/^      let s:ln = s:ln + 1$/;"	v
+s:cposet	.\vim73\ftplugin\fortran.vim	/^let s:cposet=&cpoptions$/;"	v
+s:notend	.\vim73\ftplugin\fortran.vim	/^  let s:notend = '\\%(\\<end\\s\\+\\)\\@<!'$/;"	v
+s:notselect	.\vim73\ftplugin\fortran.vim	/^  let s:notselect = '\\%(\\<select\\s\\+\\)\\@<!'$/;"	v
+s:notelse	.\vim73\ftplugin\fortran.vim	/^  let s:notelse = '\\%(\\<end\\s\\+\\|\\<else\\s\\+\\)\\@<!'$/;"	v
+s:notprocedure	.\vim73\ftplugin\fortran.vim	/^  let s:notprocedure = '\\%(\\s\\+procedure\\>\\)\\@!'$/;"	v
+b:match_ignorecase	.\vim73\ftplugin\fortran.vim	/^  let b:match_ignorecase = 1$/;"	v
+b:match_words	.\vim73\ftplugin\fortran.vim	/^  let b:match_words =$/;"	v
+b:browsefilter	.\vim73\ftplugin\fortran.vim	/^  let b:browsefilter = "Fortran Files (*.f;*.F;*.for;*.f77;*.f90;*.f95;*.fpp;*.ftn)\\t*.f;*.F;*.for;*.f77;*.f90;*.f95;*.fpp;*.ftn\\n" .$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\fortran.vim	/^let b:undo_ftplugin = "setl fo< com< tw< cms< et< inc<"$/;"	v
+s:cpo_save	.\vim73\ftplugin\framescript.vim	/^let s:cpo_save = &cpo$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\framescript.vim	/^let b:did_ftplugin = 1$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\framescript.vim	/^let b:undo_ftplugin = "setl com< cms< fo< inc< | unlet! b:matchwords"$/;"	v
+s:not_end	.\vim73\ftplugin\framescript.vim	/^  let s:not_end = '\\c\\%(\\<End\\)\\@<!'$/;"	v
+b:match_words	.\vim73\ftplugin\framescript.vim	/^  let b:match_words =$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\fvwm.vim	/^let b:did_ftplugin = 1$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\fvwm.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\git.vim	/^let b:did_ftplugin = 1$/;"	v
+b:git_dir	.\vim73\ftplugin\git.vim	/^    let b:git_dir = matchstr(expand('%:p'),'.*\\.git\\>')$/;"	v
+b:git_dir	.\vim73\ftplugin\git.vim	/^    let b:git_dir = $GIT_DIR$/;"	v
+b:git_dir	.\vim73\ftplugin\git.vim	/^    let b:git_dir = substitute(b:git_dir,'\\\\','\/','g')$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\git.vim	/^let b:undo_ftplugin = "setl keywordprg< path< includeexpr<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\gitcommit.vim	/^let b:did_ftplugin = 1$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\gitcommit.vim	/^    let b:undo_ftplugin = ""$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\gitcommit.vim	/^  let b:undo_ftplugin = b:undo_ftplugin . "|setl tw<"$/;"	v
+b:git_dir	.\vim73\ftplugin\gitcommit.vim	/^  let b:git_dir = expand("%:p:h")$/;"	v
+DiffGitCached	.\vim73\ftplugin\gitcommit.vim	/^command! -bang -bar -buffer -complete=custom,s:diffcomplete -nargs=* DiffGitCached :call s:gitdiffcached(<bang>0,b:git_dir,<f-args>)$/;"	c
+diffcomplete	.\vim73\ftplugin\gitcommit.vim	/^function! s:diffcomplete(A,L,P)$/;"	f
+gitdiffcached	.\vim73\ftplugin\gitcommit.vim	/^function! s:gitdiffcached(bang,gitdir,...)$/;"	f
+b:did_ftplugin	.\vim73\ftplugin\gitconfig.vim	/^let b:did_ftplugin = 1$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\gitconfig.vim	/^let b:undo_ftplugin = "setl fo< com< cms<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\gitrebase.vim	/^let b:did_ftplugin = 1$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\gitrebase.vim	/^  let b:undo_ftplugin = ""$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\gitrebase.vim	/^let b:undo_ftplugin = b:undo_ftplugin."|setl com< cms< fo<"$/;"	v
+choose	.\vim73\ftplugin\gitrebase.vim	/^function! s:choose(word)$/;"	f
+cycle	.\vim73\ftplugin\gitrebase.vim	/^function! s:cycle()$/;"	f
+Pick	.\vim73\ftplugin\gitrebase.vim	/^command! -buffer -bar Pick   :call s:choose('pick')$/;"	c
+Squash	.\vim73\ftplugin\gitrebase.vim	/^command! -buffer -bar Squash :call s:choose('squash')$/;"	c
+Edit	.\vim73\ftplugin\gitrebase.vim	/^command! -buffer -bar Edit   :call s:choose('edit')$/;"	c
+Reword	.\vim73\ftplugin\gitrebase.vim	/^command! -buffer -bar Reword :call s:choose('reword')$/;"	c
+Fixup	.\vim73\ftplugin\gitrebase.vim	/^command! -buffer -bar Fixup  :call s:choose('fixup')$/;"	c
+Cycle	.\vim73\ftplugin\gitrebase.vim	/^command! -buffer -bar Cycle  :call s:cycle()$/;"	c
+K	.\vim73\ftplugin\gitrebase.vim	/^nnoremap <buffer> <expr> K col('.') < 7 && expand('<Lt>cword>') =~ '\\X' && getline('.') =~ '^\\w\\+\\s\\+\\x\\+\\>' ? 'wK' : 'K'$/;"	m
+b:undo_ftplugin	.\vim73\ftplugin\gitrebase.vim	/^let b:undo_ftplugin = b:undo_ftplugin . "|nunmap <buffer> K"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\gpg.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\gpg.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\gpg.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\group.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\group.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\group.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\grub.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\grub.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\grub.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+s:save_cpo	.\vim73\ftplugin\haml.vim	/^let s:save_cpo = &cpo$/;"	v
+s:undo_ftplugin	.\vim73\ftplugin\haml.vim	/^let s:undo_ftplugin = ""$/;"	v
+s:browsefilter	.\vim73\ftplugin\haml.vim	/^let s:browsefilter = "All Files (*.*)\\t*.*\\n"$/;"	v
+s:match_words	.\vim73\ftplugin\haml.vim	/^let s:match_words = ""$/;"	v
+s:undo_ftplugin	.\vim73\ftplugin\haml.vim	/^  let s:undo_ftplugin = b:undo_ftplugin$/;"	v
+s:browsefilter	.\vim73\ftplugin\haml.vim	/^  let s:browsefilter = b:browsefilter$/;"	v
+s:match_words	.\vim73\ftplugin\haml.vim	/^  let s:match_words = b:match_words$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\haml.vim	/^let b:did_ftplugin = 1$/;"	v
+s:undo_ftplugin	.\vim73\ftplugin\haml.vim	/^  let s:undo_ftplugin = b:undo_ftplugin . " | " . s:undo_ftplugin$/;"	v
+s:browsefilter	.\vim73\ftplugin\haml.vim	/^  let s:browsefilter = substitute(b:browsefilter,'\\cAll Files (\\*\\.\\*)\\t\\*\\.\\*\\n','','') . s:browsefilter$/;"	v
+s:match_words	.\vim73\ftplugin\haml.vim	/^  let s:match_words = b:match_words . ',' . s:match_words$/;"	v
+b:browsefilter	.\vim73\ftplugin\haml.vim	/^  let b:browsefilter="Haml Files (*.haml)\\t*.haml\\nSass Files (*.sass)\\t*.sass\\n" . s:browsefilter$/;"	v
+b:match_words	.\vim73\ftplugin\haml.vim	/^  let b:match_words = s:match_words$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\haml.vim	/^let b:undo_ftplugin = "setl cms< com< "$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\hamster.vim	/^let b:did_ftplugin = 1$/;"	v
+cpo_save	.\vim73\ftplugin\hamster.vim	/^let cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\hamster.vim	/^let b:undo_ftplugin = "setl fo< com< tw< commentstring<"$/;"	v
+[[	.\vim73\ftplugin\hamster.vim	/^noremap <silent><buffer> [[ :call search('^\\s*sub\\>', "bW")<CR>$/;"	m
+]]	.\vim73\ftplugin\hamster.vim	/^noremap <silent><buffer> ]] :call search('^\\s*sub\\>', "W")<CR>$/;"	m
+[]	.\vim73\ftplugin\hamster.vim	/^noremap <silent><buffer> [] :call search('^\\s*endsub\\>', "bW")<CR>$/;"	m
+][	.\vim73\ftplugin\hamster.vim	/^noremap <silent><buffer> ][ :call search('^\\s*endsub\\>', "W")<CR>$/;"	m
+]#	.\vim73\ftplugin\hamster.vim	/^noremap <silent><buffer> ]# :call search('^\\s*#\\@!', "W")<CR>$/;"	m
+[#	.\vim73\ftplugin\hamster.vim	/^noremap <silent><buffer> [# :call search('^\\s*#\\@!', "bW")<CR>$/;"	m
+b:match_ignorecase	.\vim73\ftplugin\hamster.vim	/^  let b:match_ignorecase = 0$/;"	v
+b:match_words	.\vim73\ftplugin\hamster.vim	/^  let b:match_words =$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\haskell.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\haskell.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\haskell.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\help.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\help.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\help.vim	/^let b:undo_ftplugin = "setl fo< tw< cole< cocu<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\hostconf.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\hostconf.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\hostconf.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\hostsaccess.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\hostsaccess.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\hostsaccess.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\html.vim	/^let b:did_ftplugin = 1$/;"	v
+s:save_cpo	.\vim73\ftplugin\html.vim	/^let s:save_cpo = &cpo$/;"	v
+b:html_omni_flavor	.\vim73\ftplugin\html.vim	/^            let b:html_omni_flavor = 'xhtml10s'$/;"	v
+b:html_omni_flavor	.\vim73\ftplugin\html.vim	/^            let b:html_omni_flavor = 'html401t'$/;"	v
+i	.\vim73\ftplugin\html.vim	/^    let i = 1$/;"	v
+line	.\vim73\ftplugin\html.vim	/^    let line = ""$/;"	v
+line	.\vim73\ftplugin\html.vim	/^        let line = getline(i)$/;"	v
+i	.\vim73\ftplugin\html.vim	/^        let i += 1$/;"	v
+b:html_omni_flavor	.\vim73\ftplugin\html.vim	/^            let b:html_omni_flavor = 'html32'$/;"	v
+b:html_omni_flavor	.\vim73\ftplugin\html.vim	/^            let b:html_omni_flavor = 'xhtml11'$/;"	v
+b:html_omni_flavor	.\vim73\ftplugin\html.vim	/^                let b:html_omni_flavor = 'xhtml10'$/;"	v
+b:html_omni_flavor	.\vim73\ftplugin\html.vim	/^                let b:html_omni_flavor = 'html401'$/;"	v
+b:html_omni_flavor	.\vim73\ftplugin\html.vim	/^                let b:html_omni_flavor = 'html40'$/;"	v
+b:html_omni_flavor	.\vim73\ftplugin\html.vim	/^                let b:html_omni_flavor .= 't'$/;"	v
+b:html_omni_flavor	.\vim73\ftplugin\html.vim	/^                let b:html_omni_flavor .= 'f'$/;"	v
+b:html_omni_flavor	.\vim73\ftplugin\html.vim	/^                let b:html_omni_flavor .= 's'$/;"	v
+b:match_ignorecase	.\vim73\ftplugin\html.vim	/^    let b:match_ignorecase = 1$/;"	v
+b:match_words	.\vim73\ftplugin\html.vim	/^    let b:match_words = '<:>,' .$/;"	v
+b:browsefilter	.\vim73\ftplugin\html.vim	/^    let  b:browsefilter="HTML Files (*.html,*.htm)\\t*.htm;*.html\\n" .$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\html.vim	/^let b:undo_ftplugin = "setlocal commentstring< matchpairs< omnifunc< comments< formatoptions<" .$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\indent.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\indent.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\indent.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\initex.vim	/^let b:did_ftplugin = 1$/;"	v
+s:save_cpo	.\vim73\ftplugin\initex.vim	/^let s:save_cpo = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\initex.vim	/^let b:undo_ftplugin = "setl com< cms< define< include< sua<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\ishd.vim	/^let b:did_ftplugin = 1$/;"	v
+b:match_ignorecase	.\vim73\ftplugin\ishd.vim	/^    let b:match_ignorecase=0$/;"	v
+b:match_words	.\vim73\ftplugin\ishd.vim	/^    let b:match_words=$/;"	v
+b:browsefilter	.\vim73\ftplugin\ishd.vim	/^    let b:browsefilter = "InstallShield Files (*.rul)\\t*.rul\\n" .$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\java.vim	/^let b:did_ftplugin = 1$/;"	v
+s:save_cpo	.\vim73\ftplugin\java.vim	/^let s:save_cpo = &cpo$/;"	v
+b:browsefilter	.\vim73\ftplugin\java.vim	/^    let  b:browsefilter="Java Files (*.java)\\t*.java\\n" .$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\java.vim	/^let b:undo_ftplugin = "setlocal suffixes< suffixesadd<" .$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\javascript.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\javascript.vim	/^let s:cpo_save = &cpo$/;"	v
+b:browsefilter	.\vim73\ftplugin\javascript.vim	/^    let  b:browsefilter="Javascript Files (*.js)\\t*.js\\n" .$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\javascript.vim	/^let b:undo_ftplugin = "setl fo< ofu< com< cms<" $/;"	v
+s:save_cpo	.\vim73\ftplugin\jsp.vim	/^let s:save_cpo = &cpo$/;"	v
+s:undo_ftplugin	.\vim73\ftplugin\jsp.vim	/^let s:undo_ftplugin = ""$/;"	v
+s:browsefilter	.\vim73\ftplugin\jsp.vim	/^let s:browsefilter = "Java Files (*.java)\\t*.java\\n" .$/;"	v
+s:match_words	.\vim73\ftplugin\jsp.vim	/^let s:match_words = ""$/;"	v
+s:undo_ftplugin	.\vim73\ftplugin\jsp.vim	/^    let s:undo_ftplugin = b:undo_ftplugin$/;"	v
+s:browsefilter	.\vim73\ftplugin\jsp.vim	/^    let s:browsefilter = b:browsefilter$/;"	v
+s:match_words	.\vim73\ftplugin\jsp.vim	/^    let s:match_words = b:match_words$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\jsp.vim	/^let b:did_ftplugin = 1$/;"	v
+s:undo_ftplugin	.\vim73\ftplugin\jsp.vim	/^    let s:undo_ftplugin = b:undo_ftplugin . " | " . s:undo_ftplugin$/;"	v
+s:browsefilter	.\vim73\ftplugin\jsp.vim	/^    let s:browsefilter = b:browsefilter . s:browsefilter$/;"	v
+s:match_words	.\vim73\ftplugin\jsp.vim	/^    let s:match_words = b:match_words . ',' . s:match_words$/;"	v
+b:match_words	.\vim73\ftplugin\jsp.vim	/^    let b:match_words = s:match_words$/;"	v
+b:browsefilter	.\vim73\ftplugin\jsp.vim	/^    let  b:browsefilter="JSP Files (*.jsp)\\t*.jsp\\n" . s:browsefilter$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\jsp.vim	/^let b:undo_ftplugin = "unlet! b:browsefilter b:match_words | " . s:undo_ftplugin$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\kconfig.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\kconfig.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\kconfig.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+b:browsefilter	.\vim73\ftplugin\kwt.vim	/^    let b:browsefilter = "Kimwitu\/Kimwitu++ Files (*.k)\\t*.k\\n" .$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\ld.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\ld.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\ld.vim	/^let b:undo_ftplugin = "setl com< cms< inc< fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\lftp.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\lftp.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\lftp.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\libao.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\libao.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\libao.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\limits.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\limits.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\limits.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+g:liquid_default_subtype	.\vim73\ftplugin\liquid.vim	/^  let g:liquid_default_subtype = 'html'$/;"	v
+s:lines	.\vim73\ftplugin\liquid.vim	/^  let s:lines = getline(1)."\\n".getline(2)."\\n".getline(3)."\\n".getline(4)."\\n".getline(5)."\\n".getline("$")$/;"	v
+b:liquid_subtype	.\vim73\ftplugin\liquid.vim	/^  let b:liquid_subtype = matchstr(s:lines,'liquid_subtype=\\zs\\w\\+')$/;"	v
+b:liquid_subtype	.\vim73\ftplugin\liquid.vim	/^    let b:liquid_subtype = matchstr(&filetype,'^liquid\\.\\zs\\w\\+')$/;"	v
+b:liquid_subtype	.\vim73\ftplugin\liquid.vim	/^    let b:liquid_subtype = matchstr(substitute(expand('%:t'),'\\c\\%(\\.liquid\\)\\+$','',''),'\\.\\zs\\w\\+$')$/;"	v
+b:liquid_subtype	.\vim73\ftplugin\liquid.vim	/^    let b:liquid_subtype = g:liquid_default_subtype$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\liquid.vim	/^let b:did_ftplugin = 1$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\liquid.vim	/^  let b:undo_ftplugin .= '|'$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\liquid.vim	/^  let b:undo_ftplugin = ''$/;"	v
+b:browsefilter	.\vim73\ftplugin\liquid.vim	/^  let b:browsefilter = "\\n".b:browsefilter$/;"	v
+b:browsefilter	.\vim73\ftplugin\liquid.vim	/^  let b:browsefilter = ''$/;"	v
+b:match_words	.\vim73\ftplugin\liquid.vim	/^  let b:match_words .= ','$/;"	v
+b:match_words	.\vim73\ftplugin\liquid.vim	/^  let b:match_words = ''$/;"	v
+b:browsefilter	.\vim73\ftplugin\liquid.vim	/^  let b:browsefilter="Liquid Files (*.liquid)\\t*.liquid" . b:browsefilter$/;"	v
+b:match_words	.\vim73\ftplugin\liquid.vim	/^  let b:match_words .= '\\<\\%(if\\w*\\|unless\\|case\\)\\>:\\<\\%(elsif\\|else\\|when\\)\\>:\\<end\\%(if\\w*\\|unless\\|case\\)\\>,\\<\\%(for\\|tablerow\\)\\>:\\%({%\\s*\\)\\@<=empty\\>:\\<end\\%(for\\|tablerow\\)\\>,<\\(capture\\|comment\\|highlight\\)\\>:\\<end\\1\\>'$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\liquid.vim	/^let b:undo_ftplugin .= 'setl cms< | unlet! b:browsefilter b:match_words'$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\lisp.vim	/^let b:did_ftplugin = 1$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\logcheck.vim	/^let b:did_ftplugin = 1$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\logcheck.vim	/^let b:undo_ftplugin = "setl fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\loginaccess.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\loginaccess.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\loginaccess.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\logindefs.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\logindefs.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\logindefs.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\logtalk.vim	/^let b:did_ftplugin = 1$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\logtalk.vim	/^let b:undo_ftplugin = "setl ts< sw< fdm< fdc< ai< dict<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\lprolog.vim	/^let b:did_ftplugin = 1$/;"	v
+<LocalLeader>c	.\vim73\ftplugin\lprolog.vim	/^    nmap <buffer> <LocalLeader>c <Plug>LUncomOn$/;"	m
+<LocalLeader>c	.\vim73\ftplugin\lprolog.vim	/^    vmap <buffer> <LocalLeader>c <Plug>BUncomOn$/;"	m
+<LocalLeader>C	.\vim73\ftplugin\lprolog.vim	/^    nmap <buffer> <LocalLeader>C <Plug>LUncomOff$/;"	m
+<LocalLeader>C	.\vim73\ftplugin\lprolog.vim	/^    vmap <buffer> <LocalLeader>C <Plug>BUncomOff$/;"	m
+<Plug>LUncomOn	.\vim73\ftplugin\lprolog.vim	/^  nnoremap <buffer> <Plug>LUncomOn mz0i\/* <ESC>$A *\/<ESC>`z$/;"	m
+<Plug>LUncomOff	.\vim73\ftplugin\lprolog.vim	/^  nnoremap <buffer> <Plug>LUncomOff <ESC>:s\/^\\\/\\* \\(.*\\) \\*\\\/\/\\1\/<CR>$/;"	m
+<Plug>BUncomOn	.\vim73\ftplugin\lprolog.vim	/^  vnoremap <buffer> <Plug>BUncomOn <ESC>:'<,'><CR>`<O<ESC>0i\/*<ESC>`>o<ESC>0i*\/<ESC>`<$/;"	m
+<Plug>BUncomOff	.\vim73\ftplugin\lprolog.vim	/^  vnoremap <buffer> <Plug>BUncomOff <ESC>:'<,'><CR>`<dd`>dd`<$/;"	m
+b:did_ftplugin	.\vim73\ftplugin\lua.vim	/^let b:did_ftplugin = 1$/;"	v
+b:match_ignorecase	.\vim73\ftplugin\lua.vim	/^  let b:match_ignorecase = 0$/;"	v
+b:match_words	.\vim73\ftplugin\lua.vim	/^  let b:match_words =$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\m4.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\m4.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\m4.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\mail.vim	/^let b:did_ftplugin = 1$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\mail.vim	/^let b:undo_ftplugin = "setl modeline< tw< fo<"$/;"	v
+<LocalLeader>q	.\vim73\ftplugin\mail.vim	/^    vmap <buffer> <LocalLeader>q <Plug>MailQuote$/;"	m
+<LocalLeader>q	.\vim73\ftplugin\mail.vim	/^    nmap <buffer> <LocalLeader>q <Plug>MailQuote$/;"	m
+<Plug>MailQuote	.\vim73\ftplugin\mail.vim	/^  vnoremap <buffer> <Plug>MailQuote :s\/^\/> \/<CR>:noh<CR>``$/;"	m
+<Plug>MailQuote	.\vim73\ftplugin\mail.vim	/^  nnoremap <buffer> <Plug>MailQuote :.,$s\/^\/> \/<CR>:noh<CR>``$/;"	m
+b:did_ftplugin	.\vim73\ftplugin\mailaliases.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\mailaliases.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\mailaliases.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\mailcap.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\mailcap.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\mailcap.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\make.vim	/^let b:did_ftplugin = 1$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\make.vim	/^let b:undo_ftplugin = "setl et< sts< fo< com< cms< inc<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\man.vim	/^  let b:did_ftplugin = 1$/;"	v
+<LocalLeader>h	.\vim73\ftplugin\man.vim	/^      nmap <buffer> <LocalLeader>h <Plug>ManBS$/;"	m
+<Plug>ManBS	.\vim73\ftplugin\man.vim	/^    nnoremap <buffer> <Plug>ManBS :%s\/.\\b\/\/g<CR>:setl nomod<CR>''$/;"	m
+<c-]>	.\vim73\ftplugin\man.vim	/^    nnoremap <buffer> <c-]> :call <SID>PreGetPage(v:count)<CR>$/;"	m
+<c-t>	.\vim73\ftplugin\man.vim	/^    nnoremap <buffer> <c-t> :call <SID>PopPage()<CR>$/;"	m
+Man	.\vim73\ftplugin\man.vim	/^  com -nargs=+ Man call s:GetPage(<f-args>)$/;"	c
+<Leader>K	.\vim73\ftplugin\man.vim	/^  nmap <Leader>K :call <SID>PreGetPage(0)<CR>$/;"	m
+s:man_tag_depth	.\vim73\ftplugin\man.vim	/^let s:man_tag_depth = 0$/;"	v
+s:man_sect_arg	.\vim73\ftplugin\man.vim	/^let s:man_sect_arg = ""$/;"	v
+s:man_find_arg	.\vim73\ftplugin\man.vim	/^let s:man_find_arg = "-w"$/;"	v
+s:man_sect_arg	.\vim73\ftplugin\man.vim	/^    let s:man_sect_arg = "-s"$/;"	v
+s:man_find_arg	.\vim73\ftplugin\man.vim	/^    let s:man_find_arg = "-l"$/;"	v
+PreGetPage	.\vim73\ftplugin\man.vim	/^func <SID>PreGetPage(cnt)$/;"	f
+GetCmdArg	.\vim73\ftplugin\man.vim	/^func <SID>GetCmdArg(sect, page)$/;"	f
+FindPage	.\vim73\ftplugin\man.vim	/^func <SID>FindPage(sect, page)$/;"	f
+GetPage	.\vim73\ftplugin\man.vim	/^func <SID>GetPage(...)$/;"	f
+PopPage	.\vim73\ftplugin\man.vim	/^func <SID>PopPage()$/;"	f
+b:did_ftplugin	.\vim73\ftplugin\manconf.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\manconf.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\manconf.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\markdown.vim	/^let b:undo_ftplugin .= "|setl cms< com< fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\matlab.vim	/^let b:did_ftplugin = 1$/;"	v
+s:save_cpo	.\vim73\ftplugin\matlab.vim	/^let s:save_cpo = &cpo$/;"	v
+s:conditionalEnd	.\vim73\ftplugin\matlab.vim	/^	let s:conditionalEnd = '\\(([^()]*\\)\\@!\\<end\\>\\([^()]*)\\)\\@!'$/;"	v
+b:match_words	.\vim73\ftplugin\matlab.vim	/^	let b:match_words = '\\<if\\>\\|\\<while\\>\\|\\<for\\>\\|\\<switch\\>:' .$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\matlab.vim	/^let b:undo_ftplugin = "setlocal suffixesadd< suffixes< "$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\mf.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\mf.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\mf.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\modconf.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\modconf.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\modconf.vim	/^let b:undo_ftplugin = "setl com< cms< inc< fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\mp.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\mp.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\mp.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+FixBeginfigs	.\vim73\ftplugin\mp.vim	/^  command -nargs=0 FixBeginfigs call s:fix_beginfigs()$/;"	c
+fix_beginfigs	.\vim73\ftplugin\mp.vim	/^  function! s:fix_beginfigs()$/;"	f
+b:did_ftplugin	.\vim73\ftplugin\mplayerconf.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\mplayerconf.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\mplayerconf.vim	/^let b:undo_ftplugin = "setl com< cms< inc< fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\mrxvtrc.vim	/^let b:did_ftplugin = 1$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\mrxvtrc.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\msmessages.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\msmessages.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\msmessages.vim	/^let b:undo_ftplugin = "setl fo< com< cms< | unlet! b:browsefilter"$/;"	v
+b:browsefilter	.\vim73\ftplugin\msmessages.vim	/^  let b:browsefilter = "MS Message Files (*.mc)\\t*.mc\\n" .$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\muttrc.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\muttrc.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\muttrc.vim	/^let b:undo_ftplugin = "setl com< cms< inc< fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\nanorc.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\nanorc.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\nanorc.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\netrc.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\netrc.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\netrc.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+s:cpo_save	.\vim73\ftplugin\nsis.vim	/^let s:cpo_save = &cpo$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\nsis.vim	/^let b:did_ftplugin = 1$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\nsis.vim	/^let b:undo_ftplugin = "setl com< cms< fo< def< inc<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\ocaml.vim	/^let b:did_ftplugin=1$/;"	v
+Fnameescape	.\vim73\ftplugin\ocaml.vim	/^  function! s:Fnameescape(s)$/;"	f
+Fnameescape	.\vim73\ftplugin\ocaml.vim	/^  function! s:Fnameescape(s)$/;"	f
+s:cposet	.\vim73\ftplugin\ocaml.vim	/^let s:cposet=&cpoptions$/;"	v
+<LocalLeader>c	.\vim73\ftplugin\ocaml.vim	/^    nmap <buffer> <LocalLeader>c <Plug>LUncomOn$/;"	m
+<LocalLeader>c	.\vim73\ftplugin\ocaml.vim	/^    vmap <buffer> <LocalLeader>c <Plug>BUncomOn$/;"	m
+<LocalLeader>C	.\vim73\ftplugin\ocaml.vim	/^    nmap <buffer> <LocalLeader>C <Plug>LUncomOff$/;"	m
+<LocalLeader>C	.\vim73\ftplugin\ocaml.vim	/^    vmap <buffer> <LocalLeader>C <Plug>BUncomOff$/;"	m
+<Plug>LUncomOn	.\vim73\ftplugin\ocaml.vim	/^  nnoremap <buffer> <Plug>LUncomOn mz0i(* <ESC>$A *)<ESC>`z$/;"	m
+<Plug>LUncomOff	.\vim73\ftplugin\ocaml.vim	/^  nnoremap <buffer> <Plug>LUncomOff :s\/^(\\* \\(.*\\) \\*)\/\\1\/<CR>:noh<CR>$/;"	m
+<Plug>BUncomOn	.\vim73\ftplugin\ocaml.vim	/^  vnoremap <buffer> <Plug>BUncomOn <ESC>:'<,'><CR>`<O<ESC>0i(*<ESC>`>o<ESC>0i*)<ESC>`<$/;"	m
+<Plug>BUncomOff	.\vim73\ftplugin\ocaml.vim	/^  vnoremap <buffer> <Plug>BUncomOff <ESC>:'<,'><CR>`<dd`>dd`<$/;"	m
+b:mw	.\vim73\ftplugin\ocaml.vim	/^let b:mw = ''$/;"	v
+b:mw	.\vim73\ftplugin\ocaml.vim	/^let b:mw = b:mw . ',\\<let\\>:\\<and\\>:\\(\\<in\\>\\|;;\\)'$/;"	v
+b:mw	.\vim73\ftplugin\ocaml.vim	/^let b:mw = b:mw . ',\\<if\\>:\\<then\\>:\\<else\\>'$/;"	v
+b:mw	.\vim73\ftplugin\ocaml.vim	/^let b:mw = b:mw . ',\\<\\(for\\|while\\)\\>:\\<do\\>:\\<done\\>,'$/;"	v
+b:mw	.\vim73\ftplugin\ocaml.vim	/^let b:mw = b:mw . ',\\<\\(object\\|sig\\|struct\\|begin\\)\\>:\\<end\\>'$/;"	v
+b:mw	.\vim73\ftplugin\ocaml.vim	/^let b:mw = b:mw . ',\\<\\(match\\|try\\)\\>:\\<with\\>'$/;"	v
+b:match_words	.\vim73\ftplugin\ocaml.vim	/^let b:match_words = b:mw$/;"	v
+b:match_ignorecase	.\vim73\ftplugin\ocaml.vim	/^let b:match_ignorecase=0$/;"	v
+g:did_ocaml_switch	.\vim73\ftplugin\ocaml.vim	/^  let g:did_ocaml_switch = 1$/;"	v
+<LocalLeader>s	.\vim73\ftplugin\ocaml.vim	/^  map <LocalLeader>s :call OCaml_switch(0)<CR>$/;"	m
+<LocalLeader>S	.\vim73\ftplugin\ocaml.vim	/^  map <LocalLeader>S :call OCaml_switch(1)<CR>$/;"	m
+OCaml_switch	.\vim73\ftplugin\ocaml.vim	/^  fun OCaml_switch(newwin)$/;"	f
+s:s	.\vim73\ftplugin\ocaml.vim	/^let s:s = line2byte(line('.'))+col('.')-1$/;"	v
+s:modeline	.\vim73\ftplugin\ocaml.vim	/^  let s:modeline = getline(".")$/;"	v
+s:modeline	.\vim73\ftplugin\ocaml.vim	/^  let s:modeline = ""$/;"	v
+s:m	.\vim73\ftplugin\ocaml.vim	/^let s:m = matchstr(s:modeline,'default\\s*=\\s*\\d\\+')$/;"	v
+s:idef	.\vim73\ftplugin\ocaml.vim	/^  let s:idef = matchstr(s:m,'\\d\\+')$/;"	v
+s:idef	.\vim73\ftplugin\ocaml.vim	/^  let s:idef = g:omlet_indent$/;"	v
+s:idef	.\vim73\ftplugin\ocaml.vim	/^  let s:idef = 2$/;"	v
+s:m	.\vim73\ftplugin\ocaml.vim	/^let s:m = matchstr(s:modeline,'struct\\s*=\\s*\\d\\+')$/;"	v
+s:i	.\vim73\ftplugin\ocaml.vim	/^  let s:i = matchstr(s:m,'\\d\\+')$/;"	v
+s:i	.\vim73\ftplugin\ocaml.vim	/^  let s:i = g:omlet_indent_struct$/;"	v
+s:i	.\vim73\ftplugin\ocaml.vim	/^  let s:i = s:idef$/;"	v
+topindent	.\vim73\ftplugin\ocaml.vim	/^function s:topindent(lnum)$/;"	f
+OMLetFoldLevel	.\vim73\ftplugin\ocaml.vim	/^function OMLetFoldLevel(l)$/;"	f
+Find_common_path	.\vim73\ftplugin\ocaml.vim	/^  function! s:Find_common_path (p1,p2)$/;"	f
+Locate_annotation	.\vim73\ftplugin\ocaml.vim	/^  function! s:Locate_annotation()$/;"	f
+b:annotation_file_located	.\vim73\ftplugin\ocaml.vim	/^  let b:annotation_file_located = 0$/;"	v
+Enter_annotation_buffer	.\vim73\ftplugin\ocaml.vim	/^    function! s:Enter_annotation_buffer()$/;"	f
+Exit_annotation_buffer	.\vim73\ftplugin\ocaml.vim	/^    function! s:Exit_annotation_buffer()$/;"	f
+Load_annotation	.\vim73\ftplugin\ocaml.vim	/^    function! s:Load_annotation()$/;"	f
+Block_pattern	.\vim73\ftplugin\ocaml.vim	/^    function! s:Block_pattern(lin1,lin2,col1,col2)$/;"	f
+Match_data	.\vim73\ftplugin\ocaml.vim	/^    function! s:Match_data()$/;"	f
+Extract_type_data	.\vim73\ftplugin\ocaml.vim	/^    function! s:Extract_type_data(block_pattern)$/;"	f
+s:ocaml_word_char	.\vim73\ftplugin\ocaml.vim	/^    let s:ocaml_word_char = '\\w|[À-ÿ]|'''$/;"	v
+Match_borders	.\vim73\ftplugin\ocaml.vim	/^    function! s:Match_borders(mode)$/;"	f
+Get_type	.\vim73\ftplugin\ocaml.vim	/^    function! s:Get_type(mode)$/;"	f
+Ocaml_get_type	.\vim73\ftplugin\ocaml.vim	/^      function Ocaml_get_type(mode)$/;"	f
+Ocaml_get_type_or_not	.\vim73\ftplugin\ocaml.vim	/^      function Ocaml_get_type_or_not(mode)$/;"	f
+Ocaml_print_type	.\vim73\ftplugin\ocaml.vim	/^      function Ocaml_print_type(mode)$/;"	f
+<LocalLeader>t	.\vim73\ftplugin\ocaml.vim	/^  map  <silent> <LocalLeader>t :call Ocaml_print_type("normal")<CR>$/;"	m
+<LocalLeader>t	.\vim73\ftplugin\ocaml.vim	/^  vmap <silent> <LocalLeader>t :<C-U>call Ocaml_print_type("visual")<CR>`<$/;"	m
+b:did_ftplugin	.\vim73\ftplugin\occam.vim	/^let b:did_ftplugin = 1$/;"	v
+b:browsefilter	.\vim73\ftplugin\occam.vim	/^  let b:browsefilter = "All Occam Files (*.occ *.inc)\\t*.occ;*.inc\\n" .$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\pamconf.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\pamconf.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\pamconf.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\pascal.vim	/^let b:did_ftplugin = 1$/;"	v
+b:match_words	.\vim73\ftplugin\pascal.vim	/^    let b:match_words='\\<\\%(begin\\|case\\|try\\)\\>:\\<end\\>'$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\pascal.vim	/^let b:undo_ftplugin = "unlet! b:match_words"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\passwd.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\passwd.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\passwd.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\pdf.vim	/^let b:did_ftplugin = 1$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\pdf.vim	/^let b:undo_ftplugin = "setlocal cms< com< | unlet! b:match_words"$/;"	v
+b:match_words	.\vim73\ftplugin\pdf.vim	/^    let b:match_words = '\\<\\%(\\d\\+\\s\\+\\d\\+\\s\\+\\)obj\\>:\\<endobj\\>,\\<stream$:\\<endstream\\>,\\<xref\\>:\\<trailer\\>,<<:>>'$/;"	v
+b:pdf_tagstack	.\vim73\ftplugin\pdf.vim	/^    let b:pdf_tagstack = []$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\pdf.vim	/^let b:undo_ftplugin .= " | silent! nunmap <buffer> <C-]> | silent! nunmap <buffer> <C-T>"$/;"	v
+<C-]>	.\vim73\ftplugin\pdf.vim	/^nnoremap <silent><buffer> <C-]> :call <SID>Tag()<CR>$/;"	m
+<C-T>	.\vim73\ftplugin\pdf.vim	/^nnoremap <silent><buffer> <C-T> :if len(b:pdf_tagstack) > 0 <Bar> call setpos('.',remove(b:pdf_tagstack, -1)) <Bar> else <Bar> exe "norm! \\<Lt>C-T>" <Bar> endif<CR>$/;"	m
+Tag	.\vim73\ftplugin\pdf.vim	/^function! s:Tag()$/;"	f
+doobject	.\vim73\ftplugin\pdf.vim	/^function! s:doobject(string)$/;"	f
+dodigits	.\vim73\ftplugin\pdf.vim	/^function! s:dodigits(digits)$/;"	f
+notag	.\vim73\ftplugin\pdf.vim	/^function! s:notag()$/;"	f
+b:did_ftplugin	.\vim73\ftplugin\perl.vim	/^let b:did_ftplugin = 1$/;"	v
+s:save_cpo	.\vim73\ftplugin\perl.vim	/^let s:save_cpo = &cpo$/;"	v
+b:browsefilter	.\vim73\ftplugin\perl.vim	/^    let b:browsefilter = "Perl Source Files (*.pl)\\t*.pl\\n" .$/;"	v
+perlpath	.\vim73\ftplugin\perl.vim	/^	    let perlpath = system('perl -e "print join(q\/,\/,@INC)"')$/;"	v
+perlpath	.\vim73\ftplugin\perl.vim	/^	    let perlpath = system("perl -e 'print join(q\/,\/,@INC)'")$/;"	v
+perlpath	.\vim73\ftplugin\perl.vim	/^	let perlpath = substitute(perlpath,',.$',',,','')$/;"	v
+perlpath	.\vim73\ftplugin\perl.vim	/^	let perlpath = ".,,"$/;"	v
+perlpath	.\vim73\ftplugin\perl.vim	/^	let perlpath = ".,,"$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\perl.vim	/^let b:undo_ftplugin = "setlocal fo< com< cms< inc< inex< def< isf< kp<" .$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\perl6.vim	/^let b:did_ftplugin = 1$/;"	v
+s:save_cpo	.\vim73\ftplugin\perl6.vim	/^let s:save_cpo = &cpo$/;"	v
+b:browsefilter	.\vim73\ftplugin\perl6.vim	/^    let b:browsefilter = "Perl Source Files (*.pl)\\t*.pl\\n" .$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\perl6.vim	/^let b:undo_ftplugin = "setlocal fo< com< cms< inc< inex< def< isk<" .$/;"	v
+s:save_cpo	.\vim73\ftplugin\php.vim	/^let s:save_cpo = &cpo$/;"	v
+s:undo_ftplugin	.\vim73\ftplugin\php.vim	/^let s:undo_ftplugin = ""$/;"	v
+s:browsefilter	.\vim73\ftplugin\php.vim	/^let s:browsefilter = "HTML Files (*.html, *.htm)\\t*.html;*.htm\\n" .$/;"	v
+s:match_words	.\vim73\ftplugin\php.vim	/^let s:match_words = ""$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\php.vim	/^let b:did_ftplugin = 1$/;"	v
+s:undo_ftplugin	.\vim73\ftplugin\php.vim	/^    let s:undo_ftplugin = b:undo_ftplugin$/;"	v
+s:browsefilter	.\vim73\ftplugin\php.vim	/^    let s:browsefilter = b:browsefilter$/;"	v
+s:match_words	.\vim73\ftplugin\php.vim	/^    let s:match_words = b:match_words$/;"	v
+b:browsefilter	.\vim73\ftplugin\php.vim	/^    let  b:browsefilter="PHP Files (*.php)\\t*.php\\n" . s:browsefilter$/;"	v
+b:match_words	.\vim73\ftplugin\php.vim	/^    let b:match_words = '<?php:?>,\\<switch\\>:\\<endswitch\\>,' .$/;"	v
+s:function	.\vim73\ftplugin\php.vim	/^let s:function = '\\(abstract\\s\\+\\|final\\s\\+\\|private\\s\\+\\|protected\\s\\+\\|public\\s\\+\\|static\\s\\+\\)*function'$/;"	v
+s:class	.\vim73\ftplugin\php.vim	/^let s:class = '\\(abstract\\s\\+\\|final\\s\\+\\)*class'$/;"	v
+s:interface	.\vim73\ftplugin\php.vim	/^let s:interface = 'interface'$/;"	v
+s:section	.\vim73\ftplugin\php.vim	/^let s:section = '\\(.*\\%#\\)\\@!\\_^\\s*\\zs\\('.s:function.'\\|'.s:class.'\\|'.s:interface.'\\)'$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\php.vim	/^let b:undo_ftplugin = "setlocal commentstring< include< omnifunc<" .$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\pinfo.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\pinfo.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\pinfo.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+s:save_cpo	.\vim73\ftplugin\plaintex.vim	/^let s:save_cpo = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\plaintex.vim	/^let b:undo_ftplugin .= "| unlet! b:match_ignorecase b:match_skip b:match_words"$/;"	v
+b:match_ignorecase	.\vim73\ftplugin\plaintex.vim	/^  let b:match_ignorecase = 0$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\postscr.vim	/^let b:did_ftplugin = 1$/;"	v
+b:match_ignorecase	.\vim73\ftplugin\postscr.vim	/^  let b:match_ignorecase = 0$/;"	v
+b:match_words	.\vim73\ftplugin\postscr.vim	/^  let b:match_words = '<<:>>,\\<begin\\>:\\<end\\>,\\<save\\>:\\<restore\\>,\\<gsave\\>:\\<grestore\\>'$/;"	v
+b:browsefilter	.\vim73\ftplugin\postscr.vim	/^  let b:browsefilter = "PostScript Files (*.ps)\\t*.ps\\n" .$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\procmail.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\procmail.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\procmail.vim	/^let b:undo_ftplugin = "setl com< cms< inc< fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\prolog.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\prolog.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\prolog.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\protocols.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\protocols.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\protocols.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+b:browsefilter	.\vim73\ftplugin\pyrex.vim	/^    let  b:browsefilter = "Pyrex files (*.pyx,*.pxd)\\t*.pyx;*.pxd\\n" .$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\python.vim	/^let b:did_ftplugin = 1$/;"	v
+]]	.\vim73\ftplugin\python.vim	/^nnoremap <silent> <buffer> ]] :call <SID>Python_jump('\/^\\(class\\\\|def\\)')<cr>$/;"	m
+[[	.\vim73\ftplugin\python.vim	/^nnoremap <silent> <buffer> [[ :call <SID>Python_jump('?^\\(class\\\\|def\\)')<cr>$/;"	m
+]m	.\vim73\ftplugin\python.vim	/^nnoremap <silent> <buffer> ]m :call <SID>Python_jump('\/^\\s*\\(class\\\\|def\\)')<cr>$/;"	m
+[m	.\vim73\ftplugin\python.vim	/^nnoremap <silent> <buffer> [m :call <SID>Python_jump('?^\\s*\\(class\\\\|def\\)')<cr>$/;"	m
+Python_jump	.\vim73\ftplugin\python.vim	/^fun! <SID>Python_jump(motion) range$/;"	f
+b:browsefilter	.\vim73\ftplugin\python.vim	/^    let b:browsefilter = "Python Files (*.py)\\t*.py\\n" .$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\qf.vim	/^let b:did_ftplugin = 1$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\qf.vim	/^let b:undo_ftplugin = "setl stl<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\quake.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\quake.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\quake.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\racc.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\racc.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\racc.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\readline.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\readline.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\readline.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\reva.vim	/^let b:did_ftplugin = 1$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\rnc.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\rnc.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\rnc.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\rpl.vim	/^let b:did_ftplugin = 1$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\rst.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\rst.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\rst.vim	/^let b:undo_ftplugin = "setl com< cms< et< fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\ruby.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\ruby.vim	/^let s:cpo_save = &cpo$/;"	v
+b:match_ignorecase	.\vim73\ftplugin\ruby.vim	/^  let b:match_ignorecase = 0$/;"	v
+b:match_words	.\vim73\ftplugin\ruby.vim	/^  let b:match_words =$/;"	v
+b:match_skip	.\vim73\ftplugin\ruby.vim	/^  let b:match_skip =$/;"	v
+s:ruby_path	.\vim73\ftplugin\ruby.vim	/^    let s:ruby_path = g:ruby_path$/;"	v
+s:ruby_path	.\vim73\ftplugin\ruby.vim	/^    let s:ruby_path = '.,' . substitute(s:ruby_path, '\\%(^\\|,\\)\\.\\%(,\\|$\\)', ',,', '')$/;"	v
+s:code	.\vim73\ftplugin\ruby.vim	/^    let s:code = "print ($: + begin; require %q{rubygems}; Gem.all_load_paths.sort.uniq; rescue LoadError; []; end).join(%q{,})"$/;"	v
+s:ruby_path	.\vim73\ftplugin\ruby.vim	/^      let s:ruby_path = system('ruby -e "' . s:code . '"')$/;"	v
+s:ruby_path	.\vim73\ftplugin\ruby.vim	/^      let s:ruby_path = system("ruby -e '" . s:code . "'")$/;"	v
+s:ruby_path	.\vim73\ftplugin\ruby.vim	/^    let s:ruby_path = '.,' . substitute(s:ruby_path, '\\%(^\\|,\\)\\.\\%(,\\|$\\)', ',,', '')$/;"	v
+s:ruby_path	.\vim73\ftplugin\ruby.vim	/^    let s:ruby_path = ".,,"$/;"	v
+b:browsefilter	.\vim73\ftplugin\ruby.vim	/^  let b:browsefilter = "Ruby Source Files (*.rb)\\t*.rb\\n" .$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\ruby.vim	/^let b:undo_ftplugin = "setl fo< inc< inex< sua< def< com< cms< path< kp<"$/;"	v
+[m	.\vim73\ftplugin\ruby.vim	/^  nnoremap <silent> <buffer> [m :<C-U>call <SID>searchsyn('\\<def\\>','rubyDefine','b','n')<CR>$/;"	m
+]m	.\vim73\ftplugin\ruby.vim	/^  nnoremap <silent> <buffer> ]m :<C-U>call <SID>searchsyn('\\<def\\>','rubyDefine','','n')<CR>$/;"	m
+[M	.\vim73\ftplugin\ruby.vim	/^  nnoremap <silent> <buffer> [M :<C-U>call <SID>searchsyn('\\<end\\>','rubyDefine','b','n')<CR>$/;"	m
+]M	.\vim73\ftplugin\ruby.vim	/^  nnoremap <silent> <buffer> ]M :<C-U>call <SID>searchsyn('\\<end\\>','rubyDefine','','n')<CR>$/;"	m
+[[	.\vim73\ftplugin\ruby.vim	/^  nnoremap <silent> <buffer> [[ :<C-U>call <SID>searchsyn('\\<\\%(class\\<Bar>module\\)\\>','rubyModule\\<Bar>rubyClass','b','n')<CR>$/;"	m
+]]	.\vim73\ftplugin\ruby.vim	/^  nnoremap <silent> <buffer> ]] :<C-U>call <SID>searchsyn('\\<\\%(class\\<Bar>module\\)\\>','rubyModule\\<Bar>rubyClass','','n')<CR>$/;"	m
+[]	.\vim73\ftplugin\ruby.vim	/^  nnoremap <silent> <buffer> [] :<C-U>call <SID>searchsyn('\\<end\\>','rubyModule\\<Bar>rubyClass','b','n')<CR>$/;"	m
+][	.\vim73\ftplugin\ruby.vim	/^  nnoremap <silent> <buffer> ][ :<C-U>call <SID>searchsyn('\\<end\\>','rubyModule\\<Bar>rubyClass','','n')<CR>$/;"	m
+b:undo_ftplugin	.\vim73\ftplugin\ruby.vim	/^  let b:undo_ftplugin = b:undo_ftplugin$/;"	v
+<C-]>	.\vim73\ftplugin\ruby.vim	/^    nnoremap <silent> <buffer> <C-]>       :<C-U>exe  v:count1."tag <C-R>=RubyCursorIdentifier()<CR>"<CR>$/;"	m
+g<C-]>	.\vim73\ftplugin\ruby.vim	/^    nnoremap <silent> <buffer> g<C-]>      :<C-U>exe         "tjump <C-R>=RubyCursorIdentifier()<CR>"<CR>$/;"	m
+g]	.\vim73\ftplugin\ruby.vim	/^    nnoremap <silent> <buffer> g]          :<C-U>exe       "tselect <C-R>=RubyCursorIdentifier()<CR>"<CR>$/;"	m
+<C-W>]	.\vim73\ftplugin\ruby.vim	/^    nnoremap <silent> <buffer> <C-W>]      :<C-U>exe v:count1."stag <C-R>=RubyCursorIdentifier()<CR>"<CR>$/;"	m
+<C-W><C-]>	.\vim73\ftplugin\ruby.vim	/^    nnoremap <silent> <buffer> <C-W><C-]>  :<C-U>exe v:count1."stag <C-R>=RubyCursorIdentifier()<CR>"<CR>$/;"	m
+<C-W>g<C-]>	.\vim73\ftplugin\ruby.vim	/^    nnoremap <silent> <buffer> <C-W>g<C-]> :<C-U>exe        "stjump <C-R>=RubyCursorIdentifier()<CR>"<CR>$/;"	m
+<C-W>g]	.\vim73\ftplugin\ruby.vim	/^    nnoremap <silent> <buffer> <C-W>g]     :<C-U>exe      "stselect <C-R>=RubyCursorIdentifier()<CR>"<CR>$/;"	m
+<C-W>}	.\vim73\ftplugin\ruby.vim	/^    nnoremap <silent> <buffer> <C-W>}      :<C-U>exe          "ptag <C-R>=RubyCursorIdentifier()<CR>"<CR>$/;"	m
+<C-W>g}	.\vim73\ftplugin\ruby.vim	/^    nnoremap <silent> <buffer> <C-W>g}     :<C-U>exe        "ptjump <C-R>=RubyCursorIdentifier()<CR>"<CR>$/;"	m
+b:undo_ftplugin	.\vim73\ftplugin\ruby.vim	/^    let b:undo_ftplugin = b:undo_ftplugin$/;"	v
+g:did_ruby_ftplugin_functions	.\vim73\ftplugin\ruby.vim	/^let g:did_ruby_ftplugin_functions = 1$/;"	v
+RubyBalloonexpr	.\vim73\ftplugin\ruby.vim	/^function! RubyBalloonexpr()$/;"	f
+searchsyn	.\vim73\ftplugin\ruby.vim	/^function! s:searchsyn(pattern,syn,flags,mode)$/;"	f
+synname	.\vim73\ftplugin\ruby.vim	/^function! s:synname()$/;"	f
+RubyCursorIdentifier	.\vim73\ftplugin\ruby.vim	/^function! RubyCursorIdentifier()$/;"	f
+b:did_ftplugin	.\vim73\ftplugin\sass.vim	/^let b:did_ftplugin = 1$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\sass.vim	/^let b:undo_ftplugin = "setl cms< def< inc< inex< ofu< sua<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\screen.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\screen.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\screen.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\sensors.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\sensors.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\sensors.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\services.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\services.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\services.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\setserial.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\setserial.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\setserial.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+s:save_cpo	.\vim73\ftplugin\sgml.vim	/^let s:save_cpo = &cpo$/;"	v
+s:undo_ftplugin	.\vim73\ftplugin\sgml.vim	/^let s:undo_ftplugin = ""$/;"	v
+s:browsefilter	.\vim73\ftplugin\sgml.vim	/^let s:browsefilter = "XML Files (*.xml)\\t*.xml\\n" .$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\sgml.vim	/^let b:did_ftplugin = 1$/;"	v
+s:undo_ftplugin	.\vim73\ftplugin\sgml.vim	/^    let s:undo_ftplugin = b:undo_ftplugin$/;"	v
+s:browsefilter	.\vim73\ftplugin\sgml.vim	/^    let s:browsefilter = b:browsefilter$/;"	v
+b:browsefilter	.\vim73\ftplugin\sgml.vim	/^    let  b:browsefilter="SGML Files (*.sgml,*.sgm)\\t*.sgm*\\n" . s:browsefilter$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\sgml.vim	/^let b:undo_ftplugin = "unlet! b:browsefilter | " . s:undo_ftplugin$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\sh.vim	/^let b:did_ftplugin = 1$/;"	v
+s:save_cpo	.\vim73\ftplugin\sh.vim	/^let s:save_cpo = &cpo$/;"	v
+s:sol	.\vim73\ftplugin\sh.vim	/^    let s:sol = '\\%(;\\s*\\|^\\s*\\)\\@<='  " start of line$/;"	v
+b:match_words	.\vim73\ftplugin\sh.vim	/^    let b:match_words =$/;"	v
+b:browsefilter	.\vim73\ftplugin\sh.vim	/^    let  b:browsefilter="Bourne Shell Scripts (*.sh)\\t*.sh\\n" .$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\sh.vim	/^let b:undo_ftplugin = "setlocal cms< | unlet! b:browsefilter b:match_words"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\sieve.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\sieve.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\sieve.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\slpconf.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\slpconf.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\slpconf.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\slpreg.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\slpreg.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\slpreg.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\slpspi.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\slpspi.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\slpspi.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\spec.vim	/^let b:did_ftplugin = 1$/;"	v
+<LocalLeader>c	.\vim73\ftplugin\spec.vim	/^		map <buffer> <LocalLeader>c <Plug>SpecChangelog$/;"	m
+<Plug>SpecChangelog	.\vim73\ftplugin\spec.vim	/^noremap <buffer> <unique> <script> <Plug>SpecChangelog :call <SID>SpecChangelog("")<CR>$/;"	m
+SpecChangelog	.\vim73\ftplugin\spec.vim	/^	function s:SpecChangelog(format)$/;"	f
+ParseRpmVars	.\vim73\ftplugin\spec.vim	/^    function s:ParseRpmVars(str, strline)$/;"	f
+b:match_ignorecase	.\vim73\ftplugin\spec.vim	/^let b:match_ignorecase = 0$/;"	v
+b:match_words	.\vim73\ftplugin\spec.vim	/^let b:match_words =$/;"	v
+s:save_cpo	.\vim73\ftplugin\sql.vim	/^let s:save_cpo = &cpo$/;"	v
+SQL_GetList	.\vim73\ftplugin\sql.vim	/^    function SQL_GetList(ArgLead, CmdLine, CursorPos)$/;"	f
+SQL_SetType	.\vim73\ftplugin\sql.vim	/^    function SQL_SetType(name)$/;"	f
+SQLSetType	.\vim73\ftplugin\sql.vim	/^    command! -nargs=* -complete=custom,SQL_GetList SQLSetType :call SQL_SetType(<q-args>)$/;"	c
+SQL_GetType	.\vim73\ftplugin\sql.vim	/^    function SQL_GetType()$/;"	f
+SQLGetType	.\vim73\ftplugin\sql.vim	/^    command! -nargs=0 SQLGetType :call SQL_GetType()$/;"	c
+b:undo_ftplugin	.\vim73\ftplugin\sql.vim	/^let b:undo_ftplugin = "setl comments<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\sql.vim	/^let b:did_ftplugin     = 1$/;"	v
+b:current_ftplugin	.\vim73\ftplugin\sql.vim	/^let b:current_ftplugin = 'sql'$/;"	v
+b:browsefilter	.\vim73\ftplugin\sql.vim	/^    let b:browsefilter = "SQL Files (*.sql)\\t*.sql\\n" .$/;"	v
+s:notend	.\vim73\ftplugin\sql.vim	/^let s:notend = '\\%(\\<end\\s\\+\\)\\@<!'$/;"	v
+s:when_no_matched_or_others	.\vim73\ftplugin\sql.vim	/^let s:when_no_matched_or_others = '\\%(\\<when\\>\\%(\\s\\+\\%(\\%(\\<not\\>\\s\\+\\)\\?<matched\\>\\)\\|\\<others\\>\\)\\@!\\)'$/;"	v
+s:or_replace	.\vim73\ftplugin\sql.vim	/^let s:or_replace = '\\%(or\\s\\+replace\\s\\+\\)\\?'$/;"	v
+b:match_ignorecase	.\vim73\ftplugin\sql.vim	/^    let b:match_ignorecase = 1$/;"	v
+b:match_words	.\vim73\ftplugin\sql.vim	/^    let b:match_words =$/;"	v
+]]	.\vim73\ftplugin\sql.vim	/^nmap <buffer> <silent> ]] :call search('\\\\c^\\\\s*begin\\\\>', 'W' )<CR>$/;"	m
+[[	.\vim73\ftplugin\sql.vim	/^nmap <buffer> <silent> [[ :call search('\\\\c^\\\\s*begin\\\\>', 'bW' )<CR>$/;"	m
+][	.\vim73\ftplugin\sql.vim	/^nmap <buffer> <silent> ][ :call search('\\\\c^\\\\s*end\\\\W*$', 'W' )<CR>$/;"	m
+[]	.\vim73\ftplugin\sql.vim	/^nmap <buffer> <silent> [] :call search('\\\\c^\\\\s*end\\\\W*$', 'bW' )<CR>$/;"	m
+]]	.\vim73\ftplugin\sql.vim	/^vmap <buffer> <silent> ]] :<C-U>exec "normal! gv"<Bar>call search('\\\\c^\\\\s*begin\\\\>', 'W' )<CR>$/;"	m
+[[	.\vim73\ftplugin\sql.vim	/^vmap <buffer> <silent> [[ :<C-U>exec "normal! gv"<Bar>call search('\\\\c^\\\\s*begin\\\\>', 'bW' )<CR>$/;"	m
+][	.\vim73\ftplugin\sql.vim	/^vmap <buffer> <silent> ][ :<C-U>exec "normal! gv"<Bar>call search('\\\\c^\\\\s*end\\\\W*$', 'W' )<CR>$/;"	m
+[]	.\vim73\ftplugin\sql.vim	/^vmap <buffer> <silent> [] :<C-U>exec "normal! gv"<Bar>call search('\\\\c^\\\\s*end\\\\W*$', 'bW' )<CR>$/;"	m
+g:ftplugin_sql_statements	.\vim73\ftplugin\sql.vim	/^    let g:ftplugin_sql_statements = 'create'$/;"	v
+g:ftplugin_sql_objects	.\vim73\ftplugin\sql.vim	/^    let g:ftplugin_sql_objects = 'function,procedure,event,' .$/;"	v
+g:ftplugin_sql_omni_key	.\vim73\ftplugin\sql.vim	/^    let g:ftplugin_sql_omni_key = '<C-C>'$/;"	v
+g:ftplugin_sql_omni_key_right	.\vim73\ftplugin\sql.vim	/^    let g:ftplugin_sql_omni_key_right = '<Right>'$/;"	v
+g:ftplugin_sql_omni_key_left	.\vim73\ftplugin\sql.vim	/^    let g:ftplugin_sql_omni_key_left = '<Left>'$/;"	v
+s:ftplugin_sql_objects	.\vim73\ftplugin\sql.vim	/^let s:ftplugin_sql_objects = $/;"	v
+b:comment_leader	.\vim73\ftplugin\sql.vim	/^let b:comment_leader = '\\\\(--\\\\\\|\\\\\/\\\\\/\\\\\\|\\\\*\\\\\\|\\\\\/\\\\*\\\\\\|\\\\*\\\\\/\\\\)'$/;"	v
+b:comment_start	.\vim73\ftplugin\sql.vim	/^let b:comment_start  = '^\\\\(\\\\s*'.b:comment_leader.'.*\\\\n\\\\)\\\\@<!'.$/;"	v
+b:comment_end	.\vim73\ftplugin\sql.vim	/^let b:comment_end = '\\\\(^\\\\s*'.b:comment_leader.'.*\\\\n\\\\)'.$/;"	v
+b:comment_jump_over	.\vim73\ftplugin\sql.vim	/^let b:comment_jump_over  = "call search('".$/;"	v
+b:comment_skip_back	.\vim73\ftplugin\sql.vim	/^let b:comment_skip_back  = "call search('".$/;"	v
+b:sql_compl_savefunc	.\vim73\ftplugin\sql.vim	/^    let b:sql_compl_savefunc = &omnifunc$/;"	v
+b:sql_vis	.\vim73\ftplugin\sql.vim	/^    let b:sql_vis = 1$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\sshconfig.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\sshconfig.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\sshconfig.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\sudoers.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\sudoers.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\sudoers.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+s:save_cpo	.\vim73\ftplugin\svg.vim	/^let s:save_cpo = &cpo$/;"	v
+s:undo_ftplugin	.\vim73\ftplugin\svg.vim	/^let s:undo_ftplugin = ""$/;"	v
+s:browsefilter	.\vim73\ftplugin\svg.vim	/^let s:browsefilter = "XML Files (*.xml)\\t*.xml\\n" .$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\svg.vim	/^let b:did_ftplugin = 1$/;"	v
+s:undo_ftplugin	.\vim73\ftplugin\svg.vim	/^    let s:undo_ftplugin = b:undo_ftplugin$/;"	v
+s:browsefilter	.\vim73\ftplugin\svg.vim	/^    let s:browsefilter = b:browsefilter$/;"	v
+b:browsefilter	.\vim73\ftplugin\svg.vim	/^    let  b:browsefilter="SVG Files (*.svg)\\t*.svg\\n" . s:browsefilter$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\svg.vim	/^let b:undo_ftplugin = "unlet! b:browsefilter | " . s:undo_ftplugin$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\sysctl.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\sysctl.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\sysctl.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\tcl.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\tcl.vim	/^let s:cpo_save = &cpo$/;"	v
+b:browsefilter	.\vim73\ftplugin\tcl.vim	/^    let b:browsefilter = "Tcl Source Files (.tcl)\\t*.tcl\\n" .$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\tcl.vim	/^let b:undo_ftplugin = "setlocal fo< com< cms< inc< inex< def< isf< kp<" .$/;"	v
+s:save_cpo	.\vim73\ftplugin\tcsh.vim	/^let s:save_cpo = &cpo$/;"	v
+s:undo_ftplugin	.\vim73\ftplugin\tcsh.vim	/^let s:undo_ftplugin = ""$/;"	v
+s:browsefilter	.\vim73\ftplugin\tcsh.vim	/^let s:browsefilter = "csh Files (*.csh)\\t*.csh\\n" .$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\tcsh.vim	/^let b:did_ftplugin = 1$/;"	v
+s:undo_ftplugin	.\vim73\ftplugin\tcsh.vim	/^    let s:undo_ftplugin = b:undo_ftplugin$/;"	v
+s:browsefilter	.\vim73\ftplugin\tcsh.vim	/^    let s:browsefilter = b:browsefilter$/;"	v
+b:browsefilter	.\vim73\ftplugin\tcsh.vim	/^    let  b:browsefilter="tcsh Scripts (*.tcsh)\\t*.tcsh\\n" . s:browsefilter$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\tcsh.vim	/^let b:undo_ftplugin = "unlet! b:browsefilter | " . s:undo_ftplugin$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\terminfo.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\terminfo.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\terminfo.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+s:save_cpo	.\vim73\ftplugin\tex.vim	/^let s:save_cpo = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\tex.vim	/^let b:undo_ftplugin .= "| setl inex<"$/;"	v
+b:match_words	.\vim73\ftplugin\tex.vim	/^  let b:match_words .= ',\\\\begin\\s*\\({\\a\\+\\*\\=}\\):\\\\end\\s*\\1'$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\udevconf.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\udevconf.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\udevconf.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\udevperm.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\udevperm.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\udevperm.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\udevrules.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\udevrules.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\udevrules.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\updatedb.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\updatedb.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\updatedb.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\vb.vim	/^let b:did_ftplugin = 1$/;"	v
+VbSearch	.\vim73\ftplugin\vb.vim	/^fun! <SID>VbSearch(pattern, flags)$/;"	f
+s:cpo_save	.\vim73\ftplugin\vb.vim	/^let s:cpo_save = &cpo$/;"	v
+[[	.\vim73\ftplugin\vb.vim	/^nnoremap <buffer> <silent> [[ :call <SID>VbSearch('^\\s*\\(\\(private\\|public\\)\\s\\+\\)\\=\\(function\\\\|sub\\)', 'bW')<cr>$/;"	m
+]]	.\vim73\ftplugin\vb.vim	/^nnoremap <buffer> <silent> ]] :call <SID>VbSearch('^\\s*\\(\\(private\\|public\\)\\s\\+\\)\\=\\(function\\\\|sub\\)', 'W')<cr>$/;"	m
+[]	.\vim73\ftplugin\vb.vim	/^nnoremap <buffer> <silent> [] :call <SID>VbSearch('^\\s*\\<end\\>\\s\\+\\(function\\\\|sub\\)', 'bW')<cr>$/;"	m
+][	.\vim73\ftplugin\vb.vim	/^nnoremap <buffer> <silent> ][ :call <SID>VbSearch('^\\s*\\<end\\>\\s\\+\\(function\\\\|sub\\)', 'W')<cr>$/;"	m
+b:match_ignorecase	.\vim73\ftplugin\vb.vim	/^    let b:match_ignorecase=1$/;"	v
+b:match_words	.\vim73\ftplugin\vb.vim	/^    let b:match_words=$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\verilog.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\verilog.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\verilog.vim	/^let b:undo_ftplugin = "setlocal fo< com< tw<"$/;"	v
+b:browsefilter	.\vim73\ftplugin\verilog.vim	/^  let b:browsefilter = "Verilog Source Files (*.v)\\t*.v\\n" .$/;"	v
+b:match_ignorecase	.\vim73\ftplugin\verilog.vim	/^  let b:match_ignorecase=0$/;"	v
+b:match_words	.\vim73\ftplugin\verilog.vim	/^  let b:match_words=$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\vhdl.vim	/^let b:did_ftplugin = 1$/;"	v
+b:match_ignorecase	.\vim73\ftplugin\vhdl.vim	/^  let b:match_ignorecase=1$/;"	v
+s:notend	.\vim73\ftplugin\vhdl.vim	/^  let s:notend = '\\%(\\<end\\s\\+\\)\\@<!'$/;"	v
+b:match_words	.\vim73\ftplugin\vhdl.vim	/^  let b:match_words =$/;"	v
+CountWrapper	.\vim73\ftplugin\vhdl.vim	/^function! <SID>CountWrapper(cmd)$/;"	f
+b:vhdl_explore	.\vim73\ftplugin\vhdl.vim	/^let b:vhdl_explore = '\\%(architecture\\|block\\|configuration\\|component\\|entity\\|function\\|package\\|procedure\\|process\\|record\\|units\\)'$/;"	v
+[[	.\vim73\ftplugin\vhdl.vim	/^noremap  <buffer><silent>[[ :<C-u>cal <SID>CountWrapper(':cal search("\\\\%(--.*\\\\)\\\\@<!\\\\%(\\\\<end\\\\s\\\\+\\\\)\\\\@<!\\\\<".b:vhdl_explore."\\\\>\\\\c\\\\<Bar>\\\\%^","bW")')<CR>$/;"	m
+]]	.\vim73\ftplugin\vhdl.vim	/^noremap  <buffer><silent>]] :<C-u>cal <SID>CountWrapper(':cal search("\\\\%(--.*\\\\)\\\\@<!\\\\%(\\\\<end\\\\s\\\\+\\\\)\\\\@<!\\\\<".b:vhdl_explore."\\\\>\\\\c\\\\<Bar>\\\\%$","W")')<CR>$/;"	m
+[]	.\vim73\ftplugin\vhdl.vim	/^noremap  <buffer><silent>[] :<C-u>cal <SID>CountWrapper(':cal search("\\\\%(--.*\\\\)\\\\@<!\\\\<end\\\\s\\\\+".b:vhdl_explore."\\\\>\\\\c\\\\<Bar>\\\\%^","bW")')<CR>$/;"	m
+][	.\vim73\ftplugin\vhdl.vim	/^noremap  <buffer><silent>][ :<C-u>cal <SID>CountWrapper(':cal search("\\\\%(--.*\\\\)\\\\@<!\\\\<end\\\\s\\\\+".b:vhdl_explore."\\\\>\\\\c\\\\<Bar>\\\\%$","W")')<CR>$/;"	m
+[[	.\vim73\ftplugin\vhdl.vim	/^vnoremap <buffer><silent>[[ :<C-u>cal <SID>CountWrapper('[[')<CR>$/;"	m
+]]	.\vim73\ftplugin\vhdl.vim	/^vnoremap <buffer><silent>]] :<C-u>cal <SID>CountWrapper(']]')<CR>$/;"	m
+[]	.\vim73\ftplugin\vhdl.vim	/^vnoremap <buffer><silent>[] :<C-u>cal <SID>CountWrapper('[]')<CR>$/;"	m
+][	.\vim73\ftplugin\vhdl.vim	/^vnoremap <buffer><silent>][ :<C-u>cal <SID>CountWrapper('][')<CR>$/;"	m
+b:did_ftplugin	.\vim73\ftplugin\vim.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\vim.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\vim.vim	/^let b:undo_ftplugin = "setl fo< isk< com< tw< commentstring<"$/;"	v
+[[	.\vim73\ftplugin\vim.vim	/^nnoremap <silent><buffer> [[ m':call search('^\\s*fu\\%[nction]\\>', "bW")<CR>$/;"	m
+[[	.\vim73\ftplugin\vim.vim	/^vnoremap <silent><buffer> [[ m':<C-U>exe "normal! gv"<Bar>call search('^\\s*fu\\%[nction]\\>', "bW")<CR>$/;"	m
+]]	.\vim73\ftplugin\vim.vim	/^nnoremap <silent><buffer> ]] m':call search('^\\s*fu\\%[nction]\\>', "W")<CR>$/;"	m
+]]	.\vim73\ftplugin\vim.vim	/^vnoremap <silent><buffer> ]] m':<C-U>exe "normal! gv"<Bar>call search('^\\s*fu\\%[nction]\\>', "W")<CR>$/;"	m
+[]	.\vim73\ftplugin\vim.vim	/^nnoremap <silent><buffer> [] m':call search('^\\s*endf*\\%[unction]\\>', "bW")<CR>$/;"	m
+[]	.\vim73\ftplugin\vim.vim	/^vnoremap <silent><buffer> [] m':<C-U>exe "normal! gv"<Bar>call search('^\\s*endf*\\%[unction]\\>', "bW")<CR>$/;"	m
+][	.\vim73\ftplugin\vim.vim	/^nnoremap <silent><buffer> ][ m':call search('^\\s*endf*\\%[unction]\\>', "W")<CR>$/;"	m
+][	.\vim73\ftplugin\vim.vim	/^vnoremap <silent><buffer> ][ m':<C-U>exe "normal! gv"<Bar>call search('^\\s*endf*\\%[unction]\\>', "W")<CR>$/;"	m
+]"	.\vim73\ftplugin\vim.vim	/^nnoremap <silent><buffer> ]" :call search('^\\(\\s*".*\\n\\)\\@<!\\(\\s*"\\)', "W")<CR>$/;"	m
+]"	.\vim73\ftplugin\vim.vim	/^vnoremap <silent><buffer> ]" :<C-U>exe "normal! gv"<Bar>call search('^\\(\\s*".*\\n\\)\\@<!\\(\\s*"\\)', "W")<CR>$/;"	m
+["	.\vim73\ftplugin\vim.vim	/^nnoremap <silent><buffer> [" :call search('\\%(^\\s*".*\\n\\)\\%(^\\s*"\\)\\@!', "bW")<CR>$/;"	m
+["	.\vim73\ftplugin\vim.vim	/^vnoremap <silent><buffer> [" :<C-U>exe "normal! gv"<Bar>call search('\\%(^\\s*".*\\n\\)\\%(^\\s*"\\)\\@!', "bW")<CR>$/;"	m
+b:match_ignorecase	.\vim73\ftplugin\vim.vim	/^  let b:match_ignorecase = 0$/;"	v
+b:match_words	.\vim73\ftplugin\vim.vim	/^  let b:match_words =$/;"	v
+b:match_skip	.\vim73\ftplugin\vim.vim	/^  let b:match_skip = 'getline(".") =~ "^\\\\s*sy\\\\%[ntax]\\\\s\\\\+region" ||$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\xdefaults.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\xdefaults.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\xdefaults.vim	/^let b:undo_ftplugin = "setl com< cms< inc< fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\xf86conf.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\xf86conf.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\xf86conf.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+s:save_cpo	.\vim73\ftplugin\xhtml.vim	/^let s:save_cpo = &cpo$/;"	v
+s:undo_ftplugin	.\vim73\ftplugin\xhtml.vim	/^let s:undo_ftplugin = ""$/;"	v
+s:browsefilter	.\vim73\ftplugin\xhtml.vim	/^let s:browsefilter = "HTML Files (*.html, *.htm)\\t*.html;*.htm\\n" .$/;"	v
+s:match_words	.\vim73\ftplugin\xhtml.vim	/^let s:match_words = ""$/;"	v
+s:undo_ftplugin	.\vim73\ftplugin\xhtml.vim	/^    let s:undo_ftplugin = b:undo_ftplugin$/;"	v
+s:browsefilter	.\vim73\ftplugin\xhtml.vim	/^    let s:browsefilter = b:browsefilter$/;"	v
+s:match_words	.\vim73\ftplugin\xhtml.vim	/^    let s:match_words = b:match_words$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\xhtml.vim	/^let b:did_ftplugin = 1$/;"	v
+s:undo_ftplugin	.\vim73\ftplugin\xhtml.vim	/^    let s:undo_ftplugin = b:undo_ftplugin . " | " . s:undo_ftplugin$/;"	v
+s:browsefilter	.\vim73\ftplugin\xhtml.vim	/^    let s:browsefilter = b:browsefilter . s:browsefilter$/;"	v
+s:match_words	.\vim73\ftplugin\xhtml.vim	/^    let s:match_words = b:match_words . "," . s:match_words$/;"	v
+b:match_words	.\vim73\ftplugin\xhtml.vim	/^    let b:match_words = s:match_words$/;"	v
+b:browsefilter	.\vim73\ftplugin\xhtml.vim	/^    let  b:browsefilter="XHTML files (*.xhtml, *.xhtm)\\t*.xhtml;*.xhtm\\n" . s:browsefilter$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\xhtml.vim	/^let b:undo_ftplugin = "unlet! b:browsefilter b:match_words | " . s:undo_ftplugin$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\xinetd.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\xinetd.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\xinetd.vim	/^let b:undo_ftplugin = "setl com< cms< inc< fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\xml.vim	/^let b:did_ftplugin = 1$/;"	v
+s:save_cpo	.\vim73\ftplugin\xml.vim	/^let s:save_cpo = &cpo$/;"	v
+b:match_ignorecase	.\vim73\ftplugin\xml.vim	/^    let b:match_ignorecase=0$/;"	v
+b:match_words	.\vim73\ftplugin\xml.vim	/^    let b:match_words =$/;"	v
+XMLns	.\vim73\ftplugin\xml.vim	/^command! -nargs=+ XMLns call xmlcomplete#CreateConnection(<f-args>)$/;"	c
+XMLent	.\vim73\ftplugin\xml.vim	/^command! -nargs=? XMLent call xmlcomplete#CreateEntConnection(<f-args>)$/;"	c
+b:browsefilter	.\vim73\ftplugin\xml.vim	/^    let  b:browsefilter="XML Files (*.xml)\\t*.xml\\n" .$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\xml.vim	/^let b:undo_ftplugin = "setlocal commentstring< comments< formatoptions<" .$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\xmodmap.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\xmodmap.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\xmodmap.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+s:save_cpo	.\vim73\ftplugin\xsd.vim	/^let s:save_cpo = &cpo$/;"	v
+s:undo_ftplugin	.\vim73\ftplugin\xsd.vim	/^let s:undo_ftplugin = ""$/;"	v
+s:browsefilter	.\vim73\ftplugin\xsd.vim	/^let s:browsefilter = "XML Files (*.xml)\\t*.xml\\n" .$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\xsd.vim	/^let b:did_ftplugin = 1$/;"	v
+s:undo_ftplugin	.\vim73\ftplugin\xsd.vim	/^    let s:undo_ftplugin = b:undo_ftplugin$/;"	v
+s:browsefilter	.\vim73\ftplugin\xsd.vim	/^    let s:browsefilter = b:browsefilter$/;"	v
+b:browsefilter	.\vim73\ftplugin\xsd.vim	/^    let  b:browsefilter="XSD Files (*.xsd)\\t*.xsd\\n" . s:browsefilter$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\xsd.vim	/^let b:undo_ftplugin = "unlet! b:browsefilter | " . s:undo_ftplugin$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\xslt.vim	/^let b:did_ftplugin = 1$/;"	v
+b:browsefilter	.\vim73\ftplugin\xslt.vim	/^    let  b:browsefilter="XSLT Files (*.xsl,*.xslt)\\t*.xsl;*.xslt\\n" . b:browsefilter$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\yaml.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\yaml.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\yaml.vim	/^let b:undo_ftplugin = "setl com< cms< et< fo<"$/;"	v
+b:did_ftplugin	.\vim73\ftplugin\zsh.vim	/^let b:did_ftplugin = 1$/;"	v
+s:cpo_save	.\vim73\ftplugin\zsh.vim	/^let s:cpo_save = &cpo$/;"	v
+b:undo_ftplugin	.\vim73\ftplugin\zsh.vim	/^let b:undo_ftplugin = "setl com< cms< fo<"$/;"	v
+did_load_ftplugin	.\vim73\ftplugin.vim	/^let did_load_ftplugin = 1$/;"	v
+filetypeplugin	.\vim73\ftplugin.vim	/^augroup filetypeplugin$/;"	a
+LoadFTPlugin	.\vim73\ftplugin.vim	/^  func! s:LoadFTPlugin()$/;"	f
+<S-Insert>	.\vim73\gvimrc_example.vim	/^map <S-Insert> <MiddleMouse>$/;"	m
+<S-Insert>	.\vim73\gvimrc_example.vim	/^map! <S-Insert> <MiddleMouse>$/;"	m
+c_comment_strings	.\vim73\gvimrc_example.vim	/^  let c_comment_strings=1$/;"	v
+b:did_indent	.\vim73\indent\ada.vim	/^let b:did_indent = 45$/;"	v
+s:AdaBlockStart	.\vim73\indent\ada.vim	/^   let s:AdaBlockStart = '^\\s*\\(if\\>\\|while\\>\\|else\\>\\|elsif\\>\\|loop\\>\\|for\\>.*\\<\\(loop\\|use\\)\\>\\|declare\\>\\|begin\\>\\|type\\>.*\\<is\\>[^;]*$\\|\\(type\\>.*\\)\\=\\<record\\>\\|procedure\\>\\|function\\>\\|accept\\>\\|do\\>\\|task\\>\\|package\\>\\|project\\>\\|then\\>\\|when\\>\\|is\\>\\)'$/;"	v
+s:AdaBlockStart	.\vim73\indent\ada.vim	/^   let s:AdaBlockStart = '^\\s*\\(if\\>\\|while\\>\\|else\\>\\|elsif\\>\\|loop\\>\\|for\\>.*\\<\\(loop\\|use\\)\\>\\|declare\\>\\|begin\\>\\|type\\>.*\\<is\\>[^;]*$\\|\\(type\\>.*\\)\\=\\<record\\>\\|procedure\\>\\|function\\>\\|accept\\>\\|do\\>\\|task\\>\\|package\\>\\|then\\>\\|when\\>\\|is\\>\\)'$/;"	v
+MainBlockIndent	.\vim73\indent\ada.vim	/^function s:MainBlockIndent (prev_indent, prev_lnum, blockstart, stop_at)$/;"	f
+EndBlockIndent	.\vim73\indent\ada.vim	/^function s:EndBlockIndent( prev_indent, prev_lnum, blockstart, blockend )$/;"	f
+StatementIndent	.\vim73\indent\ada.vim	/^function s:StatementIndent( current_indent, prev_lnum )$/;"	f
+GetAdaIndent	.\vim73\indent\ada.vim	/^function GetAdaIndent()$/;"	f
+b:did_indent	.\vim73\indent\awk.vim	/^let b:did_indent = 1$/;"	v
+GetAwkIndent	.\vim73\indent\awk.vim	/^function! GetAwkIndent()$/;"	f
+Get_brace_balance	.\vim73\indent\awk.vim	/^function! s:Get_brace_balance( line, b_open, b_close )$/;"	f
+Starts_with_word	.\vim73\indent\awk.vim	/^function! s:Starts_with_word( line )$/;"	f
+First_word_len	.\vim73\indent\awk.vim	/^function! s:First_word_len( line )$/;"	f
+Seems_continuing	.\vim73\indent\awk.vim	/^function! s:Seems_continuing( line )$/;"	f
+Get_prev_line	.\vim73\indent\awk.vim	/^function! s:Get_prev_line( lineno )$/;"	f
+Safe_indent	.\vim73\indent\awk.vim	/^function! s:Safe_indent( base, wordlen, this_line )$/;"	f
+b:did_indent	.\vim73\indent\bib.vim	/^let b:did_indent = 1$/;"	v
+b:undo_indent	.\vim73\indent\bib.vim	/^let b:undo_indent = "setl cin<"$/;"	v
+b:did_indent	.\vim73\indent\bst.vim	/^let b:did_indent = 1$/;"	v
+prevgood	.\vim73\indent\bst.vim	/^function! s:prevgood(lnum)$/;"	f
+strip	.\vim73\indent\bst.vim	/^function! s:strip(lnum)$/;"	f
+count	.\vim73\indent\bst.vim	/^function! s:count(string,char)$/;"	f
+GetBstIndent	.\vim73\indent\bst.vim	/^function! GetBstIndent(lnum) abort$/;"	f
+b:did_indent	.\vim73\indent\c.vim	/^let b:did_indent = 1$/;"	v
+b:undo_indent	.\vim73\indent\c.vim	/^let b:undo_indent = "setl cin<"$/;"	v
+b:did_indent	.\vim73\indent\cdl.vim	/^let b:did_indent = 1$/;"	v
+CdlAsignment	.\vim73\indent\cdl.vim	/^fun! CdlAsignment(lnum, line)$/;"	f
+CdlGetIndent	.\vim73\indent\cdl.vim	/^fun! CdlGetIndent(lnum)$/;"	f
+b:did_indent	.\vim73\indent\ch.vim	/^let b:did_indent = 1$/;"	v
+b:did_indent	.\vim73\indent\chaiscript.vim	/^let b:did_indent = 1$/;"	v
+GetChaiScriptIndent	.\vim73\indent\chaiscript.vim	/^function! GetChaiScriptIndent()$/;"	f
+b:did_indent	.\vim73\indent\changelog.vim	/^let b:did_indent = 1$/;"	v
+b:undo_indent	.\vim73\indent\changelog.vim	/^let b:undo_indent = "setl ai<"$/;"	v
+b:did_indent	.\vim73\indent\cmake.vim	/^let b:did_indent = 1$/;"	v
+CMakeGetIndent	.\vim73\indent\cmake.vim	/^fun! CMakeGetIndent(lnum)$/;"	f
+b:did_indent	.\vim73\indent\cobol.vim	/^let b:did_indent = 1$/;"	v
+s:skip	.\vim73\indent\cobol.vim	/^let s:skip = 'getline(".") =~ "^.\\\\{6\\\\}[*\/$-]\\\\|\\"[^\\"]*\\""'$/;"	v
+prevgood	.\vim73\indent\cobol.vim	/^function! s:prevgood(lnum)$/;"	f
+stripped	.\vim73\indent\cobol.vim	/^function! s:stripped(lnum)$/;"	f
+optionalblock	.\vim73\indent\cobol.vim	/^function! s:optionalblock(lnum,ind,blocks,clauses)$/;"	f
+GetCobolIndent	.\vim73\indent\cobol.vim	/^function! GetCobolIndent(lnum) abort$/;"	f
+GetOffsetOf	.\vim73\indent\config.vim	/^function s:GetOffsetOf(line, regexp)$/;"	f
+GetConfigIndent	.\vim73\indent\config.vim	/^function GetConfigIndent()$/;"	f
+b:did_indent	.\vim73\indent\cpp.vim	/^let b:did_indent = 1$/;"	v
+b:undo_indent	.\vim73\indent\cpp.vim	/^let b:undo_indent = "setl cin<"$/;"	v
+b:did_indent	.\vim73\indent\cs.vim	/^let b:did_indent = 1$/;"	v
+b:undo_indent	.\vim73\indent\cs.vim	/^let b:undo_indent = "setl cin<"$/;"	v
+b:did_indent	.\vim73\indent\css.vim	/^let b:did_indent = 1$/;"	v
+prevnonblanknoncomment	.\vim73\indent\css.vim	/^function s:prevnonblanknoncomment(lnum)$/;"	f
+count_braces	.\vim73\indent\css.vim	/^function s:count_braces(lnum, count_open)$/;"	f
+GetCSSIndent	.\vim73\indent\css.vim	/^function GetCSSIndent()$/;"	f
+b:did_indent	.\vim73\indent\cucumber.vim	/^let b:did_indent = 1$/;"	v
+syn	.\vim73\indent\cucumber.vim	/^function! s:syn(lnum)$/;"	f
+GetCucumberIndent	.\vim73\indent\cucumber.vim	/^function! GetCucumberIndent()$/;"	f
+b:did_indent	.\vim73\indent\cuda.vim	/^let b:did_indent = 1$/;"	v
+b:undo_indent	.\vim73\indent\cuda.vim	/^let b:undo_indent = "setl cin<"$/;"	v
+b:did_indent	.\vim73\indent\d.vim	/^let b:did_indent = 1$/;"	v
+b:did_indent	.\vim73\indent\dictconf.vim	/^let b:did_indent = 1$/;"	v
+#	.\vim73\indent\dictconf.vim	/^inoremap <buffer> # X#$/;"	m
+b:did_indent	.\vim73\indent\dictdconf.vim	/^let b:did_indent = 1$/;"	v
+#	.\vim73\indent\dictdconf.vim	/^inoremap <buffer> # X#$/;"	m
+s:cpo_save	.\vim73\indent\dtd.vim	/^let s:cpo_save = &cpo$/;"	v
+s:token_pattern	.\vim73\indent\dtd.vim	/^let s:token_pattern = '^[^[:space:]]\\+'$/;"	v
+lex1	.\vim73\indent\dtd.vim	/^function s:lex1(input, start, ...)$/;"	f
+lex	.\vim73\indent\dtd.vim	/^function s:lex(input, start, ...)$/;"	f
+indent_to_innermost_parentheses	.\vim73\indent\dtd.vim	/^function s:indent_to_innermost_parentheses(line, end)$/;"	f
+GetDTDIndent	.\vim73\indent\dtd.vim	/^function GetDTDIndent()$/;"	f
+b:did_indent	.\vim73\indent\dtrace.vim	/^let b:did_indent = 1$/;"	v
+b:undo_indent	.\vim73\indent\dtrace.vim	/^let b:undo_indent = "setl cin<"$/;"	v
+b:did_indent	.\vim73\indent\dylan.vim	/^let b:did_indent = 1$/;"	v
+DylanGetIndent	.\vim73\indent\dylan.vim	/^function DylanGetIndent()$/;"	f
+b:did_indent	.\vim73\indent\eiffel.vim	/^let b:did_indent = 1$/;"	v
+s:trust_user_indent	.\vim73\indent\eiffel.vim	/^let s:trust_user_indent = '\\(+\\)\\(\\s*\\(--\\).*\\)\\=$'$/;"	v
+s:relative_indent	.\vim73\indent\eiffel.vim	/^let s:relative_indent = '^\\s*\\(deferred\\|class\\|feature\\|creation\\|inherit\\|loop\\|from\\|until\\|if\\|else\\|elseif\\|ensure\\|require\\|check\\|do\\|local\\|invariant\\|variant\\|rename\\|redefine\\|do\\|export\\)\\>'$/;"	v
+s:outdent	.\vim73\indent\eiffel.vim	/^let s:outdent = '^\\s*\\(else\\|invariant\\|variant\\|do\\|require\\|until\\|loop\\|local\\)\\>'$/;"	v
+s:no_indent	.\vim73\indent\eiffel.vim	/^let s:no_indent = '^\\s*\\(class\\|feature\\|creation\\|inherit\\)\\>'$/;"	v
+s:single_dent	.\vim73\indent\eiffel.vim	/^let s:single_dent = '^[^-]\\+[[:alnum:]]\\+ is\\(\\s*\\(--\\).*\\)\\=$'$/;"	v
+s:inheritance_dent	.\vim73\indent\eiffel.vim	/^let s:inheritance_dent = '\\s*\\(redefine\\|rename\\|export\\)\\>'$/;"	v
+GetEiffelIndent	.\vim73\indent\eiffel.vim	/^function GetEiffelIndent()$/;"	f
+b:did_indent	.\vim73\indent\erlang.vim	/^let b:did_indent = 1$/;"	v
+ErlangIndentAtferLine	.\vim73\indent\erlang.vim	/^function s:ErlangIndentAtferLine(l)$/;"	f
+FindPrevNonBlankNonComment	.\vim73\indent\erlang.vim	/^function s:FindPrevNonBlankNonComment(lnum)$/;"	f
+ErlangIndent	.\vim73\indent\erlang.vim	/^function ErlangIndent()$/;"	f
+b:eruby_subtype_indentexpr	.\vim73\indent\eruby.vim	/^let b:eruby_subtype_indentexpr = &l:indentexpr$/;"	v
+b:did_indent	.\vim73\indent\eruby.vim	/^let b:did_indent = 1$/;"	v
+GetErubyIndent	.\vim73\indent\eruby.vim	/^function! GetErubyIndent(...)$/;"	f
+b:did_indent	.\vim73\indent\eterm.vim	/^let b:did_indent = 1$/;"	v
+GetEtermIndent	.\vim73\indent\eterm.vim	/^function GetEtermIndent()$/;"	f
+b:did_indent	.\vim73\indent\falcon.vim	/^let b:did_indent = 1$/;"	v
+s:cpo_save	.\vim73\indent\falcon.vim	/^let s:cpo_save = &cpo$/;"	v
+s:syng_strcom	.\vim73\indent\falcon.vim	/^let s:syng_strcom = '\\<falcon\\%(String\\|StringEscape\\|Comment\\)\\>'$/;"	v
+s:syng_string	.\vim73\indent\falcon.vim	/^let s:syng_string = '\\<falcon\\%(String\\|StringEscape\\)\\>'$/;"	v
+s:falcon_indent_keywords	.\vim73\indent\falcon.vim	/^let s:falcon_indent_keywords = '^\\s*\\(case\\|catch\\|class\\|enum\\|default\\|elif\\|else' .$/;"	v
+s:falcon_deindent_keywords	.\vim73\indent\falcon.vim	/^let s:falcon_deindent_keywords = '^\\s*\\(case\\|catch\\|default\\|elif\\|else\\|end\\)'$/;"	v
+IsInStringOrComment	.\vim73\indent\falcon.vim	/^function s:IsInStringOrComment(lnum, col)$/;"	f
+FalconGetIndent	.\vim73\indent\falcon.vim	/^function FalconGetIndent()$/;"	f
+b:did_indent	.\vim73\indent\fortran.vim	/^let b:did_indent = 1$/;"	v
+b:fortran_fixed_source	.\vim73\indent\fortran.vim	/^    let b:fortran_fixed_source = 0$/;"	v
+b:fortran_fixed_source	.\vim73\indent\fortran.vim	/^    let b:fortran_fixed_source = 1$/;"	v
+s:lmax	.\vim73\indent\fortran.vim	/^    let s:lmax = 500$/;"	v
+s:lmax	.\vim73\indent\fortran.vim	/^      let s:lmax = line("$")$/;"	v
+b:fortran_fixed_source	.\vim73\indent\fortran.vim	/^    let b:fortran_fixed_source = 1$/;"	v
+s:ln	.\vim73\indent\fortran.vim	/^    let s:ln=1$/;"	v
+s:test	.\vim73\indent\fortran.vim	/^      let s:test = strpart(getline(s:ln),0,5)$/;"	v
+b:fortran_fixed_source	.\vim73\indent\fortran.vim	/^	let b:fortran_fixed_source = 0$/;"	v
+s:ln	.\vim73\indent\fortran.vim	/^      let s:ln = s:ln + 1$/;"	v
+s:cposet	.\vim73\indent\fortran.vim	/^let s:cposet=&cpoptions$/;"	v
+FortranGetIndent	.\vim73\indent\fortran.vim	/^function FortranGetIndent(lnum)$/;"	f
+FortranGetFreeIndent	.\vim73\indent\fortran.vim	/^function FortranGetFreeIndent()$/;"	f
+FortranGetFixedIndent	.\vim73\indent\fortran.vim	/^function FortranGetFixedIndent()$/;"	f
+b:did_indent	.\vim73\indent\framescript.vim	/^let b:did_indent = 1$/;"	v
+GetFrameScriptIndent	.\vim73\indent\framescript.vim	/^function GetFrameScriptIndent()$/;"	f
+b:did_indent	.\vim73\indent\gitconfig.vim	/^let b:did_indent = 1$/;"	v
+GetGitconfigIndent	.\vim73\indent\gitconfig.vim	/^function! GetGitconfigIndent()$/;"	f
+b:did_indent	.\vim73\indent\haml.vim	/^let b:did_indent = 1$/;"	v
+s:attributes	.\vim73\indent\haml.vim	/^let s:attributes = '\\%({.\\{-\\}}\\|\\[.\\{-\\}\\]\\)'$/;"	v
+s:tag	.\vim73\indent\haml.vim	/^let s:tag = '\\%([%.#][[:alnum:]_-]\\+\\|'.s:attributes.'\\)*[<>]*'$/;"	v
+g:haml_self_closing_tags	.\vim73\indent\haml.vim	/^  let g:haml_self_closing_tags = 'meta|link|img|hr|br'$/;"	v
+GetHamlIndent	.\vim73\indent\haml.vim	/^function! GetHamlIndent()$/;"	f
+b:did_indent	.\vim73\indent\hamster.vim	/^let b:did_indent = 1$/;"	v
+HamGetIndent	.\vim73\indent\hamster.vim	/^function HamGetIndent(lnum)$/;"	f
+HamGetFreeIndent	.\vim73\indent\hamster.vim	/^function HamGetFreeIndent()$/;"	f
+b:did_indent	.\vim73\indent\html.vim	/^let b:did_indent = 1$/;"	v
+HtmlIndentPush	.\vim73\indent\html.vim	/^fun! <SID>HtmlIndentPush(tag)$/;"	f
+s:cpo_save	.\vim73\indent\html.vim	/^let s:cpo_save = &cpo$/;"	v
+HtmlIndentOpen	.\vim73\indent\html.vim	/^fun! <SID>HtmlIndentOpen(lnum, pattern)$/;"	f
+HtmlIndentClose	.\vim73\indent\html.vim	/^fun! <SID>HtmlIndentClose(lnum, pattern)$/;"	f
+HtmlIndentOpenAlt	.\vim73\indent\html.vim	/^fun! <SID>HtmlIndentOpenAlt(lnum)$/;"	f
+HtmlIndentCloseAlt	.\vim73\indent\html.vim	/^fun! <SID>HtmlIndentCloseAlt(lnum)$/;"	f
+HtmlIndentSum	.\vim73\indent\html.vim	/^fun! <SID>HtmlIndentSum(lnum, style)$/;"	f
+HtmlIndentGet	.\vim73\indent\html.vim	/^fun! HtmlIndentGet(lnum)$/;"	f
+b:did_indent	.\vim73\indent\idlang.vim	/^let b:did_indent = 1$/;"	v
+GetIdlangIndent	.\vim73\indent\idlang.vim	/^function GetIdlangIndent(lnum)$/;"	f
+b:did_indent	.\vim73\indent\ishd.vim	/^let b:did_indent = 1$/;"	v
+b:undo_indent	.\vim73\indent\ishd.vim	/^let b:undo_indent = "setl ai< indentexpr< indentkeys<"$/;"	v
+GetIshdIndent	.\vim73\indent\ishd.vim	/^fun! GetIshdIndent(lnum)$/;"	f
+b:did_indent	.\vim73\indent\java.vim	/^let b:did_indent = 1$/;"	v
+b:undo_indent	.\vim73\indent\java.vim	/^let b:undo_indent = "set cin< cino< indentkeys< indentexpr<"$/;"	v
+SkipJavaBlanksAndComments	.\vim73\indent\java.vim	/^function! SkipJavaBlanksAndComments(startline)$/;"	f
+GetJavaIndent	.\vim73\indent\java.vim	/^function GetJavaIndent()$/;"	f
+b:did_indent	.\vim73\indent\javascript.vim	/^let b:did_indent = 1$/;"	v
+b:undo_indent	.\vim73\indent\javascript.vim	/^let b:undo_indent = "setl cin<"$/;"	v
+b:did_indent	.\vim73\indent\ld.vim	/^let b:did_indent = 1$/;"	v
+prevnonblanknoncomment	.\vim73\indent\ld.vim	/^function s:prevnonblanknoncomment(lnum)$/;"	f
+count_braces	.\vim73\indent\ld.vim	/^function s:count_braces(lnum, count_open)$/;"	f
+GetLDIndent	.\vim73\indent\ld.vim	/^function GetLDIndent()$/;"	f
+b:did_indent	.\vim73\indent\lifelines.vim	/^let b:did_indent = 1$/;"	v
+b:undo_indent	.\vim73\indent\lifelines.vim	/^let b:undo_indent = "setl cin< cino< cinw<"$/;"	v
+b:liquid_subtype_indentexpr	.\vim73\indent\liquid.vim	/^let b:liquid_subtype_indentexpr = &l:indentexpr$/;"	v
+b:did_indent	.\vim73\indent\liquid.vim	/^let b:did_indent = 1$/;"	v
+count	.\vim73\indent\liquid.vim	/^function! s:count(string,pattern)$/;"	f
+GetLiquidIndent	.\vim73\indent\liquid.vim	/^function! GetLiquidIndent(...)$/;"	f
+b:did_indent	.\vim73\indent\lisp.vim	/^let b:did_indent = 1$/;"	v
+b:undo_indent	.\vim73\indent\lisp.vim	/^let b:undo_indent = "setl ai< si<"$/;"	v
+b:did_indent	.\vim73\indent\logtalk.vim	/^let b:did_indent = 1$/;"	v
+GetLogtalkIndent	.\vim73\indent\logtalk.vim	/^function! GetLogtalkIndent()$/;"	f
+b:did_indent	.\vim73\indent\lua.vim	/^let b:did_indent = 1$/;"	v
+GetLuaIndent	.\vim73\indent\lua.vim	/^function! GetLuaIndent()$/;"	f
+b:did_indent	.\vim73\indent\mail.vim	/^let b:did_indent = 1$/;"	v
+b:did_indent	.\vim73\indent\make.vim	/^let b:did_indent = 1$/;"	v
+s:comment_rx	.\vim73\indent\make.vim	/^let s:comment_rx = '^\\s*#'$/;"	v
+s:rule_rx	.\vim73\indent\make.vim	/^let s:rule_rx = '^[^ \\t#:][^#:]*:\\{1,2}\\%([^=:]\\|$\\)'$/;"	v
+s:continued_rule_rx	.\vim73\indent\make.vim	/^let s:continued_rule_rx = '^[^#:]*:\\{1,2}\\%([^=:]\\|$\\)'$/;"	v
+s:continuation_rx	.\vim73\indent\make.vim	/^let s:continuation_rx = '\\\\$'$/;"	v
+s:assignment_rx	.\vim73\indent\make.vim	/^let s:assignment_rx = '^\\s*\\h\\w*\\s*[+?]\\==\\s*\\zs.*\\\\$'$/;"	v
+s:folded_assignment_rx	.\vim73\indent\make.vim	/^let s:folded_assignment_rx = '^\\s*\\h\\w*\\s*[+?]\\=='$/;"	v
+s:just_inserted_rule_rx	.\vim73\indent\make.vim	/^let s:just_inserted_rule_rx = '^\\s*[^#:]\\+:\\{1,2}$'$/;"	v
+s:conditional_directive_rx	.\vim73\indent\make.vim	/^let s:conditional_directive_rx = '^ *\\%(ifn\\=\\%(eq\\|def\\)\\|else\\)\\>'$/;"	v
+s:end_conditional_directive_rx	.\vim73\indent\make.vim	/^let s:end_conditional_directive_rx = '^\\s*\\%(else\\|endif\\)\\>'$/;"	v
+remove_continuation	.\vim73\indent\make.vim	/^function s:remove_continuation(line)$/;"	f
+GetMakeIndent	.\vim73\indent\make.vim	/^function GetMakeIndent()$/;"	f
+b:did_indent	.\vim73\indent\matlab.vim	/^let b:did_indent = 1$/;"	v
+GetMatlabIndent	.\vim73\indent\matlab.vim	/^function GetMatlabIndent(lnum)$/;"	f
+b:did_indent	.\vim73\indent\mma.vim	/^let b:did_indent = 1$/;"	v
+GetMmaIndent	.\vim73\indent\mma.vim	/^function GetMmaIndent()$/;"	f
+b:did_indent	.\vim73\indent\mp.vim	/^let b:did_indent = 1$/;"	v
+MetaNextNonblankNoncomment	.\vim73\indent\mp.vim	/^function! MetaNextNonblankNoncomment(pos)$/;"	f
+MetaPrevNonblankNoncomment	.\vim73\indent\mp.vim	/^function! MetaPrevNonblankNoncomment(pos)$/;"	f
+MetaSearchNoncomment	.\vim73\indent\mp.vim	/^function! MetaSearchNoncomment(pattern, ...)$/;"	f
+GetMetaPostIndent	.\vim73\indent\mp.vim	/^function! GetMetaPostIndent()$/;"	f
+b:did_indent	.\vim73\indent\objc.vim	/^let b:did_indent = 1$/;"	v
+GetWidth	.\vim73\indent\objc.vim	/^function s:GetWidth(line, regexp)$/;"	f
+LeadingWhiteSpace	.\vim73\indent\objc.vim	/^function s:LeadingWhiteSpace(line)$/;"	f
+GetObjCIndent	.\vim73\indent\objc.vim	/^function GetObjCIndent()$/;"	f
+b:did_indent	.\vim73\indent\ocaml.vim	/^let b:did_indent = 1$/;"	v
+s:beflet	.\vim73\indent\ocaml.vim	/^let s:beflet = '^\\s*\\(initializer\\|method\\|try\\)\\|\\(\\<\\(begin\\|do\\|else\\|in\\|then\\|try\\)\\|->\\|<-\\|=\\|;\\|(\\)\\s*$'$/;"	v
+s:letpat	.\vim73\indent\ocaml.vim	/^let s:letpat = '^\\s*\\(let\\|type\\|module\\|class\\|open\\|exception\\|val\\|include\\|external\\)\\>'$/;"	v
+s:letlim	.\vim73\indent\ocaml.vim	/^let s:letlim = '\\(\\<\\(sig\\|struct\\)\\|;;\\)\\s*$'$/;"	v
+s:lim	.\vim73\indent\ocaml.vim	/^let s:lim = '^\\s*\\(exception\\|external\\|include\\|let\\|module\\|open\\|type\\|val\\)\\>'$/;"	v
+s:module	.\vim73\indent\ocaml.vim	/^let s:module = '\\<\\%(begin\\|sig\\|struct\\|object\\)\\>'$/;"	v
+s:obj	.\vim73\indent\ocaml.vim	/^let s:obj = '^\\s*\\(constraint\\|inherit\\|initializer\\|method\\|val\\)\\>\\|\\<\\(object\\|object\\s*(.*)\\)\\s*$'$/;"	v
+s:type	.\vim73\indent\ocaml.vim	/^let s:type = '^\\s*\\%(class\\|let\\|type\\)\\>.*='$/;"	v
+GetLineWithoutFullComment	.\vim73\indent\ocaml.vim	/^function s:GetLineWithoutFullComment(lnum)$/;"	f
+GetInd	.\vim73\indent\ocaml.vim	/^function s:GetInd(lnum, pat, lim)$/;"	f
+FindPair	.\vim73\indent\ocaml.vim	/^function s:FindPair(pstart, pmid, pend)$/;"	f
+FindLet	.\vim73\indent\ocaml.vim	/^function s:FindLet(pstart, pmid, pend)$/;"	f
+GetOCamlIndent	.\vim73\indent\ocaml.vim	/^function GetOCamlIndent()$/;"	f
+b:did_indent	.\vim73\indent\occam.vim	/^let b:did_indent = 1$/;"	v
+s:FirstLevelIndent	.\vim73\indent\occam.vim	/^let s:FirstLevelIndent = '^\\C\\s*\\(IF\\|ALT\\|PRI\\s\\+ALT\\|PAR\\|SEQ\\|PRI\\s\\+PAR\\|WHILE\\|VALOF\\|CLAIM\\|FORKING\\)\\>\\|\\(--.*\\)\\@<!\\(\\<PROC\\>\\|??\\|\\<CASE\\>\\s*\\(--.*\\)\\=\\_$\\)'$/;"	v
+s:FirstLevelNonColonEndIndent	.\vim73\indent\occam.vim	/^let s:FirstLevelNonColonEndIndent = '^\\C\\s*PROTOCOL\\>\\|\\(--.*\\)\\@<!\\<\\(\\(CHAN\\|DATA\\)\\s\\+TYPE\\|FUNCTION\\)\\>'$/;"	v
+s:SecondLevelIndent	.\vim73\indent\occam.vim	/^let s:SecondLevelIndent = '^\\C\\s*\\(IF\\|ALT\\|PRI\\s\\+ALT\\)\\>\\|\\(--.*\\)\\@<!?\\s*\\<CASE\\>\\s*\\(--.*\\)\\=\\_$'$/;"	v
+s:SecondLevelNonColonEndIndent	.\vim73\indent\occam.vim	/^let s:SecondLevelNonColonEndIndent = '\\(--.*\\)\\@<!\\<\\(CHAN\\|DATA\\)\\s\\+TYPE\\>'$/;"	v
+s:ColonIndent	.\vim73\indent\occam.vim	/^let s:ColonIndent = '\\(--.*\\)\\@<!\\<PROC\\>'$/;"	v
+s:ColonNonColonEndIndent	.\vim73\indent\occam.vim	/^let s:ColonNonColonEndIndent = '^\\C\\s*PROTOCOL\\>\\|\\(--.*\\)\\@<!\\<\\(\\(CHAN\\|DATA\\)\\s\\+TYPE\\|FUNCTION\\)\\>'$/;"	v
+s:ColonEnd	.\vim73\indent\occam.vim	/^let s:ColonEnd = '\\(--.*\\)\\@<!:\\s*\\(--.*\\)\\=$'$/;"	v
+s:ColonStart	.\vim73\indent\occam.vim	/^let s:ColonStart = '^\\s*:\\s*\\(--.*\\)\\=$'$/;"	v
+s:CommentLine	.\vim73\indent\occam.vim	/^let s:CommentLine = '^\\s*--'$/;"	v
+GetOccamIndent	.\vim73\indent\occam.vim	/^function GetOccamIndent()$/;"	f
+b:did_indent	.\vim73\indent\pascal.vim	/^let b:did_indent = 1$/;"	v
+GetPrevNonCommentLineNum	.\vim73\indent\pascal.vim	/^function! s:GetPrevNonCommentLineNum( line_num )$/;"	f
+GetPascalIndent	.\vim73\indent\pascal.vim	/^function! GetPascalIndent( line_num )$/;"	f
+b:did_indent	.\vim73\indent\perl.vim	/^let b:did_indent = 1$/;"	v
+b:indent_use_syntax	.\vim73\indent\perl.vim	/^let b:indent_use_syntax = has("syntax")$/;"	v
+s:cpo_save	.\vim73\indent\perl.vim	/^let s:cpo_save = &cpo$/;"	v
+GetPerlIndent	.\vim73\indent\perl.vim	/^function GetPerlIndent()$/;"	f
+b:did_indent	.\vim73\indent\perl6.vim	/^let b:did_indent = 1$/;"	v
+b:indent_use_syntax	.\vim73\indent\perl6.vim	/^let b:indent_use_syntax = has("syntax")$/;"	v
+s:cpo_save	.\vim73\indent\perl6.vim	/^let s:cpo_save = &cpo$/;"	v
+GetPerl6Indent	.\vim73\indent\perl6.vim	/^function GetPerl6Indent()$/;"	f
+b:did_indent	.\vim73\indent\php.vim	/^let b:did_indent = 1$/;"	v
+php_sync_method	.\vim73\indent\php.vim	/^let php_sync_method = 0$/;"	v
+b:PHP_default_indenting	.\vim73\indent\php.vim	/^    let b:PHP_default_indenting = PHP_default_indenting * &sw$/;"	v
+b:PHP_default_indenting	.\vim73\indent\php.vim	/^    let b:PHP_default_indenting = 0$/;"	v
+b:PHP_BracesAtCodeLevel	.\vim73\indent\php.vim	/^    let b:PHP_BracesAtCodeLevel = PHP_BracesAtCodeLevel$/;"	v
+b:PHP_BracesAtCodeLevel	.\vim73\indent\php.vim	/^    let b:PHP_BracesAtCodeLevel = 0$/;"	v
+b:PHP_autoformatcomment	.\vim73\indent\php.vim	/^    let b:PHP_autoformatcomment = PHP_autoformatcomment$/;"	v
+b:PHP_autoformatcomment	.\vim73\indent\php.vim	/^    let b:PHP_autoformatcomment = 1$/;"	v
+b:PHP_outdentphpescape	.\vim73\indent\php.vim	/^    let b:PHP_outdentphpescape = PHP_outdentphpescape$/;"	v
+b:PHP_outdentphpescape	.\vim73\indent\php.vim	/^    let b:PHP_outdentphpescape = 1$/;"	v
+b:PHP_vintage_case_default_indent	.\vim73\indent\php.vim	/^    let b:PHP_vintage_case_default_indent = 1$/;"	v
+b:PHP_vintage_case_default_indent	.\vim73\indent\php.vim	/^    let b:PHP_vintage_case_default_indent = 0$/;"	v
+b:PHP_lastindented	.\vim73\indent\php.vim	/^let b:PHP_lastindented = 0$/;"	v
+b:PHP_indentbeforelast	.\vim73\indent\php.vim	/^let b:PHP_indentbeforelast = 0$/;"	v
+b:PHP_indentinghuge	.\vim73\indent\php.vim	/^let b:PHP_indentinghuge = 0$/;"	v
+b:PHP_CurrentIndentLevel	.\vim73\indent\php.vim	/^let b:PHP_CurrentIndentLevel = b:PHP_default_indenting$/;"	v
+b:PHP_LastIndentedWasComment	.\vim73\indent\php.vim	/^let b:PHP_LastIndentedWasComment = 0$/;"	v
+b:PHP_InsideMultilineComment	.\vim73\indent\php.vim	/^let b:PHP_InsideMultilineComment = 0$/;"	v
+b:InPHPcode	.\vim73\indent\php.vim	/^let b:InPHPcode = 0$/;"	v
+b:InPHPcode_checked	.\vim73\indent\php.vim	/^let b:InPHPcode_checked = 0$/;"	v
+b:InPHPcode_and_script	.\vim73\indent\php.vim	/^let b:InPHPcode_and_script = 0$/;"	v
+b:InPHPcode_tofind	.\vim73\indent\php.vim	/^let b:InPHPcode_tofind = ""$/;"	v
+b:PHP_oldchangetick	.\vim73\indent\php.vim	/^let b:PHP_oldchangetick = b:changedtick$/;"	v
+b:UserIsTypingComment	.\vim73\indent\php.vim	/^let b:UserIsTypingComment = 0$/;"	v
+b:optionsset	.\vim73\indent\php.vim	/^let b:optionsset = 0$/;"	v
+s:searchpairflags	.\vim73\indent\php.vim	/^let s:searchpairflags = 'bWr'$/;"	v
+s:endline	.\vim73\indent\php.vim	/^let s:endline= '\\s*\\%(\/\/.*\\|#.*\\|\/\\*.*\\*\/\\s*\\)\\=$'$/;"	v
+s:PHP_startindenttag	.\vim73\indent\php.vim	/^let s:PHP_startindenttag = '<?\\%(.*?>\\)\\@!\\|<script[^>]*>\\%(.*<\\\/script>\\)\\@!'$/;"	v
+GetLastRealCodeLNum	.\vim73\indent\php.vim	/^function! GetLastRealCodeLNum(startline) " {{{$/;"	f
+Skippmatch2	.\vim73\indent\php.vim	/^function! Skippmatch2()$/;"	f
+Skippmatch	.\vim73\indent\php.vim	/^function! Skippmatch()	" {{{$/;"	f
+FindOpenBracket	.\vim73\indent\php.vim	/^function! FindOpenBracket(lnum) " {{{$/;"	f
+FindTheIfOfAnElse	.\vim73\indent\php.vim	/^function! FindTheIfOfAnElse (lnum, StopAfterFirstPrevElse) " {{{$/;"	f
+s:defaultORcase	.\vim73\indent\php.vim	/^let s:defaultORcase = '^\\s*\\%(default\\|case\\).*:'$/;"	v
+FindTheSwitchIndent	.\vim73\indent\php.vim	/^function! FindTheSwitchIndent (lnum) " {{{$/;"	f
+IslinePHP	.\vim73\indent\php.vim	/^function! IslinePHP (lnum, tofind) " {{{$/;"	f
+s:notPhpHereDoc	.\vim73\indent\php.vim	/^let s:notPhpHereDoc = '\\%(break\\|return\\|continue\\|exit\\|else\\)'$/;"	v
+s:blockstart	.\vim73\indent\php.vim	/^let s:blockstart = '\\%(\\%(\\%(}\\s*\\)\\=else\\%(\\s\\+\\)\\=\\)\\=if\\>\\|else\\>\\|while\\>\\|switch\\>\\|case\\>\\|default\\>\\|for\\%(each\\)\\=\\>\\|declare\\>\\|class\\>\\|interface\\>\\|abstract\\>\\|try\\>\\|catch\\>\\)'$/;"	v
+s:autoresetoptions	.\vim73\indent\php.vim	/^let s:autoresetoptions = 0$/;"	v
+s:autoresetoptions	.\vim73\indent\php.vim	/^    let s:autoresetoptions = 1$/;"	v
+ResetPhpOptions	.\vim73\indent\php.vim	/^function! ResetPhpOptions()$/;"	f
+GetPhpIndent	.\vim73\indent\php.vim	/^function! GetPhpIndent()$/;"	f
+b:did_indent	.\vim73\indent\postscr.vim	/^let b:did_indent = 1$/;"	v
+PostscrIndentGet	.\vim73\indent\postscr.vim	/^function! PostscrIndentGet(lnum)$/;"	f
+b:did_indent	.\vim73\indent\pov.vim	/^let b:did_indent = 1$/;"	v
+MatchCount	.\vim73\indent\pov.vim	/^function! s:MatchCount(line, rexp)$/;"	f
+GetPoVRayIndent	.\vim73\indent\pov.vim	/^function GetPoVRayIndent()$/;"	f
+b:did_indent	.\vim73\indent\prolog.vim	/^let b:did_indent = 1$/;"	v
+GetPrologIndent	.\vim73\indent\prolog.vim	/^function! GetPrologIndent()$/;"	f
+b:did_indent	.\vim73\indent\python.vim	/^let b:did_indent = 1$/;"	v
+s:maxoff	.\vim73\indent\python.vim	/^let s:maxoff = 50	" maximum number of lines to look backwards for ()$/;"	v
+GetPythonIndent	.\vim73\indent\python.vim	/^function GetPythonIndent(lnum)$/;"	f
+b:did_indent	.\vim73\indent\readline.vim	/^let b:did_indent = 1$/;"	v
+GetReadlineIndent	.\vim73\indent\readline.vim	/^function GetReadlineIndent()$/;"	f
+b:did_indent	.\vim73\indent\rpl.vim	/^let b:did_indent = 1$/;"	v
+b:undo_indent	.\vim73\indent\rpl.vim	/^let b:undo_indent = "set ai< indentkeys< indentexpr<"$/;"	v
+RplGetIndent	.\vim73\indent\rpl.vim	/^function RplGetIndent(lnum)$/;"	f
+RplGetFreeIndent	.\vim73\indent\rpl.vim	/^function RplGetFreeIndent()$/;"	f
+b:did_indent	.\vim73\indent\rst.vim	/^let b:did_indent = 1$/;"	v
+GetRSTIndent	.\vim73\indent\rst.vim	/^function GetRSTIndent()$/;"	f
+b:did_indent	.\vim73\indent\ruby.vim	/^let b:did_indent = 1$/;"	v
+s:cpo_save	.\vim73\indent\ruby.vim	/^let s:cpo_save = &cpo$/;"	v
+s:syng_strcom	.\vim73\indent\ruby.vim	/^let s:syng_strcom = '\\<ruby\\%(String\\|StringEscape\\|ASCIICode' .$/;"	v
+s:syng_string	.\vim73\indent\ruby.vim	/^let s:syng_string =$/;"	v
+s:syng_stringdoc	.\vim73\indent\ruby.vim	/^let s:syng_stringdoc =$/;"	v
+s:skip_expr	.\vim73\indent\ruby.vim	/^let s:skip_expr =$/;"	v
+s:ruby_indent_keywords	.\vim73\indent\ruby.vim	/^let s:ruby_indent_keywords = '^\\s*\\zs\\<\\%(module\\|class\\|def\\|if\\|for' .$/;"	v
+s:ruby_deindent_keywords	.\vim73\indent\ruby.vim	/^let s:ruby_deindent_keywords =$/;"	v
+s:end_start_regex	.\vim73\indent\ruby.vim	/^let s:end_start_regex = '^\\s*\\zs\\<\\%(module\\|class\\|def\\|if\\|for' .$/;"	v
+s:end_middle_regex	.\vim73\indent\ruby.vim	/^let s:end_middle_regex = '\\<\\%(ensure\\|else\\|\\%(\\%(^\\|;\\)\\s*\\)\\@<=\\<rescue\\>\\|when\\|elsif\\)\\>'$/;"	v
+s:end_end_regex	.\vim73\indent\ruby.vim	/^let s:end_end_regex = '\\%(^\\|[^.:@$]\\)\\@<=\\<end\\>'$/;"	v
+s:end_skip_expr	.\vim73\indent\ruby.vim	/^let s:end_skip_expr = s:skip_expr .$/;"	v
+s:continuation_regex	.\vim73\indent\ruby.vim	/^let s:continuation_regex = '\\%([\\\\*+\/.,:]\\|\\%(<%\\)\\@<![=-]\\|\\W[|&?]\\|||\\|&&\\)\\s*\\%(#.*\\)\\=$'$/;"	v
+s:continuation_regex2	.\vim73\indent\ruby.vim	/^let s:continuation_regex2 =$/;"	v
+s:block_regex	.\vim73\indent\ruby.vim	/^let s:block_regex =$/;"	v
+IsInStringOrComment	.\vim73\indent\ruby.vim	/^function s:IsInStringOrComment(lnum, col)$/;"	f
+IsInString	.\vim73\indent\ruby.vim	/^function s:IsInString(lnum, col)$/;"	f
+IsInStringOrDocumentation	.\vim73\indent\ruby.vim	/^function s:IsInStringOrDocumentation(lnum, col)$/;"	f
+PrevNonBlankNonString	.\vim73\indent\ruby.vim	/^function s:PrevNonBlankNonString(lnum)$/;"	f
+GetMSL	.\vim73\indent\ruby.vim	/^function s:GetMSL(lnum)$/;"	f
+LineHasOpeningBrackets	.\vim73\indent\ruby.vim	/^function s:LineHasOpeningBrackets(lnum)$/;"	f
+Match	.\vim73\indent\ruby.vim	/^function s:Match(lnum, regex)$/;"	f
+MatchLast	.\vim73\indent\ruby.vim	/^function s:MatchLast(lnum, regex)$/;"	f
+GetRubyIndent	.\vim73\indent\ruby.vim	/^function GetRubyIndent()$/;"	f
+b:did_indent	.\vim73\indent\sass.vim	/^let b:did_indent = 1$/;"	v
+s:property	.\vim73\indent\sass.vim	/^let s:property = '^\\s*:\\|^\\s*[[:alnum:]-]\\+\\%(:\\|\\s*=\\)'$/;"	v
+GetSassIndent	.\vim73\indent\sass.vim	/^function! GetSassIndent()$/;"	f
+b:did_indent	.\vim73\indent\sdl.vim	/^let b:did_indent = 1$/;"	v
+GetSDLIndent	.\vim73\indent\sdl.vim	/^function! GetSDLIndent()$/;"	f
+b:did_indent	.\vim73\indent\sh.vim	/^let b:did_indent = 1$/;"	v
+s:cpo_save	.\vim73\indent\sh.vim	/^let s:cpo_save = &cpo$/;"	v
+buffer_shiftwidth	.\vim73\indent\sh.vim	/^function s:buffer_shiftwidth()$/;"	f
+s:sh_indent_defaults	.\vim73\indent\sh.vim	/^let s:sh_indent_defaults = {$/;"	v
+indent_value	.\vim73\indent\sh.vim	/^function! s:indent_value(option)$/;"	f
+GetShIndent	.\vim73\indent\sh.vim	/^function! GetShIndent()$/;"	f
+is_continuation_line	.\vim73\indent\sh.vim	/^function! s:is_continuation_line(line)$/;"	f
+find_continued_lnum	.\vim73\indent\sh.vim	/^function! s:find_continued_lnum(lnum)$/;"	f
+is_case_label	.\vim73\indent\sh.vim	/^function! s:is_case_label(line, pnum)$/;"	f
+is_case	.\vim73\indent\sh.vim	/^function! s:is_case(line)$/;"	f
+is_case_break	.\vim73\indent\sh.vim	/^function! s:is_case_break(line)$/;"	f
+is_case_ended	.\vim73\indent\sh.vim	/^function! s:is_case_ended(line)$/;"	f
+b:did_indent	.\vim73\indent\sml.vim	/^let b:did_indent = 1$/;"	v
+s:beflet	.\vim73\indent\sml.vim	/^let s:beflet = '^\\s*\\(initializer\\|method\\|try\\)\\|\\(\\<\\(begin\\|do\\|else\\|in\\|then\\|try\\)\\|->\\|;\\)\\s*$'$/;"	v
+s:letpat	.\vim73\indent\sml.vim	/^let s:letpat = '^\\s*\\(let\\|type\\|module\\|class\\|open\\|exception\\|val\\|include\\|external\\)\\>'$/;"	v
+s:letlim	.\vim73\indent\sml.vim	/^let s:letlim = '\\(\\<\\(sig\\|struct\\)\\|;;\\)\\s*$'$/;"	v
+s:lim	.\vim73\indent\sml.vim	/^let s:lim = '^\\s*\\(exception\\|external\\|include\\|let\\|module\\|open\\|type\\|val\\)\\>'$/;"	v
+s:module	.\vim73\indent\sml.vim	/^let s:module = '\\<\\%(let\\|sig\\|struct\\)\\>'$/;"	v
+s:obj	.\vim73\indent\sml.vim	/^let s:obj = '^\\s*\\(constraint\\|inherit\\|initializer\\|method\\|val\\)\\>\\|\\<\\(object\\|object\\s*(.*)\\)\\s*$'$/;"	v
+s:type	.\vim73\indent\sml.vim	/^let s:type = '^\\s*\\%(let\\|type\\)\\>.*='$/;"	v
+s:val	.\vim73\indent\sml.vim	/^let s:val = '^\\s*\\(val\\|external\\)\\>.*:'$/;"	v
+SkipPattern	.\vim73\indent\sml.vim	/^function! s:SkipPattern(lnum, pat)$/;"	f
+GetInd	.\vim73\indent\sml.vim	/^function! s:GetInd(lnum, pat, lim)$/;"	f
+FindPair	.\vim73\indent\sml.vim	/^function! s:FindPair(pstart, pmid, pend)$/;"	f
+FindLet	.\vim73\indent\sml.vim	/^function! s:FindLet(pstart, pmid, pend)$/;"	f
+GetSMLIndent	.\vim73\indent\sml.vim	/^function! GetSMLIndent()$/;"	f
+filename	.\vim73\indent\sql.vim	/^let filename = 'sqlanywhere'$/;"	v
+filename	.\vim73\indent\sql.vim	/^        let filename = b:sql_type_override$/;"	v
+filename	.\vim73\indent\sql.vim	/^        let filename = g:sql_type_default$/;"	v
+b:did_indent	.\vim73\indent\sqlanywhere.vim	/^let b:did_indent     = 1$/;"	v
+b:current_indent	.\vim73\indent\sqlanywhere.vim	/^let b:current_indent = "sqlanywhere"$/;"	v
+s:SQLBlockStart	.\vim73\indent\sqlanywhere.vim	/^let s:SQLBlockStart = '^\\s*\\%('.$/;"	v
+s:SQLBlockEnd	.\vim73\indent\sqlanywhere.vim	/^let s:SQLBlockEnd = '^\\s*\\(end\\)\\>'$/;"	v
+CountUnbalancedParan	.\vim73\indent\sqlanywhere.vim	/^function s:CountUnbalancedParan( line, paran_to_check )$/;"	f
+CheckToIgnoreRightParan	.\vim73\indent\sqlanywhere.vim	/^function s:CheckToIgnoreRightParan( prev_lnum, num_levels )$/;"	f
+GetStmtStarterIndent	.\vim73\indent\sqlanywhere.vim	/^function s:GetStmtStarterIndent( keyword, curr_lnum )$/;"	f
+IsLineComment	.\vim73\indent\sqlanywhere.vim	/^function s:IsLineComment(lnum)$/;"	f
+IsColComment	.\vim73\indent\sqlanywhere.vim	/^function s:IsColComment(lnum, cnum)$/;"	f
+ModuloIndent	.\vim73\indent\sqlanywhere.vim	/^function s:ModuloIndent(ind)$/;"	f
+GetSQLIndent	.\vim73\indent\sqlanywhere.vim	/^function GetSQLIndent()$/;"	f
+b:did_indent	.\vim73\indent\tcl.vim	/^let b:did_indent = 1$/;"	v
+prevnonblanknoncomment	.\vim73\indent\tcl.vim	/^function s:prevnonblanknoncomment(lnum)$/;"	f
+count_braces	.\vim73\indent\tcl.vim	/^function s:count_braces(lnum, count_open)$/;"	f
+GetTclIndent	.\vim73\indent\tcl.vim	/^function GetTclIndent()$/;"	f
+b:did_indent	.\vim73\indent\tcsh.vim	/^let b:did_indent = 1$/;"	v
+TcshGetIndent	.\vim73\indent\tcsh.vim	/^function TcshGetIndent()$/;"	f
+b:did_indent	.\vim73\indent\tf.vim	/^let b:did_indent = 1$/;"	v
+GetTFIndent	.\vim73\indent\tf.vim	/^function GetTFIndent()$/;"	f
+b:did_indent	.\vim73\indent\tilde.vim	/^let b:did_indent = 1$/;"	v
+GetTildeIndent	.\vim73\indent\tilde.vim	/^function GetTildeIndent(lnum)$/;"	f
+b:did_indent	.\vim73\indent\vb.vim	/^let b:did_indent = 1$/;"	v
+b:undo_indent	.\vim73\indent\vb.vim	/^let b:undo_indent = "set ai< indentexpr< indentkeys<"$/;"	v
+VbGetIndent	.\vim73\indent\vb.vim	/^fun! VbGetIndent(lnum)$/;"	f
+b:did_indent	.\vim73\indent\verilog.vim	/^let b:did_indent = 1$/;"	v
+GetVerilogIndent	.\vim73\indent\verilog.vim	/^function GetVerilogIndent()$/;"	f
+b:did_indent	.\vim73\indent\vhdl.vim	/^let b:did_indent = 1$/;"	v
+s:NC	.\vim73\indent\vhdl.vim	/^let s:NC = '\\%(--.*\\)\\@<!'$/;"	v
+s:ES	.\vim73\indent\vhdl.vim	/^let s:ES = '\\s*\\%(--.*\\)\\=$'$/;"	v
+s:NE	.\vim73\indent\vhdl.vim	/^let s:NE = '\\%(\\<end\\s\\+\\)\\@<!'$/;"	v
+g:vhdl_indent_genportmap	.\vim73\indent\vhdl.vim	/^  let g:vhdl_indent_genportmap = 1$/;"	v
+g:vhdl_indent_rhsassign	.\vim73\indent\vhdl.vim	/^  let g:vhdl_indent_rhsassign = 1$/;"	v
+GetVHDLindent	.\vim73\indent\vhdl.vim	/^function GetVHDLindent()$/;"	f
+b:did_indent	.\vim73\indent\vim.vim	/^let b:did_indent = 1$/;"	v
+GetVimIndent	.\vim73\indent\vim.vim	/^function GetVimIndent()$/;"	f
+b:did_indent	.\vim73\indent\xf86conf.vim	/^let b:did_indent = 1$/;"	v
+GetXF86ConfIndent	.\vim73\indent\xf86conf.vim	/^function GetXF86ConfIndent()$/;"	f
+b:did_indent	.\vim73\indent\xinetd.vim	/^let b:did_indent = 1$/;"	v
+count_braces	.\vim73\indent\xinetd.vim	/^function s:count_braces(lnum, count_open)$/;"	f
+GetXinetdIndent	.\vim73\indent\xinetd.vim	/^function GetXinetdIndent()$/;"	f
+b:did_indent	.\vim73\indent\xml.vim	/^let b:did_indent = 1$/;"	v
+b:xml_indent_open	.\vim73\indent\xml.vim	/^    let b:xml_indent_open = '.\\{-}<\\a'$/;"	v
+b:xml_indent_close	.\vim73\indent\xml.vim	/^    let b:xml_indent_close = '.\\{-}<\/'$/;"	v
+XmlIndentWithPattern	.\vim73\indent\xml.vim	/^fun! <SID>XmlIndentWithPattern(line, pat)$/;"	f
+XmlIndentSynCheck	.\vim73\indent\xml.vim	/^fun! <SID>XmlIndentSynCheck(lnum)$/;"	f
+XmlIndentSum	.\vim73\indent\xml.vim	/^fun! <SID>XmlIndentSum(lnum, style, add)$/;"	f
+XmlIndentGet	.\vim73\indent\xml.vim	/^fun! XmlIndentGet(lnum, use_syntax_check)$/;"	f
+b:did_indent	.\vim73\indent\yacc.vim	/^let b:did_indent = 1$/;"	v
+GetYaccIndent	.\vim73\indent\yacc.vim	/^function GetYaccIndent()$/;"	f
+did_indent_on	.\vim73\indent.vim	/^let did_indent_on = 1$/;"	v
+filetypeindent	.\vim73\indent.vim	/^augroup filetypeindent$/;"	a
+LoadIndent	.\vim73\indent.vim	/^  func! s:LoadIndent()$/;"	f
+b:keymap_name	.\vim73\keymap\accents.vim	/^let b:keymap_name = "acc"$/;"	v
+b:keymap_name	.\vim73\keymap\arabic_utf-8.vim	/^let b:keymap_name = "arab"$/;"	v
+b:keymap_name	.\vim73\keymap\bulgarian-bds.vim	/^let b:keymap_name = "bds"$/;"	v
+b:keymap_name	.\vim73\keymap\bulgarian-phonetic.vim	/^let b:keymap_name = "pho"$/;"	v
+b:keymap_name	.\vim73\keymap\canfr-win.vim	/^let b:keymap_name = "canfr"$/;"	v
+s:encoding	.\vim73\keymap\croatian.vim	/^let s:encoding = &enc$/;"	v
+s:encoding	.\vim73\keymap\croatian.vim	/^	let s:encoding = 'iso-8859-2'$/;"	v
+s:encoding	.\vim73\keymap\croatian.vim	/^	let s:encoding = 'cp1250'$/;"	v
+b:keymap_name	.\vim73\keymap\croatian_cp1250.vim	/^let b:keymap_name = "croatian-cp1250"$/;"	v
+b:keymap_name	.\vim73\keymap\croatian_iso-8859-2.vim	/^let b:keymap_name = "croatian-iso-8859-2"$/;"	v
+b:keymap_name	.\vim73\keymap\croatian_utf-8.vim	/^let b:keymap_name = "croatian-UTF-8"$/;"	v
+b:keymap_name	.\vim73\keymap\czech_utf-8.vim	/^let b:keymap_name = "czech"$/;"	v
+b:keymap_name	.\vim73\keymap\dvorak.vim	/^let b:keymap_name = "en-dv"$/;"	v
+b:keymap_name	.\vim73\keymap\esperanto_utf-8.vim	/^let b:keymap_name = "Eo"$/;"	v
+b:keymap_name	.\vim73\keymap\greek_cp1253.vim	/^let b:keymap_name = "greek"$/;"	v
+b:keymap_name	.\vim73\keymap\greek_cp737.vim	/^let b:keymap_name = "greek"$/;"	v
+b:keymap_name	.\vim73\keymap\greek_iso-8859-7.vim	/^let b:keymap_name = "greek"$/;"	v
+b:keymap_name	.\vim73\keymap\greek_utf-8

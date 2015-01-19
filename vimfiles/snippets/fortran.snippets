@@ -1,0 +1,113 @@
+snippet pr
+	program ${1:main}
+		${2}
+	end program $1
+snippet su 有参数
+	subroutine ${1:`Filename()`}(${2})
+		use ${3:comvar}
+		implicit none
+		${4}
+	end subroutine $1
+snippet su 无参数
+	subroutine ${1:`Filename()`}
+		use ${2:comvar}
+		implicit none
+		${3}
+	end subroutine $1
+snippet mo
+	module ${1:`Filename()`}
+		implicit none
+		save
+		${2}
+	end module $1
+snippet fu
+	function ${1:}(${2})
+		${3}
+	end function $1
+snippet ip
+	integer ,parameter :: 
+snippet in
+	integer :: 
+snippet ii in
+	integer ,intent(in)  :: 
+snippet ii out
+	integer ,intent(out) :: 
+snippet rp
+	real 	,parameter :: 
+snippet re
+	real 	:: 
+snippet ri in
+	real 	,intent(in)  :: 
+snippet ri out
+	real 	,intent(out) :: 
+snippet id
+	integer, dimension(${1::})${2:, allocatable} :: ${3}
+snippet idi in
+	integer, dimension(${1}), intent(in)  :: ${2}
+snippet idi out
+	integer, dimension(${1}), intent(out) :: ${2}
+snippet rd
+	real 	,dimension(${1::})${2:, allocatable} :: ${3}
+snippet rdi in
+	real 	,dimension(${1}), intent(in)  :: ${2}
+snippet rdi out
+	real 	,dimension(${1}), intent(out) :: ${2}
+snippet ch
+	character(${1}) :: ${2}
+snippet cd
+	character(${1}), dimension(${2}) :: ${3}
+snippet lo
+	logical :: ${1:fileExsit}
+snippet if
+	if (${1})
+snippet ifthen
+	if (${1}) then
+		${2}
+	end if
+snippet ifelse
+	if (${1}) then
+		${2}
+	else
+		${3}
+	end if
+
+snippet read
+	read(${1:*},${2:*}) ${3}
+snippet wr
+	write(${1:*},${2:*}) ${3}
+snippet op
+	open(${1:},file=${2},status=${3:old}${4:,position='append'})
+	${5}
+	close($1)
+snippet se
+	select case (${1})
+	${2}
+	end select
+snippet case
+	case(${1})
+		${2}
+snippet do
+	do ${1}
+	end do
+snippet doijk 结构网格常用
+	do k=1,Kmax(nblk)+dkDim-1
+		do j=1,Jmax(nblk)-1
+			do i=1,Imax(nblk)-1
+				${1}
+			end do
+		end do
+	end do
+snippet dp
+	dot_product(${1},${2})
+snippet ty 定义一种类
+	type ${1:}
+		${2}
+	end type $1
+snippet ty 声明该类
+	type(${1}), dimension(${2::}), allcatable :: ${3}
+
+snippet blk
+	block(nblk)%${1}
+snippet bnd
+	bound(nbnd)%${1}
+
